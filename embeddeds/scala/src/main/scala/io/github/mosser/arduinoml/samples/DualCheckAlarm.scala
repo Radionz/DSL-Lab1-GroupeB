@@ -27,14 +27,14 @@ object DualCheckAlarm extends App with ArduinoML {
 
 
   // Setting the initial state
-
   offBuzzer.isInitial
 
   // Declaring the transition system
   transitions {
 
-    onBuzzer -> offBuzzer when (button1 is high && button2 is high)
-    offBuzzer -> onBuzzer when (button is high)
+    offBuzzer -> onBuzzer when (button1 is high, button2 is high)
+    onBuzzer -> offBuzzer when (button1 is low)
+    onBuzzer -> offBuzzer when (button2 is low)
   }
 
   // Running the code generation tool

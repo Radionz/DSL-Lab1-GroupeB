@@ -196,6 +196,16 @@ trait ArduinoML {
       trans.setValue(cond.signal.asSignal)
       getStateByName(from.name).setTransition(trans)
     }
+
+    def when(conds: ConditionBuilder*): Unit = {
+      conds.foreach{ cond =>
+        val trans = new Transition()
+        trans.setNext(getStateByName(to.name))
+        trans.setSensor(getBrickByName(cond.sensor.name).asInstanceOf[Sensor])
+        trans.setValue(cond.signal.asSignal)
+        getStateByName(from.name).setTransition(trans)
+      }
+    }
   }
 
   // syntactic sugar on top of kernel SIGNALs
