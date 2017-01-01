@@ -5,7 +5,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
-        Program program = new ProgramFactory().createProgram(Main.class.getResourceAsStream("/program.field"));
+        Program program = new ProgramFactory().createProgram(Main.class.getResourceAsStream("/program.aml"));
         Object code = program.generateCode();
 
         System.out.println(code.toString());
