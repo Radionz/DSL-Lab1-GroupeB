@@ -1,0 +1,13 @@
+bind a sensor named "button1" to pin 9
+bind an actuator named "led" to pin 12
+bind an actuator named "buzzer" to pin 11
+
+create state named "switchOn" executing "HIGH" on "led" and "HIGH" on "buzzer"
+create state named "switchOff" executing "LOW" on "led" and "LOW" on "buzzer"
+
+initialize with state "switchOff"
+
+when "button1" is "HIGH" then change from "switchOff" to "switchOn"
+when "button1" is "LOW" then change from "switchOn" to "switchOff"
+
+save "Very Simple Alarm"
