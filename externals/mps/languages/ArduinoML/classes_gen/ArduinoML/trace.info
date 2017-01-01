@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debug-info>
+<debug-info version="2">
   <root>
     <file name="Language.java">
-      <unit at="16,0,52,0" name="ArduinoML.Language" />
+      <unit at="24,0,90,0" name="ArduinoML.Language" />
     </file>
   </root>
 </debug-info>
