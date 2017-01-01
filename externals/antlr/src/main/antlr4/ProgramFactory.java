@@ -36,7 +36,7 @@ public class ProgramFactory {
             @Override
             public void exitComponentsBinding(ArduinoParser.ComponentsBindingContext ctx) {
                 String componentType = ctx.componentType.getText();
-                String componentName = ctx.componentName.getText().replace("\"", "");;
+                String componentName = ctx.componentName.getText().replace("\"", "");
                 Integer pin = Integer.parseInt(ctx.pin.getText());
 
                 if(componentType.equals("sensor")){
@@ -53,7 +53,7 @@ public class ProgramFactory {
                 List<Action> actions = new ArrayList<Action>();
 
                 List<ArduinoParser.ComponentConditionsContext> list = new ArrayList<ArduinoParser.ComponentConditionsContext>();
-                getAllChildrenNodes(list, ctx.componentConditions());
+                getAllChildrenNodesComponents(list, ctx.componentConditions());
 
                 for( ArduinoParser.ComponentConditionsContext localCtx : list ){
 
@@ -93,16 +93,69 @@ public class ProgramFactory {
 
             @Override
             public void exitSensorChange(ArduinoParser.SensorChangeContext ctx) {
-                Sensor actuatorName = (Sensor) program.getBinding().get(ctx.sensorConditions().sensorName.getText().replace("\"", ""));
+
                 State fromState = (State) program.getBinding().get(ctx.fromState.getText().replace("\"", ""));
                 State toState = (State) program.getBinding().get(ctx.toState.getText().replace("\"", ""));
+                Sensor actuatorName = (Sensor) program.getBinding().get(ctx.sensorConditions().sensorName.getText().replace("\"", ""));
                 SIGNAL signal = SIGNAL.valueOf(ctx.sensorConditions().signal.getText().replace("\"", ""));
+
 
                 program.createTransition(fromState, toState, actuatorName, signal);
             }
 
+           /* @Override
+            public void exitSensorChange(ArduinoParser.SensorChangeContext ctx) {
+
+                State fromState = (State) program.getBinding().get(ctx.fromState.getText().replace("\"", ""));
+                State toState = (State) program.getBinding().get(ctx.toState.getText().replace("\"", ""));
+
+                List<ArduinoParser.SensorConditionsContext> list = new ArrayList<ArduinoParser.SensorConditionsContext>();
+                getAllChildrenNodesSensors(list, ctx.sensorConditions());
+
+                for(int i=0; i < list.size() ; i ++) {
+
+                    State toStateTmp = new State();
+                    State fromStateTmp = new State();
+
+                    // create transition state
+
+                    if (list.size() <= 1) {
+                        fromStateTmp = fromState;
+                        toStateTmp = toState;
+                    }
+                    // if only one state temp (condition exemple:  A && B)
+                    else {
+                        if ( i == 0) {
+                            program.createState(fromState.getName()+"Tmp"+i,fromState.getActions());
+                            toStateTmp = (State) program.getBinding().get(fromState.getName()+"Tmp"+i);
+                            fromStateTmp = fromState;
+                        }
+                        // if last state before ending
+                        else if (i == list.size()-1) {
+                            fromStateTmp = (State) program.getBinding().get(fromState.getName()+"Tmp"+(i-1));
+                            toStateTmp = toState;
+                        }
+
+                        else if(i > 0){
+                            fromStateTmp = (State) program.getBinding().get(fromState.getName()+"Tmp"+(i-1));
+                            program.createState(fromState.getName()+"Tmp"+i,fromState.getActions());
+                            toStateTmp = (State) program.getBinding().get(fromState.getName()+"Tmp"+i);
+                        }
+                    }
+
+                    Sensor actuatorName = (Sensor) program.getBinding().get(list.get(i).sensorName.getText().replace("\"", ""));
+                    SIGNAL signal = SIGNAL.valueOf(list.get(i).signal.getText().replace("\"", ""));
+
+
+                    program.createTransition(fromStateTmp, toStateTmp, actuatorName, signal);
+                }
+
+
+            }*/
+
+
             @Override public void exitSaveProgram(ArduinoParser.SaveProgramContext ctx) {
-                program.setProgramName(ctx.programName.getText());
+                    program.setProgramName(ctx.programName.getText());
             }
 
         });
@@ -111,10 +164,21 @@ public class ProgramFactory {
         return program;
     }
 
-    private List<ArduinoParser.ComponentConditionsContext> getAllChildrenNodes(List<ArduinoParser.ComponentConditionsContext> listCtx, ArduinoParser.ComponentConditionsContext ctx){
+    private List<ArduinoParser.ComponentConditionsContext> getAllChildrenNodesComponents(List<ArduinoParser.ComponentConditionsContext> listCtx, ArduinoParser.ComponentConditionsContext ctx){
 
         if( ctx.getChild(ArduinoParser.ComponentConditionsContext.class, 0) != null ) {
-            getAllChildrenNodes(listCtx, ctx.getChild(ArduinoParser.ComponentConditionsContext.class, 0));
+            getAllChildrenNodesComponents(listCtx, ctx.getChild(ArduinoParser.ComponentConditionsContext.class, 0));
+        }
+
+        listCtx.add(ctx);
+
+        return listCtx;
+    }
+
+    private List<ArduinoParser.SensorConditionsContext> getAllChildrenNodesSensors(List<ArduinoParser.SensorConditionsContext> listCtx, ArduinoParser.SensorConditionsContext ctx){
+
+        if( ctx.getChild(ArduinoParser.SensorConditionsContext.class, 0) != null ) {
+            getAllChildrenNodesSensors(listCtx, ctx.getChild(ArduinoParser.SensorConditionsContext.class, 0));
         }
 
         listCtx.add(ctx);

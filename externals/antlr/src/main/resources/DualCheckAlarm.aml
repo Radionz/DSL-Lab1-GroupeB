@@ -1,0 +1,22 @@
+bind a sensor named "button1" to pin 9
+bind a sensor named "button2" to pin 10
+bind an actuator named "buzzer" to pin 11
+
+create state named "switchOn" executing "HIGH" on "buzzer"
+create state named "switchOff" executing "LOW" on "buzzer"
+create state named "state1" executing "LOW" on "buzzer"
+
+initialize with state "switchOff"
+
+when "button1" is "HIGH" then change from "switchOff" to "state1"
+when "button2" is "HIGH" then change from "state1" to "switchOn"
+
+when "button2" is "HIGH" then change from "switchOff" to "state1"
+when "button1" is "HIGH" then change from "state1" to "switchOn"
+
+when "button1" is "LOW" then change from "state1" to "switchOff"
+when "button2" is "LOW" then change from "state1" to "switchOff"
+when "button1" is "LOW" then change from "switchOn" to "switchOff"
+when "button2" is "LOW" then change from "switchOn" to "switchOff"
+
+save "Dual check Alarm"
