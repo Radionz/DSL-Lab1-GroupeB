@@ -18,7 +18,12 @@ componentsBinding
     ;
 
 stateDeclaration
-    : 'create state named' WS stateName=String WS 'executing' (WS signal=SignalInput WS 'on' WS componentName=String (WS 'and')?)+ (NL)+
+    : 'create state named' WS stateName=String WS 'executing' WS componentconds=componentConditions (NL)+
+    ;
+
+componentConditions
+    : signal=SignalInput WS 'on' WS componentName=String
+    | signal=SignalInput WS 'on' WS componentName=String WS AND WS componentConditions
     ;
 
 initialization
@@ -26,8 +31,17 @@ initialization
     ;
 
 sensorChange
-    : 'when' WS sensorName=String WS 'is' WS signal=SignalInput WS 'then change from' WS fromState=String WS 'to' WS toState=String (NL)+
+    : 'when' WS sensorConditions WS 'then change from' WS fromState=String WS 'to' WS toState=String (NL)+
     ;
+
+sensorConditions
+    : sensorName=String WS 'is' WS signal=SignalInput
+    | sensorName=String WS 'is' WS signal=SignalInput WS  AND WS sensorConditions
+    ;
+
+OR : 'OR';
+
+AND: 'AND';
 
 SignalInput
     : '"' ('HIGH' | 'LOW') '"'

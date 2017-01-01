@@ -9,6 +9,7 @@ import java.util.*;
 import java.util.concurrent.atomic.AtomicReference;
 
 import io.github.mosser.arduinoml.kernel.*;
+import org.antlr.v4.runtime.tree.ParseTree;
 
 /**
  * Created by Manuel Pavone on 01/01/2017.
@@ -49,23 +50,32 @@ public class ProgramFactory {
             @Override
             public void exitStateDeclaration(ArduinoParser.StateDeclarationContext ctx) {
                 String stateName = ctx.stateName.getText().replace("\"", "");
-                SIGNAL signal = SIGNAL.valueOf(ctx.signal.getText().replace("\"", ""));
-                String componentName = ctx.componentName.getText().replace("\"", "");
+                List<Action> actions = new ArrayList<Action>();
 
-                Actuator actuator;
-                if (program.getBinding().get(componentName) instanceof Actuator) {
+                List<ArduinoParser.ComponentConditionsContext> list = new ArrayList<ArduinoParser.ComponentConditionsContext>();
+                getAllChildrenNodes(list, ctx.componentConditions());
 
-                    actuator = (Actuator) program.getBinding().get(componentName);
-                    Action action = new Action();
-                    action.setActuator(actuator);
-                    action.setValue(signal);
-                    List<Action> actions = new ArrayList<Action>();
-                    actions.add(action);
-                    program.createState(stateName, actions);
+                for( ArduinoParser.ComponentConditionsContext localCtx : list ){
+
+                    SIGNAL signal = SIGNAL.valueOf(localCtx.signal.getText().replace("\"", ""));
+                    String componentName = localCtx.componentName.getText().replace("\"", "");
+
+                    Actuator actuator;
+                    if (program.getBinding().get(componentName) instanceof Actuator) {
+
+                        actuator = (Actuator) program.getBinding().get(componentName);
+                        Action action = new Action();
+                        action.setActuator(actuator);
+                        action.setValue(signal);
+
+                        actions.add(action);
+                    }
+                    else {
+                        System.out.println("Not an actuator");
+                    }
                 }
-                else {
-                    System.out.println("Not an actuator");
-                }
+
+                program.createState(stateName, actions);
 
             }
 
@@ -83,10 +93,10 @@ public class ProgramFactory {
 
             @Override
             public void exitSensorChange(ArduinoParser.SensorChangeContext ctx) {
-                Sensor actuatorName = (Sensor) program.getBinding().get(ctx.sensorName.getText().replace("\"", ""));
+                Sensor actuatorName = (Sensor) program.getBinding().get(ctx.sensorConditions().sensorName.getText().replace("\"", ""));
                 State fromState = (State) program.getBinding().get(ctx.fromState.getText().replace("\"", ""));
                 State toState = (State) program.getBinding().get(ctx.toState.getText().replace("\"", ""));
-                SIGNAL signal = SIGNAL.valueOf(ctx.signal.getText().replace("\"", ""));
+                SIGNAL signal = SIGNAL.valueOf(ctx.sensorConditions().signal.getText().replace("\"", ""));
 
                 program.createTransition(fromState, toState, actuatorName, signal);
             }
@@ -99,5 +109,16 @@ public class ProgramFactory {
         p.program();
 
         return program;
+    }
+
+    private List<ArduinoParser.ComponentConditionsContext> getAllChildrenNodes(List<ArduinoParser.ComponentConditionsContext> listCtx, ArduinoParser.ComponentConditionsContext ctx){
+
+        if( ctx.getChild(ArduinoParser.ComponentConditionsContext.class, 0) != null ) {
+            getAllChildrenNodes(listCtx, ctx.getChild(ArduinoParser.ComponentConditionsContext.class, 0));
+        }
+
+        listCtx.add(ctx);
+
+        return listCtx;
     }
 }

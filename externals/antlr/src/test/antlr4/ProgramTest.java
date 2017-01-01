@@ -8,7 +8,7 @@ public class ProgramTest {
 
     @Test
     public void testExampleArduino() throws Exception {
-        ArduinoLexer l = new ArduinoLexer(new ANTLRInputStream(getClass().getResourceAsStream("/program.field")));
+        ArduinoLexer l = new ArduinoLexer(new ANTLRInputStream(getClass().getResourceAsStream("/DualCheckAlarm.aml")));
         ArduinoParser p = new ArduinoParser(new CommonTokenStream(l));
         p.addErrorListener(new BaseErrorListener() {
             @Override
