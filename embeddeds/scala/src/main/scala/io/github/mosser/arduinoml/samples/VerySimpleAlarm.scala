@@ -34,10 +34,10 @@ object VerySimpleAlarm extends App with ArduinoML {
   // Declaring the transition system
   transitions {
     on -> off when (button is high)
-    off -> on when (button is high)
+    off -> on when (button is low)
 
     onBuzzer -> offBuzzer when (button is high)
-    offBuzzer -> onBuzzer when (button is high)
+    offBuzzer -> onBuzzer when (button is low)
   }
 
   // Running the code generation tool
