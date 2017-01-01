@@ -16,8 +16,6 @@ object StateBasedAlarm extends App with ArduinoML {
   // Declaring the bricks involved in the application
   val button = declare aSensor() named "button" boundToPin 9
   val led = declare anActuator() named "led" boundToPin 12
-  val buzzer = declare anActuator() named "buzzer" boundToPin 11
-
 
   // Declaring the two states used to support the behavior
   val on = state named "on" executing led --> high
