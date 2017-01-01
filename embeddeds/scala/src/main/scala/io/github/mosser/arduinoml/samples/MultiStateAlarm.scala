@@ -3,15 +3,16 @@ package io.github.mosser.arduinoml.samples
 import io.github.mosser.arduinoml.dsl.ArduinoML
 
 /*
-* Very	simple	alarm:
-*
-* Pushing	a	button	activates	a	LED	and	a	buzzer.	Releasing	the
-* button	switches	the	actuators	off
-* */
+ * Multi-state alarm :
+ *
+ * Pushing the button starts the buzz noise.
+ * Pushing it again stop the buzzer and switch the LED on.
+ * Pushing it again switch the LED off, and makes the system ready to make noise again after one push, and so on.
+ */
 
-object VerySimpleAlarm extends App with ArduinoML {
+object MultiStateAlarm extends App with ArduinoML {
 
-  this hasForName "VerySimpleAlarm"
+  this hasForName "MultiStateAlarm"
 
   // Declaring the bricks involved in the application
   val button = declare aSensor() named "button" boundToPin 9
@@ -34,10 +35,10 @@ object VerySimpleAlarm extends App with ArduinoML {
   // Declaring the transition system
   transitions {
     on -> off when (button is high)
-    off -> on when (button is low)
+    off -> on when (button is high)
 
     onBuzzer -> offBuzzer when (button is high)
-    offBuzzer -> onBuzzer when (button is low)
+    offBuzzer -> onBuzzer when (button is high)
   }
 
   // Running the code generation tool
