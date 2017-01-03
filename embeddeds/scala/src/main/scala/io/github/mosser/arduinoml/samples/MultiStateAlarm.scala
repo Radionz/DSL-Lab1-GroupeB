@@ -34,11 +34,9 @@ object MultiStateAlarm extends App with ArduinoML {
 
   // Declaring the transition system
   transitions {
+    off -> onBuzzer when (button is high)
+    onBuzzer -> on when (button is high)
     on -> off when (button is high)
-    off -> on when (button is high)
-
-    onBuzzer -> offBuzzer when (button is high)
-    offBuzzer -> onBuzzer when (button is high)
   }
 
   // Running the code generation tool
