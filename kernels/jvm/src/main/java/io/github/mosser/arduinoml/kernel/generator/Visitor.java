@@ -5,6 +5,7 @@ import io.github.mosser.arduinoml.kernel.structural.*;
 import io.github.mosser.arduinoml.kernel.App;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public abstract class Visitor<T> {

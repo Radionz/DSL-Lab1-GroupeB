@@ -4,6 +4,10 @@ import io.github.mosser.arduinoml.kernel.App;
 import io.github.mosser.arduinoml.kernel.behavioral.*;
 import io.github.mosser.arduinoml.kernel.structural.*;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.Set;
+
 /**
  * Quick and dirty visitor to support the generation of Wiring code
  */
@@ -17,6 +21,10 @@ public class ToWiring extends Visitor<StringBuffer> {
 
 	private void w(String s) {
 		result.append(String.format("%s\n",s));
+	}
+
+	private void c(String s) {
+		result.append(String.format("%s",s));
 	}
 
 	@Override
@@ -60,20 +68,31 @@ public class ToWiring extends Visitor<StringBuffer> {
 		}
 		w("  boolean guard = millis() - time > debounce;");
 		context.put(CURRENT_STATE, state);
-		state.getTransition().accept(this);
-		w("}\n");
+
+		for(Transition transistion : state.getTransitions()){
+			transistion.accept(this);
+			if ( state.getTransitions().size() > 0 ) {
+				c(" else ");
+			}
+		}
+
+		w("{");
+		w(String.format("      state_%s();",((State) context.get(CURRENT_STATE)).getName()));
+		w("  }\n");
 
 	}
 
 	@Override
 	public void visit(Transition transition) {
-		w(String.format("  if( digitalRead(%d) == %s && guard ) {",
-				transition.getSensor().getPin(),transition.getValue()));
+		String transistionConditions = "";
+		for( Sensor sensor : transition.getConditions().keySet()) {
+			SIGNAL signal = (SIGNAL) transition.getConditions().get(sensor);
+			transistionConditions += String.format(" digitalRead(%d) == %s &&",sensor.getPin(),signal);
+		}
+		w(String.format("  if(%s guard ) {", transistionConditions));
 		w("    time = millis();");
 		w(String.format("    state_%s();",transition.getNext().getName()));
-		w("  } else {");
-		w(String.format("    state_%s();",((State) context.get(CURRENT_STATE)).getName()));
-		w("  }");
+		c("  }");
 	}
 
 	@Override

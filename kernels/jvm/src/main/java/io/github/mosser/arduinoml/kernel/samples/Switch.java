@@ -7,6 +7,7 @@ import io.github.mosser.arduinoml.kernel.generator.Visitor;
 import io.github.mosser.arduinoml.kernel.structural.*;
 
 import java.util.Arrays;
+import java.util.HashMap;
 
 public class Switch {
 
@@ -16,6 +17,10 @@ public class Switch {
 		Sensor button = new Sensor();
 		button.setName("button");
 		button.setPin(9);
+
+		Sensor button2 = new Sensor();
+		button2.setName("button2");
+		button2.setPin(10);
 
 		Actuator led = new Actuator();
 		led.setName("LED");
@@ -43,23 +48,23 @@ public class Switch {
 
 		// Creating transitions
 		Transition on2off = new Transition();
+		on2off.addCondition(button, SIGNAL.HIGH);
+		on2off.addCondition(button2, SIGNAL.LOW);
 		on2off.setNext(off);
-		on2off.setSensor(button);
-		on2off.setValue(SIGNAL.HIGH);
 
 		Transition off2on = new Transition();
 		off2on.setNext(on);
-		off2on.setSensor(button);
-		off2on.setValue(SIGNAL.HIGH);
+		off2on.addCondition(button, SIGNAL.HIGH);
 
 		// Binding transitions to states
-		on.setTransition(on2off);
-		off.setTransition(off2on);
+		on.addTransistion(on2off);
+		on.addTransistion(on2off);
+		off.addTransistion(off2on);
 
 		// Building the App
 		App theSwitch = new App();
 		theSwitch.setName("Switch!");
-		theSwitch.setBricks(Arrays.asList(button, led ));
+		theSwitch.setBricks(Arrays.asList(button,button2, led ));
 		theSwitch.setStates(Arrays.asList(on, off));
 		theSwitch.setInitial(off);
 
