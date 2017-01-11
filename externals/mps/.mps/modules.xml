@@ -3,7 +3,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/ArduinoML/ArduinoML.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/ArduinoML/sandbox/ArduinoML.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/ArduinoML/sandbox/ArduinoML.lab1.msd" folder="" />
     </projectModules>
   </component>
 </project>
