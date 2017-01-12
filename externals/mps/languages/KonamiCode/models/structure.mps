@@ -66,9 +66,6 @@
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="61zTmV9uCEy" resolve="Move" />
     </node>
-    <node concept="PrWs8" id="61zTmV9ylAs" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
   </node>
   <node concept="AxPO7" id="5BVoFE7aTSL">
     <property role="TrG5h" value="DIRECTION" />
@@ -100,10 +97,10 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5BVoFE7aTUz" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="code" />
-      <property role="20lbJX" value="1" />
+      <property role="20kJfa" value="KonamiCode" />
+      <property role="20lbJX" value="1..n" />
       <property role="IQ2ns" value="6483884641801182883" />
-      <ref role="20lvS9" node="78eQDyb0OGF" resolve="KonamiCode" />
+      <ref role="20lvS9" node="61zTmV9uCEy" resolve="Move" />
     </node>
     <node concept="1TJgyj" id="61zTmV9uC2I" role="1TKVEi">
       <property role="IQ2ns" value="6945647314324848814" />
@@ -139,9 +136,6 @@
       <property role="IQ2nx" value="6945647314324848891" />
       <property role="TrG5h" value="y" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-    <node concept="PrWs8" id="61zTmV9vOzI" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="61zTmV9uCxL">
