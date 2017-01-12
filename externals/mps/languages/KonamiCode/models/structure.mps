@@ -66,27 +66,30 @@
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="61zTmV9uCEy" resolve="Move" />
     </node>
+    <node concept="PrWs8" id="61zTmV9ylAs" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
   <node concept="AxPO7" id="5BVoFE7aTSL">
-    <property role="TrG5h" value="MOVE" />
+    <property role="TrG5h" value="DIRECTION" />
     <property role="PDuV0" value="true" />
     <property role="3lZH7k" value="derive_from_presentation" />
-    <ref role="M4eZT" to="tpck:fKAQMTB" resolve="boolean" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="5BVoFE7aTSM" role="M5hS2">
-      <property role="1uS6qv" value="0" />
       <property role="1uS6qo" value="up" />
+      <property role="1uS6qv" value="UP" />
     </node>
     <node concept="M4N5e" id="61zTmV9uC1T" role="M5hS2">
       <property role="1uS6qo" value="right" />
-      <property role="1uS6qv" value="1" />
+      <property role="1uS6qv" value="RIGHT" />
     </node>
     <node concept="M4N5e" id="61zTmV9uC1X" role="M5hS2">
       <property role="1uS6qo" value="down" />
-      <property role="1uS6qv" value="2" />
+      <property role="1uS6qv" value="DOWN" />
     </node>
     <node concept="M4N5e" id="61zTmV9uC22" role="M5hS2">
       <property role="1uS6qo" value="left" />
-      <property role="1uS6qv" value="3" />
+      <property role="1uS6qv" value="LEFT" />
     </node>
   </node>
   <node concept="1TIwiD" id="78eQDyb0OGH">
@@ -137,6 +140,9 @@
       <property role="TrG5h" value="y" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+    <node concept="PrWs8" id="61zTmV9vOzI" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="61zTmV9uCxL">
     <property role="TrG5h" value="Actuator" />
@@ -165,7 +171,7 @@
     <node concept="1TJgyi" id="61zTmV9uCEA" role="1TKVEl">
       <property role="IQ2nx" value="6945647314324851366" />
       <property role="TrG5h" value="move" />
-      <ref role="AX2Wp" node="5BVoFE7aTSL" resolve="MOVE" />
+      <ref role="AX2Wp" node="5BVoFE7aTSL" resolve="DIRECTION" />
     </node>
   </node>
 </model>

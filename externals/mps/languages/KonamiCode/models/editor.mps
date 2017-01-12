@@ -57,7 +57,7 @@
         <property role="3F0ifm" value=":" />
       </node>
       <node concept="3F0A7n" id="32Q497GpEMo" role="3EZMnx">
-        <ref role="1NtTu8" to="67j:78eQDyb0UqE" resolve="pin" />
+        <ref role="1NtTu8" to="u0m8:78eQDyb0UqE" resolve="pin" />
       </node>
       <node concept="2iRfu4" id="78eQDyb1Wdu" role="2iSdaV" />
     </node>
@@ -68,6 +68,9 @@
       <node concept="2iRfu4" id="61zTmV9uCC$" role="2iSdaV" />
       <node concept="3F0ifn" id="61zTmV9uCCB" role="3EZMnx">
         <property role="3F0ifm" value="joystick" />
+      </node>
+      <node concept="3F0A7n" id="61zTmV9vOzK" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="3F0ifn" id="61zTmV9uCCP" role="3EZMnx">
         <property role="3F0ifm" value=":" />
@@ -83,6 +86,15 @@
   <node concept="24kQdi" id="61zTmV9uCE9">
     <ref role="1XX52x" to="u0m8:78eQDyb0OGF" resolve="KonamiCode" />
     <node concept="3EZMnI" id="61zTmV9uCEb" role="2wV5jI">
+      <node concept="3F0ifn" id="61zTmV9ylAD" role="3EZMnx">
+        <property role="3F0ifm" value="KonamiCode" />
+      </node>
+      <node concept="3F0A7n" id="61zTmV9ylB3" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="61zTmV9ylBh" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+      </node>
       <node concept="3F2HdR" id="61zTmV9uCEi" role="3EZMnx">
         <ref role="1NtTu8" to="u0m8:61zTmV9uCEu" resolve="moves" />
         <node concept="2iRfu4" id="61zTmV9uCEl" role="2czzBx" />
