@@ -4,41 +4,51 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
   <root>
     <file name="QueriesGenerated.java">
-      <unit at="13,0,36,0" name="KonamiCode.generator.template.main.QueriesGenerated" />
+      <unit at="14,0,58,0" name="KonamiCode.generator.template.main.QueriesGenerated" />
     </file>
   </root>
   <root nodeRef="r:3548c00a-3852-4275-97b8-d654a1470030(KonamiCode.generator.template.main@generator)/6483884641801605129">
     <file name="QueriesGenerated.java">
-      <node id="6945647314325883108" at="18,112,19,195" concept="1" />
-      <scope id="6945647314325883107" at="18,112,19,195" />
-    </file>
-  </root>
-  <root nodeRef="r:3548c00a-3852-4275-97b8-d654a1470030(KonamiCode.generator.template.main@generator)/6945647314324875584">
-    <file name="QueriesGenerated.java">
-      <node id="6945647314326238584" at="32,120,33,191" concept="1" />
-      <scope id="6945647314326237865" at="32,120,33,191" />
+      <node id="6483884641801805673" at="34,112,35,200" concept="1" />
+      <scope id="6483884641801803543" at="34,112,35,200" />
     </file>
   </root>
   <root nodeRef="r:3548c00a-3852-4275-97b8-d654a1470030(KonamiCode.generator.template.main@generator)/6945647314325398871">
     <file name="QueriesGenerated.java">
-      <node id="6945647314325399419" at="21,112,22,176" concept="0" />
-      <node id="6945647314325455393" at="22,176,23,183" concept="1" />
-      <node id="6945647314325472231" at="25,112,26,176" concept="0" />
-      <node id="6945647314325472235" at="26,176,27,183" concept="1" />
-      <scope id="6945647314325399418" at="21,112,23,183" />
-      <scope id="6945647314325472230" at="25,112,27,183" />
+      <node id="6945647314325399419" at="37,112,38,176" concept="0" />
+      <node id="6945647314325455393" at="38,176,39,183" concept="1" />
+      <node id="6945647314325472231" at="41,112,42,176" concept="0" />
+      <node id="6945647314325472235" at="42,176,43,183" concept="1" />
+      <scope id="6945647314325399418" at="37,112,39,183" />
+      <scope id="6945647314325472230" at="41,112,43,183" />
     </file>
   </root>
   <root nodeRef="r:3548c00a-3852-4275-97b8-d654a1470030(KonamiCode.generator.template.main@generator)/8218746718700166393">
     <file name="QueriesGenerated.java">
-      <node id="6945647314326276087" at="29,120,30,196" concept="1" />
-      <scope id="6945647314326273020" at="29,120,30,196" />
+      <node id="6945647314327008963" at="16,112,17,175" concept="1" />
+      <node id="6945647314326522825" at="19,112,20,183" concept="1" />
+      <node id="6945647314326545292" at="22,112,23,183" concept="1" />
+      <node id="6945647314326863978" at="25,112,26,175" concept="1" />
+      <node id="6945647314326859545" at="28,112,29,185" concept="1" />
+      <node id="6945647314327485579" at="31,112,32,200" concept="1" />
+      <node id="6945647314326515665" at="48,108,49,192" concept="1" />
+      <node id="6945647314326518940" at="51,108,52,193" concept="1" />
+      <node id="6945647314326276087" at="54,120,55,191" concept="1" />
+      <scope id="6945647314327008962" at="16,112,17,175" />
+      <scope id="6945647314326522824" at="19,112,20,183" />
+      <scope id="6945647314326545287" at="22,112,23,183" />
+      <scope id="6945647314326749926" at="25,112,26,175" />
+      <scope id="6945647314326859544" at="28,112,29,185" />
+      <scope id="6945647314327485578" at="31,112,32,200" />
+      <scope id="6945647314326515185" at="48,108,49,192" />
+      <scope id="6945647314326518280" at="51,108,52,193" />
+      <scope id="6945647314326273020" at="54,120,55,191" />
     </file>
   </root>
   <root nodeRef="r:3548c00a-3852-4275-97b8-d654a1470030(KonamiCode.generator.template.main@generator)/8218746718700456150">
     <file name="QueriesGenerated.java">
-      <node id="1196700686619299165" at="15,112,16,185" concept="1" />
-      <scope id="1196700686619299159" at="15,112,16,185" />
+      <node id="1196700686619299165" at="45,112,46,185" concept="1" />
+      <scope id="1196700686619299159" at="45,112,46,185" />
     </file>
   </root>
 </debug-info>

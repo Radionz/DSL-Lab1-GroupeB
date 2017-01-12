@@ -4,14 +4,8 @@
     <file name="Actuator_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="KonamiCode.behavior.Actuator_BehaviorDescriptor" />
     </file>
-    <file name="App_BehaviorDescriptor.java">
-      <unit at="11,0,17,0" name="KonamiCode.behavior.App_BehaviorDescriptor" />
-    </file>
     <file name="BehaviorAspectDescriptor.java">
       <unit at="13,0,41,0" name="KonamiCode.behavior.BehaviorAspectDescriptor" />
-    </file>
-    <file name="Brick_BehaviorDescriptor.java">
-      <unit at="11,0,17,0" name="KonamiCode.behavior.Brick_BehaviorDescriptor" />
     </file>
     <file name="Joystick_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="KonamiCode.behavior.Joystick_BehaviorDescriptor" />

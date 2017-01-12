@@ -6,7 +6,6 @@
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
-    <import index="67j" ref="r:c3495eae-2a50-4eb5-87a2-5e8ab67ad9fe(ArduinoML.structure)" />
     <import index="4fqr" ref="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
@@ -55,22 +54,10 @@
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="78eQDyb0OGF">
-    <property role="TrG5h" value="KonamiCode" />
-    <property role="EcuMT" value="8218746718699866923" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="61zTmV9uCEu" role="1TKVEi">
-      <property role="IQ2ns" value="6945647314324851358" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="moves" />
-      <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="61zTmV9uCEy" resolve="Move" />
-    </node>
-  </node>
   <node concept="AxPO7" id="5BVoFE7aTSL">
     <property role="TrG5h" value="DIRECTION" />
     <property role="PDuV0" value="true" />
-    <property role="3lZH7k" value="derive_from_presentation" />
+    <property role="3lZH7k" value="derive_from_internal_value" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="5BVoFE7aTSM" role="M5hS2">
       <property role="1uS6qo" value="up" />
@@ -90,14 +77,14 @@
     </node>
   </node>
   <node concept="1TIwiD" id="78eQDyb0OGH">
-    <property role="TrG5h" value="App" />
+    <property role="TrG5h" value="KonamiCode" />
     <property role="R5$K7" value="false" />
     <property role="19KtqR" value="true" />
     <property role="EcuMT" value="8218746718699866925" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5BVoFE7aTUz" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="KonamiCode" />
+      <property role="20kJfa" value="moves" />
       <property role="20lbJX" value="1..n" />
       <property role="IQ2ns" value="6483884641801182883" />
       <ref role="20lvS9" node="61zTmV9uCEy" resolve="Move" />
@@ -105,16 +92,16 @@
     <node concept="1TJgyj" id="61zTmV9uC2I" role="1TKVEi">
       <property role="IQ2ns" value="6945647314324848814" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="joystick" />
+      <property role="20kJfa" value="Joystick" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="78eQDyb0IIO" resolve="Joystick" />
     </node>
     <node concept="1TJgyj" id="61zTmV9uCxH" role="1TKVEi">
       <property role="IQ2ns" value="6945647314324850797" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="onSuccess" />
+      <property role="20kJfa" value="OnSuccess" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="61zTmV9uCxL" resolve="Actuator" />
+      <ref role="20lvS9" node="78eQDyb0OGG" resolve="Actuator" />
     </node>
     <node concept="PrWs8" id="78eQDyb2T_e" role="PzmwI">
       <ref role="PrY4T" to="4fqr:431DWIovi3l" resolve="IMainClass" />
@@ -138,14 +125,9 @@
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
-  <node concept="1TIwiD" id="61zTmV9uCxL">
-    <property role="TrG5h" value="Actuator" />
-    <property role="EcuMT" value="6945647314324850801" />
-    <ref role="1TJDcQ" node="78eQDyb0OGG" resolve="Brick" />
-  </node>
   <node concept="1TIwiD" id="78eQDyb0OGG">
-    <property role="TrG5h" value="Brick" />
-    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="Actuator" />
+    <property role="R5$K7" value="false" />
     <property role="R5$K2" value="false" />
     <property role="EcuMT" value="8218746718699866924" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -164,7 +146,7 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="61zTmV9uCEA" role="1TKVEl">
       <property role="IQ2nx" value="6945647314324851366" />
-      <property role="TrG5h" value="move" />
+      <property role="TrG5h" value="direction" />
       <ref role="AX2Wp" node="5BVoFE7aTSL" resolve="DIRECTION" />
     </node>
   </node>
