@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root>
+    <file name="App_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="KonamiCode.behavior.App_BehaviorDescriptor" />
+    </file>
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="13,0,41,0" name="KonamiCode.behavior.BehaviorAspectDescriptor" />
+    </file>
+    <file name="Joystick_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="KonamiCode.behavior.Joystick_BehaviorDescriptor" />
+    </file>
+    <file name="KonamiCode_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="KonamiCode.behavior.KonamiCode_BehaviorDescriptor" />
+    </file>
+  </root>
+</debug-info>
+
