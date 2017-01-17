@@ -31,35 +31,23 @@
   </registry>
   <node concept="3T3p6P" id="61zTmV9AA_6">
     <property role="TrG5h" value="code1" />
-    <node concept="2D6mZc" id="61zTmV9AA__" role="3uOfKp">
+    <node concept="2D6mZc" id="61zTmV9HlYm" role="3uOfKp">
       <property role="2D6mZ8" value="LEFT" />
     </node>
-    <node concept="2D6mZc" id="61zTmV9AA_C" role="3uOfKp">
-      <property role="2D6mZ8" value="UP" />
-    </node>
-    <node concept="2D6mZc" id="61zTmV9AGN4" role="3uOfKp">
-      <property role="2D6mZ8" value="DOWN" />
-    </node>
-    <node concept="2D6mZc" id="61zTmV9AA_F" role="3uOfKp">
-      <property role="2D6mZ8" value="DOWN" />
-    </node>
-    <node concept="2D6mZc" id="61zTmV9AA_J" role="3uOfKp">
-      <property role="2D6mZ8" value="LEFT" />
-    </node>
-    <node concept="2D6mZc" id="61zTmV9AA_O" role="3uOfKp">
+    <node concept="2D6mZc" id="61zTmV9HxwO" role="3uOfKp">
       <property role="2D6mZ8" value="RIGHT" />
     </node>
-    <node concept="2D6mZc" id="61zTmV9AA_U" role="3uOfKp">
+    <node concept="2D6mZc" id="61zTmV9HxwR" role="3uOfKp">
       <property role="2D6mZ8" value="UP" />
     </node>
-    <node concept="2D6mZc" id="61zTmV9AAA1" role="3uOfKp">
-      <property role="2D6mZ8" value="UP" />
-    </node>
-    <node concept="2D6mZc" id="61zTmV9AAA9" role="3uOfKp">
-      <property role="2D6mZ8" value="UP" />
-    </node>
-    <node concept="2D6mZc" id="61zTmV9AAAi" role="3uOfKp">
+    <node concept="2D6mZc" id="61zTmV9HxwV" role="3uOfKp">
       <property role="2D6mZ8" value="DOWN" />
+    </node>
+    <node concept="2D6mZc" id="61zTmV9Hxx0" role="3uOfKp">
+      <property role="2D6mZ8" value="LEFT" />
+    </node>
+    <node concept="2D6mZc" id="61zTmV9Hxx6" role="3uOfKp">
+      <property role="2D6mZ8" value="UP" />
     </node>
     <node concept="3T334G" id="61zTmV9AA_8" role="2D6mn0">
       <property role="2D6mmn" value="11" />
