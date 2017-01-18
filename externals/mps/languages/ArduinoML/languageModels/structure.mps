@@ -165,7 +165,7 @@
       <property role="IQ2ns" value="8473239748133628023" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="conditions" />
-      <property role="20lbJX" value="1..n" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="7mmZEx$equR" resolve="Condition" />
     </node>
   </node>
@@ -198,6 +198,41 @@
       <property role="IQ2nx" value="8473239748133627854" />
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="7mmZEx$hVHc" role="1TKVEl">
+      <property role="IQ2nx" value="8473239748134550348" />
+      <property role="TrG5h" value="operator" />
+      <ref role="AX2Wp" node="7mmZEx$hVFy" resolve="OPERATORS" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="7mmZEx$hVFy">
+    <property role="TrG5h" value="OPERATORS" />
+    <property role="PDuV0" value="true" />
+    <property role="3lZH7k" value="derive_from_internal_value" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="7mmZEx$hVFz" role="M5hS2">
+      <property role="1uS6qo" value="&lt;" />
+      <property role="1uS6qv" value="LT" />
+    </node>
+    <node concept="M4N5e" id="7mmZEx$hVGB" role="M5hS2">
+      <property role="1uS6qo" value="&gt;" />
+      <property role="1uS6qv" value="GT" />
+    </node>
+    <node concept="M4N5e" id="7mmZEx$hVGQ" role="M5hS2">
+      <property role="1uS6qo" value="&gt;=" />
+      <property role="1uS6qv" value="GE" />
+    </node>
+    <node concept="M4N5e" id="7mmZEx$hVGU" role="M5hS2">
+      <property role="1uS6qv" value="LE" />
+      <property role="1uS6qo" value="&lt;=" />
+    </node>
+    <node concept="M4N5e" id="7mmZEx$hVGZ" role="M5hS2">
+      <property role="1uS6qv" value="EQ" />
+      <property role="1uS6qo" value="==" />
+    </node>
+    <node concept="M4N5e" id="7mmZEx$hVH5" role="M5hS2">
+      <property role="1uS6qo" value="!=" />
+      <property role="1uS6qv" value="NE" />
     </node>
   </node>
 </model>

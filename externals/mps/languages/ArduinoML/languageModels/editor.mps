@@ -205,8 +205,8 @@
           </node>
         </node>
       </node>
-      <node concept="3F0ifn" id="7mmZEx$eqwa" role="3EZMnx">
-        <property role="3F0ifm" value="is" />
+      <node concept="3F0A7n" id="7mmZEx$hVHn" role="3EZMnx">
+        <ref role="1NtTu8" to="67j:7mmZEx$hVHc" resolve="operator" />
       </node>
       <node concept="3F0A7n" id="7mmZEx$eqwt" role="3EZMnx">
         <ref role="1NtTu8" to="67j:7mmZEx$eqve" resolve="value" />

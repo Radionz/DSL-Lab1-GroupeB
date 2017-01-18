@@ -11,6 +11,19 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.ConceptPresentationAspectBase" />
   </dependency>
+  <dependency className="ArduinoML.structure.OPERATORS" file="OPERATORS.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.LinkedList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+  </dependency>
+  <dependency className="ArduinoML.structure.OPERATORS_PropertySupport" file="OPERATORS_PropertySupport.java">
+    <classNode dependClassName="ArduinoML.structure.OPERATORS" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode extendsClassName="jetbrains.mps.smodel.PropertySupport" />
+  </dependency>
   <dependency className="ArduinoML.structure.STATUS" file="STATUS.java">
     <classNode dependClassName="java.lang.Boolean" />
     <classNode dependClassName="java.lang.String" />

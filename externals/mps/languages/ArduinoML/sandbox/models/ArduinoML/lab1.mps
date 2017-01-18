@@ -9,6 +9,7 @@
     <language id="5edee0cf-46e1-49f9-971e-6b9e2e5cae16" name="ArduinoML">
       <concept id="8473239748133627831" name="ArduinoML.structure.Condition" flags="ng" index="hFP$v">
         <property id="8473239748133627854" name="value" index="hFP_A" />
+        <property id="8473239748134550348" name="operator" index="hOkn$" />
         <reference id="8473239748133627843" name="sensor" index="hFP_F" />
       </concept>
       <concept id="6483884641801180718" name="ArduinoML.structure.State" flags="ng" index="3uOfik">
@@ -71,12 +72,9 @@
       </node>
       <node concept="3uOfMU" id="7mmZEx$gQA9" role="3uOfKq">
         <ref role="3uPXf9" node="1lBmc7ZPwJl" resolve="on" />
-        <node concept="hFP$v" id="7mmZEx$gQAd" role="hFPrv">
-          <property role="hFP_A" value="1" />
-          <ref role="hFP_F" node="1lBmc7ZPwJh" resolve="button" />
-        </node>
-        <node concept="hFP$v" id="7mmZEx$h_Fk" role="hFPrv">
-          <property role="hFP_A" value="0" />
+        <node concept="hFP$v" id="7mmZEx$i350" role="hFPrv">
+          <property role="hOkn$" value="GE" />
+          <property role="hFP_A" value="120" />
           <ref role="hFP_F" node="1lBmc7ZPwJh" resolve="button" />
         </node>
       </node>
@@ -93,8 +91,9 @@
       </node>
       <node concept="3uOfMU" id="7mmZEx$gQAg" role="3uOfKq">
         <ref role="3uPXf9" node="1lBmc7ZPwJi" resolve="off" />
-        <node concept="hFP$v" id="7mmZEx$gQAk" role="hFPrv">
-          <property role="hFP_A" value="0" />
+        <node concept="hFP$v" id="7mmZEx$i3fL" role="hFPrv">
+          <property role="hOkn$" value="LT" />
+          <property role="hFP_A" value="120" />
           <ref role="hFP_F" node="1lBmc7ZPwJh" resolve="button" />
         </node>
       </node>
