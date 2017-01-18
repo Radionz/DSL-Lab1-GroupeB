@@ -120,24 +120,24 @@
       <node id="6945647314326145337" at="20,48,21,28" concept="0" />
       <node id="6945647314326145337" at="21,28,22,81" concept="0" />
       <node id="6945647314326145337" at="22,81,23,22" concept="4" />
-      <node id="6945647314327527054" at="25,88,26,82" concept="3" />
-      <node id="6945647314327527054" at="26,82,27,34" concept="0" />
-      <node id="6945647314327527054" at="27,34,28,47" concept="0" />
-      <node id="6945647314327527054" at="28,47,29,26" concept="3" />
-      <node id="6945647314327527054" at="29,26,30,58" concept="0" />
-      <node id="6945647314327527054" at="30,58,31,47" concept="0" />
-      <node id="6945647314327527054" at="31,47,32,73" concept="0" />
-      <node id="6945647314327527054" at="32,73,33,57" concept="3" />
-      <node id="6945647314327527054" at="34,35,35,82" concept="3" />
-      <node id="6945647314327527054" at="35,82,36,112" concept="4" />
-      <node id="6945647314327527054" at="37,10,38,22" concept="4" />
+      <node id="1990220167252006896" at="25,88,26,82" concept="3" />
+      <node id="1990220167252006896" at="26,82,27,34" concept="0" />
+      <node id="1990220167252006896" at="27,34,28,47" concept="0" />
+      <node id="1990220167252006896" at="28,47,29,26" concept="3" />
+      <node id="1990220167252006896" at="29,26,30,58" concept="0" />
+      <node id="1990220167252006896" at="30,58,31,47" concept="0" />
+      <node id="1990220167252006896" at="31,47,32,73" concept="0" />
+      <node id="1990220167252006896" at="32,73,33,57" concept="3" />
+      <node id="1990220167252006896" at="34,35,35,82" concept="3" />
+      <node id="1990220167252006896" at="35,82,36,112" concept="4" />
+      <node id="1990220167252006896" at="37,10,38,22" concept="4" />
       <node id="6945647314326145337" at="15,0,18,0" concept="2" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6945647314327527054" at="33,57,38,22" concept="1" />
+      <node id="1990220167252006896" at="33,57,38,22" concept="1" />
       <node id="6945647314326145337" at="18,0,25,0" concept="2" trace="createCollection_549byl_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6945647314327527054" at="25,0,40,0" concept="2" trace="createProperty_549byl_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="1990220167252006896" at="25,0,40,0" concept="2" trace="createProperty_549byl_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="6945647314326145337" at="15,79,16,63" />
-      <scope id="6945647314327527054" at="34,35,36,112">
-        <var name="manager" id="6945647314327527054" />
+      <scope id="1990220167252006896" at="34,35,36,112">
+        <var name="manager" id="1990220167252006896" />
       </scope>
       <scope id="6945647314326145337" at="15,0,18,0">
         <var name="editorContext" id="6945647314326145337" />
@@ -150,14 +150,14 @@
         <var name="editorContext" id="6945647314326145337" />
         <var name="node" id="6945647314326145337" />
       </scope>
-      <scope id="6945647314327527054" at="25,88,38,22">
-        <var name="attributeConcept" id="6945647314327527054" />
-        <var name="editorCell" id="6945647314327527054" />
-        <var name="provider" id="6945647314327527054" />
+      <scope id="1990220167252006896" at="25,88,38,22">
+        <var name="attributeConcept" id="1990220167252006896" />
+        <var name="editorCell" id="1990220167252006896" />
+        <var name="provider" id="1990220167252006896" />
       </scope>
-      <scope id="6945647314327527054" at="25,0,40,0">
-        <var name="editorContext" id="6945647314327527054" />
-        <var name="node" id="6945647314327527054" />
+      <scope id="1990220167252006896" at="25,0,40,0">
+        <var name="editorContext" id="1990220167252006896" />
+        <var name="node" id="1990220167252006896" />
       </scope>
       <unit id="6945647314326145337" at="14,0,41,0" name="KonamiCode.editor.Move_Editor" />
     </file>

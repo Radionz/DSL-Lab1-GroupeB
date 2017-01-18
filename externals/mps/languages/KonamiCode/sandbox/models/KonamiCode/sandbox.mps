@@ -29,32 +29,29 @@
       </concept>
     </language>
   </registry>
-  <node concept="3T3p6P" id="61zTmV9AA_6">
-    <property role="TrG5h" value="code1" />
-    <node concept="2D6mZc" id="61zTmV9HlYm" role="3uOfKp">
+  <node concept="3T3p6P" id="1IuFFadRRMq">
+    <property role="TrG5h" value="konamiCode1" />
+    <node concept="2D6mZc" id="1IuFFadS9$o" role="3uOfKp">
       <property role="2D6mZ8" value="LEFT" />
     </node>
-    <node concept="2D6mZc" id="61zTmV9HxwO" role="3uOfKp">
+    <node concept="2D6mZc" id="1IuFFadS9$r" role="3uOfKp">
       <property role="2D6mZ8" value="RIGHT" />
     </node>
-    <node concept="2D6mZc" id="61zTmV9HxwR" role="3uOfKp">
+    <node concept="2D6mZc" id="1IuFFadS9$u" role="3uOfKp">
       <property role="2D6mZ8" value="UP" />
     </node>
-    <node concept="2D6mZc" id="61zTmV9HxwV" role="3uOfKp">
+    <node concept="2D6mZc" id="1IuFFadTyxL" role="3uOfKp">
       <property role="2D6mZ8" value="DOWN" />
     </node>
-    <node concept="2D6mZc" id="61zTmV9Hxx0" role="3uOfKp">
+    <node concept="2D6mZc" id="1IuFFadTBpH" role="3uOfKp">
       <property role="2D6mZ8" value="LEFT" />
     </node>
-    <node concept="2D6mZc" id="61zTmV9Hxx6" role="3uOfKp">
-      <property role="2D6mZ8" value="UP" />
-    </node>
-    <node concept="3T334G" id="61zTmV9AA_8" role="2D6mn0">
+    <node concept="3T334G" id="1IuFFadRRMs" role="2D6mn0">
       <property role="2D6mmn" value="11" />
       <property role="2D6mml" value="12" />
     </node>
-    <node concept="3T3p6O" id="61zTmV9AA_9" role="2D6mO3">
-      <property role="TrG5h" value="ledRouge" />
+    <node concept="3T3p6O" id="1IuFFadRRMt" role="2D6mO3">
+      <property role="TrG5h" value="redLed" />
       <property role="3T3nKM" value="9" />
     </node>
   </node>

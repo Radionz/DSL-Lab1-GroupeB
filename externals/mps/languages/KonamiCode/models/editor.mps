@@ -53,10 +53,10 @@
   <node concept="24kQdi" id="61zTmV9z$$T">
     <ref role="1XX52x" to="u0m8:61zTmV9uCEy" resolve="Move" />
     <node concept="3EZMnI" id="61zTmV9z$_m" role="2wV5jI">
-      <node concept="3F0A7n" id="61zTmV9CPUe" role="3EZMnx">
+      <node concept="2iRfu4" id="61zTmV9z$_p" role="2iSdaV" />
+      <node concept="3F0A7n" id="1IuFFadRXvK" role="3EZMnx">
         <ref role="1NtTu8" to="u0m8:61zTmV9uCEA" resolve="direction" />
       </node>
-      <node concept="2iRfu4" id="61zTmV9z$_p" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="61zTmV9$Bha">
