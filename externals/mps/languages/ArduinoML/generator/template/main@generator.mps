@@ -744,19 +744,31 @@
             <node concept="liA8E" id="5BVoFE7cHeQ" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.print(java.lang.String):void" resolve="print" />
               <node concept="Xl_RD" id="7mmZEx$g5WE" role="37wK5m">
-                <property role="Xl_RC" value="    if(" />
+                <property role="Xl_RC" value="  if(" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7mmZEx$g6Pc" role="3cqZAp">
-          <node concept="2b32R4" id="7mmZEx$g8RM" role="lGtFl">
-            <node concept="3JmXsc" id="7mmZEx$g8RO" role="2P8S$">
-              <node concept="3clFbS" id="7mmZEx$g8RQ" role="2VODD2">
-                <node concept="3clFbF" id="7mmZEx$g8WJ" role="3cqZAp">
-                  <node concept="2OqwBi" id="7mmZEx$g9an" role="3clFbG">
-                    <node concept="30H73N" id="7mmZEx$g8WI" role="2Oq$k0" />
-                    <node concept="3Tsc0h" id="7mmZEx$g9l6" role="2OqNvi">
+        <node concept="3clFbF" id="7mmZEx$h6Fc" role="3cqZAp">
+          <node concept="2OqwBi" id="7mmZEx$h6Fd" role="3clFbG">
+            <node concept="10M0yZ" id="7mmZEx$h6Fe" role="2Oq$k0">
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+            </node>
+            <node concept="liA8E" id="7mmZEx$h6Ff" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="Xl_RD" id="7mmZEx$h6Fg" role="37wK5m">
+                <property role="Xl_RC" value="  // Here comes bricks declarations" />
+              </node>
+            </node>
+          </node>
+          <node concept="2b32R4" id="7mmZEx$h6Fh" role="lGtFl">
+            <node concept="3JmXsc" id="7mmZEx$h6Fi" role="2P8S$">
+              <node concept="3clFbS" id="7mmZEx$h6Fj" role="2VODD2">
+                <node concept="3clFbF" id="7mmZEx$h6Fk" role="3cqZAp">
+                  <node concept="2OqwBi" id="7mmZEx$h87U" role="3clFbG">
+                    <node concept="30H73N" id="7mmZEx$h6Fn" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="7mmZEx$h8iD" role="2OqNvi">
                       <ref role="3TtcxE" to="67j:7mmZEx$eqxR" resolve="conditions" />
                     </node>
                   </node>

@@ -12,6 +12,7 @@
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
+        <property id="1140524450557" name="separatorText" index="2czwfO" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
       </concept>
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
@@ -160,12 +161,19 @@
   <node concept="24kQdi" id="7mmZEx$eqp0">
     <ref role="1XX52x" to="67j:5BVoFE7aTS0" resolve="Transition" />
     <node concept="3EZMnI" id="7mmZEx$eqp1" role="2wV5jI">
-      <node concept="3F2HdR" id="7mmZEx$goHF" role="3EZMnx">
-        <ref role="1NtTu8" to="67j:7mmZEx$eqxR" resolve="conditions" />
-        <node concept="2iRfu4" id="7mmZEx$goHI" role="2czzBx" />
-        <node concept="VPM3Z" id="7mmZEx$goHJ" role="3F10Kt">
+      <node concept="3EZMnI" id="7mmZEx$hv4o" role="3EZMnx">
+        <node concept="VPM3Z" id="7mmZEx$hv4q" role="3F10Kt">
           <property role="VOm3f" value="false" />
         </node>
+        <node concept="3F2HdR" id="7mmZEx$goHF" role="3EZMnx">
+          <property role="2czwfO" value=" &amp;&amp;" />
+          <ref role="1NtTu8" to="67j:7mmZEx$eqxR" resolve="conditions" />
+          <node concept="2iRfu4" id="7mmZEx$goHI" role="2czzBx" />
+          <node concept="VPM3Z" id="7mmZEx$goHJ" role="3F10Kt">
+            <property role="VOm3f" value="false" />
+          </node>
+        </node>
+        <node concept="2iRkQZ" id="7mmZEx$hv4t" role="2iSdaV" />
       </node>
       <node concept="VPM3Z" id="7mmZEx$eqp2" role="3F10Kt">
         <property role="VOm3f" value="false" />
@@ -191,8 +199,9 @@
       <node concept="1iCGBv" id="7mmZEx$eqvT" role="3EZMnx">
         <ref role="1NtTu8" to="67j:7mmZEx$eqv3" resolve="sensor" />
         <node concept="1sVBvm" id="7mmZEx$eqvV" role="1sWHZn">
-          <node concept="3F0ifn" id="7mmZEx$eqw2" role="2wV5jI">
-            <property role="3F0ifm" value="name" />
+          <node concept="3F0A7n" id="7mmZEx$gDCI" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
         </node>
       </node>

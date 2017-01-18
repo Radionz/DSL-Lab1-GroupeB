@@ -28,10 +28,10 @@
     <file name="QueriesGenerated.java">
       <node id="6483884641801805673" at="33,112,34,333" concept="0" />
       <node id="6483884641801882589" at="36,112,37,64" concept="0" />
-      <node id="8473239748134080303" at="57,120,58,196" concept="0" />
+      <node id="8473239748134333140" at="57,120,58,196" concept="0" />
       <scope id="6483884641801803543" at="33,112,34,333" />
       <scope id="6483884641801880126" at="36,112,37,64" />
-      <scope id="8473239748134079990" at="57,120,58,196" />
+      <scope id="8473239748134333139" at="57,120,58,196" />
     </file>
   </root>
   <root nodeRef="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/8218746718700166393">
