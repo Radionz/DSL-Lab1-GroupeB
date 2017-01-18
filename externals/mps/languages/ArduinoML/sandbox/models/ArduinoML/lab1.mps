@@ -7,8 +7,12 @@
   <imports />
   <registry>
     <language id="5edee0cf-46e1-49f9-971e-6b9e2e5cae16" name="ArduinoML">
+      <concept id="8473239748133627831" name="ArduinoML.structure.Condition" flags="ng" index="hFP$v">
+        <property id="8473239748133627854" name="value" index="hFP_A" />
+        <reference id="8473239748133627843" name="sensor" index="hFP_F" />
+      </concept>
       <concept id="6483884641801180718" name="ArduinoML.structure.State" flags="ng" index="3uOfik">
-        <child id="6483884641801182880" name="transition" index="3uOfKq" />
+        <child id="6483884641801182880" name="transitions" index="3uOfKq" />
         <child id="6483884641801182858" name="actions" index="3uOfKK" />
       </concept>
       <concept id="6483884641801181722" name="ArduinoML.structure.Action" flags="ng" index="3uOfyw">
@@ -19,6 +23,7 @@
         <property id="6483884641801182748" name="status" index="3uOfMA" />
         <reference id="6483884641801182750" name="sensor" index="3uOfM$" />
         <reference id="6483884641801253235" name="target" index="3uPXf9" />
+        <child id="8473239748133628023" name="conditions" index="hFPrv" />
       </concept>
       <concept id="8218746718699842484" name="ArduinoML.structure.Sensor" flags="ng" index="3T334G" />
       <concept id="8218746718699866923" name="ArduinoML.structure.Actuator" flags="ng" index="3T3p6N" />
@@ -116,10 +121,12 @@
         <property role="3uOfX0" value="false" />
         <ref role="3uOfX6" node="1lBmc7ZPwKH" resolve="buzzer" />
       </node>
-      <node concept="3uOfMU" id="1lBmc7ZPwJk" role="3uOfKq">
-        <property role="3uOfMA" value="true" />
-        <ref role="3uPXf9" node="1lBmc7ZPwJl" resolve="on" />
-        <ref role="3uOfM$" node="1lBmc7ZPwJh" resolve="button" />
+      <node concept="3uOfMU" id="7mmZEx$gvtY" role="3uOfKq">
+        <ref role="3uPXf9" node="12ryeWwq$5l" resolve="on" />
+        <node concept="hFP$v" id="7mmZEx$gvu2" role="hFPrv">
+          <property role="hFP_A" value="1" />
+          <ref role="hFP_F" node="61zTmV9tRQ7" resolve="button1" />
+        </node>
       </node>
     </node>
     <node concept="3uOfik" id="1lBmc7ZPwJl" role="3uOfKp">
@@ -132,10 +139,12 @@
         <property role="3uOfX0" value="true" />
         <ref role="3uOfX6" node="1lBmc7ZPwKH" resolve="buzzer" />
       </node>
-      <node concept="3uOfMU" id="1lBmc7ZPwJn" role="3uOfKq">
-        <property role="3uOfMA" value="false" />
-        <ref role="3uOfM$" node="1lBmc7ZPwJh" resolve="button" />
-        <ref role="3uPXf9" node="1lBmc7ZPwJi" resolve="off" />
+      <node concept="3uOfMU" id="7mmZEx$gvuc" role="3uOfKq">
+        <ref role="3uPXf9" node="12ryeWwq$5h" resolve="off" />
+        <node concept="hFP$v" id="7mmZEx$gvuk" role="hFPrv">
+          <property role="hFP_A" value="0" />
+          <ref role="hFP_F" node="1lBmc7ZPwJh" resolve="button" />
+        </node>
       </node>
     </node>
   </node>

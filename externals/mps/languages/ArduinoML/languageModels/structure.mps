@@ -127,8 +127,8 @@
     </node>
     <node concept="1TJgyj" id="5BVoFE7aTUw" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="transition" />
-      <property role="20lbJX" value="1" />
+      <property role="20kJfa" value="transitions" />
+      <property role="20lbJX" value="1..n" />
       <property role="IQ2ns" value="6483884641801182880" />
       <ref role="20lvS9" node="5BVoFE7aTS0" resolve="Transition" />
     </node>
@@ -154,24 +154,19 @@
     <property role="TrG5h" value="Transition" />
     <property role="EcuMT" value="6483884641801182720" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="5BVoFE7aTSs" role="1TKVEl">
-      <property role="TrG5h" value="status" />
-      <property role="IQ2nx" value="6483884641801182748" />
-      <ref role="AX2Wp" node="5BVoFE7aTSL" resolve="STATUS" />
-    </node>
-    <node concept="1TJgyj" id="5BVoFE7aTSu" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="sensor" />
-      <property role="20lbJX" value="1" />
-      <property role="IQ2ns" value="6483884641801182750" />
-      <ref role="20lvS9" node="78eQDyb0IIO" resolve="Sensor" />
-    </node>
     <node concept="1TJgyj" id="5BVoFE7bb5N" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="target" />
       <property role="20lbJX" value="1" />
       <property role="IQ2ns" value="6483884641801253235" />
       <ref role="20lvS9" node="5BVoFE7aToI" resolve="State" />
+    </node>
+    <node concept="1TJgyj" id="7mmZEx$eqxR" role="1TKVEi">
+      <property role="IQ2ns" value="8473239748133628023" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="conditions" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="7mmZEx$equR" resolve="Condition" />
     </node>
   </node>
   <node concept="AxPO7" id="5BVoFE7aTSL">
@@ -186,6 +181,23 @@
     <node concept="M4N5e" id="5BVoFE7aTTe" role="M5hS2">
       <property role="1uS6qo" value="low" />
       <property role="1uS6qv" value="false" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7mmZEx$equR">
+    <property role="TrG5h" value="Condition" />
+    <property role="EcuMT" value="8473239748133627831" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7mmZEx$eqv3" role="1TKVEi">
+      <property role="IQ2ns" value="8473239748133627843" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="sensor" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="78eQDyb0IIO" resolve="Sensor" />
+    </node>
+    <node concept="1TJgyi" id="7mmZEx$eqve" role="1TKVEl">
+      <property role="IQ2nx" value="8473239748133627854" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
 </model>
