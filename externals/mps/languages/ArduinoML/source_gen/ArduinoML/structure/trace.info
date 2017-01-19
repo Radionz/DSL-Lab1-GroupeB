@@ -11,10 +11,10 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1076505808687:jetbrains.mps.baseLanguage.structure.WhileStatement" />
   <root>
     <file name="ConceptPresentationAspectImpl.java">
-      <unit at="11,0,43,0" name="ArduinoML.structure.ConceptPresentationAspectImpl" />
+      <unit at="11,0,46,0" name="ArduinoML.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <unit at="20,0,104,0" name="ArduinoML.structure.StructureAspectDescriptor" />
+      <unit at="20,0,111,0" name="ArduinoML.structure.StructureAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:c3495eae-2a50-4eb5-87a2-5e8ab67ad9fe(ArduinoML.structure)/6483884641801182769">
@@ -125,6 +125,132 @@
         <var name="value" id="6483884641801182769" />
       </scope>
       <unit id="6483884641801182769" at="9,0,44,0" name="ArduinoML.structure.STATUS_PropertySupport" />
+    </file>
+  </root>
+  <root nodeRef="r:c3495eae-2a50-4eb5-87a2-5e8ab67ad9fe(ArduinoML.structure)/8473239748134550242">
+    <file name="OPERATORS.java">
+      <node id="8473239748134550242" at="17,0,18,0" concept="2" trace="myName" />
+      <node id="8473239748134550242" at="18,27,19,18" concept="6" />
+      <node id="8473239748134550242" at="21,0,22,0" concept="2" trace="myValue" />
+      <node id="8473239748134550242" at="22,48,23,18" concept="1" />
+      <node id="8473239748134550242" at="23,18,24,20" concept="1" />
+      <node id="8473239748134550242" at="26,28,27,19" concept="6" />
+      <node id="8473239748134550242" at="29,36,30,19" concept="6" />
+      <node id="8473239748134550242" at="32,48,33,78" concept="5" />
+      <node id="8473239748134550242" at="33,78,34,57" concept="1" />
+      <node id="8473239748134550242" at="34,57,35,57" concept="1" />
+      <node id="8473239748134550242" at="35,57,36,57" concept="1" />
+      <node id="8473239748134550242" at="36,57,37,57" concept="1" />
+      <node id="8473239748134550242" at="37,57,38,57" concept="1" />
+      <node id="8473239748134550242" at="38,57,39,57" concept="1" />
+      <node id="8473239748134550242" at="39,57,40,16" concept="6" />
+      <node id="8473239748134550242" at="42,40,43,16" concept="6" />
+      <node id="8473239748134550242" at="46,24,47,36" concept="6" />
+      <node id="8473239748134550242" at="49,56,50,26" concept="6" />
+      <node id="8473239748134550242" at="52,56,53,26" concept="6" />
+      <node id="8473239748134550242" at="55,56,56,26" concept="6" />
+      <node id="8473239748134550242" at="58,56,59,26" concept="6" />
+      <node id="8473239748134550242" at="61,56,62,26" concept="6" />
+      <node id="8473239748134550242" at="64,56,65,26" concept="6" />
+      <node id="8473239748134550242" at="66,5,67,34" concept="6" />
+      <node id="8473239748134550242" at="18,0,21,0" concept="4" trace="getName#()Ljava/lang/String;" />
+      <node id="8473239748134550242" at="26,0,29,0" concept="4" trace="getValue#()Ljava/lang/String;" />
+      <node id="8473239748134550242" at="29,0,32,0" concept="4" trace="getValueAsString#()Ljava/lang/String;" />
+      <node id="8473239748134550242" at="42,0,45,0" concept="7" trace="getDefault#()LArduinoML/structure/OPERATORS;" />
+      <node id="8473239748134550242" at="45,52,48,5" concept="3" />
+      <node id="8473239748134550242" at="48,5,51,5" concept="3" />
+      <node id="8473239748134550242" at="51,5,54,5" concept="3" />
+      <node id="8473239748134550242" at="54,5,57,5" concept="3" />
+      <node id="8473239748134550242" at="57,5,60,5" concept="3" />
+      <node id="8473239748134550242" at="60,5,63,5" concept="3" />
+      <node id="8473239748134550242" at="63,5,66,5" concept="3" />
+      <node id="8473239748134550242" at="22,0,26,0" concept="0" trace="OPERATORS#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="8473239748134550242" at="32,0,42,0" concept="7" trace="getConstants#()Ljava/util/List;" />
+      <node id="8473239748134550242" at="45,0,69,0" concept="7" trace="parseValue#(Ljava/lang/String;)LArduinoML/structure/OPERATORS;" />
+      <scope id="8473239748134550242" at="18,27,19,18" />
+      <scope id="8473239748134550242" at="26,28,27,19" />
+      <scope id="8473239748134550242" at="29,36,30,19" />
+      <scope id="8473239748134550242" at="42,40,43,16" />
+      <scope id="8473239748134550242" at="46,24,47,36" />
+      <scope id="8473239748134550242" at="49,56,50,26" />
+      <scope id="8473239748134550242" at="52,56,53,26" />
+      <scope id="8473239748134550242" at="55,56,56,26" />
+      <scope id="8473239748134550242" at="58,56,59,26" />
+      <scope id="8473239748134550242" at="61,56,62,26" />
+      <scope id="8473239748134550242" at="64,56,65,26" />
+      <scope id="8473239748134550242" at="22,48,24,20" />
+      <scope id="8473239748134550242" at="18,0,21,0" />
+      <scope id="8473239748134550242" at="26,0,29,0" />
+      <scope id="8473239748134550242" at="29,0,32,0" />
+      <scope id="8473239748134550242" at="42,0,45,0" />
+      <scope id="8473239748134550242" at="22,0,26,0">
+        <var name="name" id="8473239748134550242" />
+        <var name="value" id="8473239748134550242" />
+      </scope>
+      <scope id="8473239748134550242" at="32,48,40,16">
+        <var name="list" id="8473239748134550242" />
+      </scope>
+      <scope id="8473239748134550242" at="32,0,42,0" />
+      <scope id="8473239748134550242" at="45,52,67,34" />
+      <scope id="8473239748134550242" at="45,0,69,0">
+        <var name="value" id="8473239748134550242" />
+      </scope>
+      <unit id="8473239748134550242" at="9,0,70,0" name="ArduinoML.structure.OPERATORS" />
+    </file>
+    <file name="OPERATORS_PropertySupport.java">
+      <node id="8473239748134550242" at="11,24,12,18" concept="6" />
+      <node id="8473239748134550242" at="13,5,14,95" concept="5" />
+      <node id="8473239748134550242" at="15,33,16,44" concept="5" />
+      <node id="8473239748134550242" at="17,45,18,20" concept="6" />
+      <node id="8473239748134550242" at="20,5,21,17" concept="6" />
+      <node id="8473239748134550242" at="24,24,25,18" concept="6" />
+      <node id="8473239748134550242" at="26,5,27,95" concept="5" />
+      <node id="8473239748134550242" at="28,33,29,44" concept="5" />
+      <node id="8473239748134550242" at="30,45,31,43" concept="6" />
+      <node id="8473239748134550242" at="33,5,34,16" concept="6" />
+      <node id="8473239748134550242" at="36,49,37,53" concept="5" />
+      <node id="8473239748134550242" at="38,27,39,32" concept="6" />
+      <node id="8473239748134550242" at="40,5,41,14" concept="6" />
+      <node id="8473239748134550242" at="10,44,13,5" concept="3" />
+      <node id="8473239748134550242" at="16,44,19,7" concept="3" />
+      <node id="8473239748134550242" at="23,47,26,5" concept="3" />
+      <node id="8473239748134550242" at="29,44,32,7" concept="3" />
+      <node id="8473239748134550242" at="37,53,40,5" concept="3" />
+      <node id="8473239748134550242" at="14,95,20,5" concept="8" />
+      <node id="8473239748134550242" at="27,95,33,5" concept="8" />
+      <node id="8473239748134550242" at="36,0,43,0" concept="4" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="8473239748134550242" at="10,0,23,0" concept="4" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="8473239748134550242" at="23,0,36,0" concept="4" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="8473239748134550242" at="11,24,12,18" />
+      <scope id="8473239748134550242" at="17,45,18,20" />
+      <scope id="8473239748134550242" at="24,24,25,18" />
+      <scope id="8473239748134550242" at="30,45,31,43" />
+      <scope id="8473239748134550242" at="38,27,39,32" />
+      <scope id="8473239748134550242" at="15,33,19,7">
+        <var name="constant" id="8473239748134550242" />
+      </scope>
+      <scope id="8473239748134550242" at="28,33,32,7">
+        <var name="constant" id="8473239748134550242" />
+      </scope>
+      <scope id="8473239748134550242" at="36,49,41,14">
+        <var name="constant" id="8473239748134550242" />
+      </scope>
+      <scope id="8473239748134550242" at="36,0,43,0">
+        <var name="value" id="8473239748134550242" />
+      </scope>
+      <scope id="8473239748134550242" at="10,44,21,17">
+        <var name="constants" id="8473239748134550242" />
+      </scope>
+      <scope id="8473239748134550242" at="23,47,34,16">
+        <var name="constants" id="8473239748134550242" />
+      </scope>
+      <scope id="8473239748134550242" at="10,0,23,0">
+        <var name="value" id="8473239748134550242" />
+      </scope>
+      <scope id="8473239748134550242" at="23,0,36,0">
+        <var name="value" id="8473239748134550242" />
+      </scope>
+      <unit id="8473239748134550242" at="9,0,44,0" name="ArduinoML.structure.OPERATORS_PropertySupport" />
     </file>
   </root>
 </debug-info>

@@ -9,7 +9,6 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="67j" ref="r:c3495eae-2a50-4eb5-87a2-5e8ab67ad9fe(ArduinoML.structure)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
@@ -128,6 +127,7 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="5edee0cf-46e1-49f9-971e-6b9e2e5cae16" name="ArduinoML">
+      <concept id="8218746718699842484" name="ArduinoML.structure.Sensor" flags="ng" index="3T334G" />
       <concept id="8218746718699866923" name="ArduinoML.structure.Actuator" flags="ng" index="3T3p6N" />
       <concept id="8218746718699866924" name="ArduinoML.structure.Brick" flags="ng" index="3T3p6O">
         <property id="8218746718699890346" name="pin" index="3T3nKM" />
@@ -1382,51 +1382,9 @@
   <node concept="13MO4I" id="61zTmV9wIln">
     <property role="TrG5h" value="reduce_Joystick" />
     <ref role="3gUMe" to="u0m8:78eQDyb0IIO" resolve="Joystick" />
-    <node concept="9aQIb" id="78eQDyb34zQ" role="13RCb5">
-      <node concept="3clFbS" id="78eQDyb34zR" role="9aQI4">
-        <node concept="3clFbF" id="78eQDyb34zV" role="3cqZAp">
-          <node concept="2OqwBi" id="78eQDyb34Bw" role="3clFbG">
-            <node concept="10M0yZ" id="78eQDyb34zU" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-            </node>
-            <node concept="liA8E" id="78eQDyb34Tr" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-              <node concept="3cpWs3" id="78eQDyb35tP" role="37wK5m">
-                <node concept="Xl_RD" id="78eQDyb35tS" role="3uHU7w">
-                  <property role="Xl_RC" value=", OUTPUT);" />
-                </node>
-                <node concept="3cpWs3" id="78eQDyb354f" role="3uHU7B">
-                  <node concept="Xl_RD" id="78eQDyb34TY" role="3uHU7B">
-                    <property role="Xl_RC" value="  pinMode(" />
-                  </node>
-                  <node concept="3cmrfG" id="12ryeWwqcM9" role="3uHU7w">
-                    <property role="3cmrfH" value="0" />
-                    <node concept="17Uvod" id="12ryeWwqcPj" role="lGtFl">
-                      <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580320020/1068580320021" />
-                      <property role="2qtEX9" value="value" />
-                      <node concept="3zFVjK" id="12ryeWwqcPm" role="3zH0cK">
-                        <node concept="3clFbS" id="12ryeWwqcPn" role="2VODD2">
-                          <node concept="3clFbF" id="12ryeWwqcPt" role="3cqZAp">
-                            <node concept="2OqwBi" id="12ryeWwqcPo" role="3clFbG">
-                              <node concept="3TrcHB" id="12ryeWwqcPr" role="2OqNvi">
-                                <ref role="3TsBF5" to="67j:78eQDyb0UqE" resolve="pin" />
-                              </node>
-                              <node concept="30H73N" id="12ryeWwqcPs" role="2Oq$k0" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="1IuFFadUbxm" role="3cqZAp" />
-      </node>
-      <node concept="raruj" id="12ryeWwpWYh" role="lGtFl" />
+    <node concept="3T334G" id="1IuFFadUGRY" role="13RCb5">
+      <property role="TrG5h" value="button" />
+      <property role="3T3nKM" value="1" />
     </node>
   </node>
   <node concept="13MO4I" id="1IuFFadTC3u">
