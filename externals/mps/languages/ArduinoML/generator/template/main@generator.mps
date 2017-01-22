@@ -200,6 +200,12 @@
         <ref role="v9R2y" node="7mmZEx$eLpW" resolve="reduce_Condition" />
       </node>
     </node>
+    <node concept="3aamgX" id="65HLi3o7d1G" role="3acgRq">
+      <ref role="30HIoZ" to="67j:78eQDyb0OGH" resolve="App" />
+      <node concept="j$656" id="65HLi3o7d1W" role="1lVwrX">
+        <ref role="v9R2y" node="65HLi3o6aC6" resolve="GenerateAppArduino" />
+      </node>
+    </node>
     <node concept="3lhOvk" id="78eQDyb1XUp" role="3lj3bC">
       <ref role="30HIoZ" to="67j:78eQDyb0OGH" resolve="App" />
       <ref role="3lhOvi" node="78eQDyb1XNT" resolve="map_App" />
@@ -1164,6 +1170,29 @@
         </node>
       </node>
       <node concept="raruj" id="7mmZEx$eLr2" role="lGtFl" />
+    </node>
+  </node>
+  <node concept="13MO4I" id="65HLi3o6aC6">
+    <property role="TrG5h" value="GenerateAppArduino" />
+    <ref role="3gUMe" to="67j:78eQDyb0OGH" resolve="App" />
+    <node concept="9aQIb" id="65HLi3o6aCA" role="13RCb5">
+      <node concept="3clFbS" id="65HLi3o6c10" role="9aQI4">
+        <node concept="3clFbF" id="65HLi3o6c0Y" role="3cqZAp">
+          <node concept="2OqwBi" id="65HLi3o6c0V" role="3clFbG">
+            <node concept="10M0yZ" id="65HLi3o6c0W" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+            </node>
+            <node concept="liA8E" id="65HLi3o6c0X" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="Xl_RD" id="65HLi3o6c1y" role="37wK5m">
+                <property role="Xl_RC" value="toto" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="raruj" id="65HLi3o6c5a" role="lGtFl" />
     </node>
   </node>
 </model>

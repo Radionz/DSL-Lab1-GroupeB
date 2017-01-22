@@ -13,10 +13,11 @@
           <sourceRoot path="${module}/generator/template" />
         </modelRoot>
       </models>
-      <external-templates />
+      <external-templates>
+        <generator generatorUID="e58e7b1d-f0e3-423e-9d4c-0604a9db6a5b(ArduinoML#8218746718699807902)" />
+      </external-templates>
       <dependencies>
         <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
-        <dependency reexport="true">5edee0cf-46e1-49f9-971e-6b9e2e5cae16(ArduinoML)</dependency>
       </dependencies>
       <usedDevKits>
         <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
@@ -42,6 +43,7 @@
       <dependencyVersions>
         <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
         <module reference="5edee0cf-46e1-49f9-971e-6b9e2e5cae16(ArduinoML)" version="0" />
+        <module reference="e58e7b1d-f0e3-423e-9d4c-0604a9db6a5b(ArduinoML#8218746718699807902)" version="0" />
         <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
         <module reference="b32eb112-ab15-4ada-9339-b02df144c438(KonamiCode)" version="0" />
         <module reference="ed034589-4a18-42bd-96ba-34fee19408f8(KonamiCode#6945647314324847253)" version="0" />
@@ -56,7 +58,22 @@
         <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
         <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
       </dependencyVersions>
-      <mapping-priorities />
+      <mapping-priorities>
+        <mapping-priority-rule kind="strictly_before">
+          <greater-priority-mapping>
+            <generator generatorUID="ed034589-4a18-42bd-96ba-34fee19408f8(KonamiCode#6945647314324847253)" />
+            <external-mapping>
+              <mapping-node modelUID="r:3548c00a-3852-4275-97b8-d654a1470030(KonamiCode.generator.template.main@generator)" nodeID="8218746718699807903" />
+            </external-mapping>
+          </greater-priority-mapping>
+          <lesser-priority-mapping>
+            <generator generatorUID="e58e7b1d-f0e3-423e-9d4c-0604a9db6a5b(ArduinoML#8218746718699807902)" />
+            <external-mapping>
+              <mapping-node modelUID="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)" nodeID="8218746718699807903" />
+            </external-mapping>
+          </lesser-priority-mapping>
+        </mapping-priority-rule>
+      </mapping-priorities>
     </generator>
   </generators>
   <sourcePath />
@@ -99,6 +116,7 @@
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
+    <module reference="5edee0cf-46e1-49f9-971e-6b9e2e5cae16(ArduinoML)" version="0" />
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="b32eb112-ab15-4ada-9339-b02df144c438(KonamiCode)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
@@ -115,6 +133,7 @@
   <extendedLanguages>
     <extendedLanguage>4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)</extendedLanguage>
     <extendedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</extendedLanguage>
+    <extendedLanguage>5edee0cf-46e1-49f9-971e-6b9e2e5cae16(ArduinoML)</extendedLanguage>
   </extendedLanguages>
 </language>
 

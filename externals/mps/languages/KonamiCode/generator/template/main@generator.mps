@@ -10,6 +10,7 @@
   </languages>
   <imports>
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="z0bc" ref="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)" />
     <import index="u0m8" ref="r:bdfa9165-9dc5-4197-97a7-5f38e4e2b06a(KonamiCode.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
@@ -122,11 +123,17 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="5edee0cf-46e1-49f9-971e-6b9e2e5cae16" name="ArduinoML">
+      <concept id="8473239748133627831" name="ArduinoML.structure.Condition" flags="ng" index="hFP$v">
+        <property id="8473239748133627854" name="value" index="hFP_A" />
+        <property id="8473239748134550348" name="operator" index="hOkn$" />
+        <reference id="8473239748133627843" name="sensor" index="hFP_F" />
+      </concept>
       <concept id="6483884641801180718" name="ArduinoML.structure.State" flags="ng" index="3uOfik">
         <child id="6483884641801182880" name="transitions" index="3uOfKq" />
       </concept>
       <concept id="6483884641801182720" name="ArduinoML.structure.Transition" flags="ng" index="3uOfMU">
         <reference id="6483884641801253235" name="target" index="3uPXf9" />
+        <child id="8473239748133628023" name="conditions" index="hFPrv" />
       </concept>
       <concept id="8218746718699842484" name="ArduinoML.structure.Sensor" flags="ng" index="3T334G" />
       <concept id="8218746718699866923" name="ArduinoML.structure.Actuator" flags="ng" index="3T3p6N" />
@@ -136,7 +143,6 @@
       <concept id="8218746718699866925" name="ArduinoML.structure.App" flags="ng" index="3T3p6P">
         <reference id="6483884641801182886" name="init_state" index="3uOfKs" />
         <child id="6483884641801182883" name="states" index="3uOfKp" />
-        <child id="8218746718699890354" name="bricks" index="3T3nKE" />
       </concept>
     </language>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
@@ -1262,11 +1268,12 @@
         <property role="TrG5h" value="toto" />
         <node concept="3uOfMU" id="65HLi3nT6y2" role="3uOfKq">
           <ref role="3uPXf9" node="65HLi3nT6y1" resolve="toto" />
+          <node concept="hFP$v" id="65HLi3o7jEk" role="hFPrv">
+            <property role="hOkn$" value="NE" />
+            <property role="hFP_A" value="1" />
+            <ref role="hFP_F" node="65HLi3nT2TL" resolve="joystick" />
+          </node>
         </node>
-      </node>
-      <node concept="3T3p6N" id="65HLi3nT6xY" role="3T3nKE">
-        <property role="TrG5h" value="aaaa" />
-        <property role="3T3nKM" value="7" />
       </node>
       <node concept="raruj" id="65HLi3nT6yD" role="lGtFl" />
     </node>
