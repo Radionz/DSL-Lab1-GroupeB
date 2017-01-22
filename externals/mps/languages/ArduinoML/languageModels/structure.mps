@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
@@ -69,7 +70,7 @@
     <property role="R5$K2" value="false" />
     <property role="EcuMT" value="8218746718699866924" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="78eQDyb0UqC" role="PzmwI">
+    <node concept="PrWs8" id="65HLi3o9l25" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
     <node concept="1TJgyi" id="78eQDyb0UqE" role="1TKVEl">
@@ -154,19 +155,17 @@
     <property role="TrG5h" value="Transition" />
     <property role="EcuMT" value="6483884641801182720" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="5BVoFE7bb5N" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="target" />
-      <property role="20lbJX" value="1" />
-      <property role="IQ2ns" value="6483884641801253235" />
-      <ref role="20lvS9" node="5BVoFE7aToI" resolve="State" />
-    </node>
     <node concept="1TJgyj" id="7mmZEx$eqxR" role="1TKVEi">
       <property role="IQ2ns" value="8473239748133628023" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="conditions" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="7mmZEx$equR" resolve="Condition" />
+    </node>
+    <node concept="1TJgyi" id="65HLi3obOvb" role="1TKVEl">
+      <property role="IQ2nx" value="7020484138997073867" />
+      <property role="TrG5h" value="target" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="AxPO7" id="5BVoFE7aTSL">

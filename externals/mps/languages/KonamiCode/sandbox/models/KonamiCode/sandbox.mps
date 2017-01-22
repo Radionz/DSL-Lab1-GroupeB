@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="b32eb112-ab15-4ada-9339-b02df144c438" name="KonamiCode" version="-1" />
+    <use id="5edee0cf-46e1-49f9-971e-6b9e2e5cae16" name="ArduinoML" version="0" />
   </languages>
   <imports />
   <registry>
@@ -46,13 +47,13 @@
     <node concept="2D6mZc" id="1IuFFadTBpH" role="3uOfKp">
       <property role="2D6mZ8" value="LEFT" />
     </node>
-    <node concept="3T334G" id="1IuFFadRRMs" role="2D6mn0">
-      <property role="2D6mmn" value="11" />
-      <property role="2D6mml" value="12" />
-    </node>
     <node concept="3T3p6O" id="1IuFFadRRMt" role="2D6mO3">
       <property role="TrG5h" value="redLed" />
       <property role="3T3nKM" value="9" />
+    </node>
+    <node concept="3T334G" id="65HLi3o9w4j" role="2D6mn0">
+      <property role="2D6mmn" value="1" />
+      <property role="2D6mml" value="2" />
     </node>
   </node>
 </model>

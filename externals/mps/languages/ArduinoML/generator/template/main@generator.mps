@@ -828,15 +828,10 @@
                       <node concept="3zFVjK" id="5BVoFE7dhsm" role="3zH0cK">
                         <node concept="3clFbS" id="5BVoFE7dhsn" role="2VODD2">
                           <node concept="3clFbF" id="5BVoFE7dhXD" role="3cqZAp">
-                            <node concept="2OqwBi" id="5BVoFE7diyS" role="3clFbG">
-                              <node concept="2OqwBi" id="5BVoFE7di1D" role="2Oq$k0">
-                                <node concept="30H73N" id="5BVoFE7dhXC" role="2Oq$k0" />
-                                <node concept="3TrEf2" id="5BVoFE7dike" role="2OqNvi">
-                                  <ref role="3Tt5mk" to="67j:5BVoFE7bb5N" resolve="target" />
-                                </node>
-                              </node>
-                              <node concept="3TrcHB" id="5BVoFE7diTn" role="2OqNvi">
-                                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                            <node concept="2OqwBi" id="5BVoFE7di1D" role="3clFbG">
+                              <node concept="30H73N" id="5BVoFE7dhXC" role="2Oq$k0" />
+                              <node concept="3TrcHB" id="65HLi3obRFx" role="2OqNvi">
+                                <ref role="3TsBF5" to="67j:65HLi3obOvb" resolve="target" />
                               </node>
                             </node>
                           </node>
