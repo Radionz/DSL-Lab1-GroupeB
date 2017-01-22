@@ -4,7 +4,9 @@
   <languages>
     <use id="5edee0cf-46e1-49f9-971e-6b9e2e5cae16" name="ArduinoML" version="-1" />
   </languages>
-  <imports />
+  <imports>
+    <import index="4ucp" ref="r:ee7059f0-5334-4193-b87b-3b710f3975bb(ArduinoML.lab1)" />
+  </imports>
   <registry>
     <language id="5edee0cf-46e1-49f9-971e-6b9e2e5cae16" name="ArduinoML">
       <concept id="8473239748133627831" name="ArduinoML.structure.Condition" flags="ng" index="hFP$v">
@@ -14,11 +16,6 @@
       </concept>
       <concept id="6483884641801180718" name="ArduinoML.structure.State" flags="ng" index="3uOfik">
         <child id="6483884641801182880" name="transitions" index="3uOfKq" />
-        <child id="6483884641801182858" name="actions" index="3uOfKK" />
-      </concept>
-      <concept id="6483884641801181722" name="ArduinoML.structure.Action" flags="ng" index="3uOfyw">
-        <property id="6483884641801182714" name="status" index="3uOfX0" />
-        <reference id="6483884641801182716" name="actuator" index="3uOfX6" />
       </concept>
       <concept id="6483884641801182720" name="ArduinoML.structure.Transition" flags="ng" index="3uOfMU">
         <reference id="6483884641801253235" name="target" index="3uPXf9" />
@@ -36,54 +33,32 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
-      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
   </registry>
-  <node concept="3T3p6P" id="1lBmc7ZPwJf">
+  <node concept="3T3p6P" id="65HLi3nTwcc">
     <property role="TrG5h" value="VerySimpleAlarm" />
-    <ref role="3uOfKs" node="1lBmc7ZPwJi" resolve="off" />
-    <node concept="3uOfik" id="1IuFFadUmfC" role="3uOfKp">
+    <ref role="3uOfKs" node="65HLi3nTwce" resolve="off" />
+    <node concept="3T3p6N" id="65HLi3nTwcF" role="3T3nKE">
+      <property role="TrG5h" value="toto" />
+      <property role="3T3nKM" value="7" />
+    </node>
+    <node concept="3T334G" id="65HLi3o5fLM" role="3T3nKE">
+      <property role="TrG5h" value="button" />
+      <property role="3T3nKM" value="8" />
+    </node>
+    <node concept="3uOfik" id="65HLi3nTwce" role="3uOfKp">
       <property role="TrG5h" value="off" />
-      <node concept="3uOfyw" id="1IuFFadUmg0" role="3uOfKK">
-        <property role="3uOfX0" value="true" />
-        <ref role="3uOfX6" node="1lBmc7ZPwKH" resolve="buzzer" />
-      </node>
-      <node concept="3uOfyw" id="1IuFFadUmfL" role="3uOfKK">
-        <property role="3uOfX0" value="true" />
-        <ref role="3uOfX6" node="1lBmc7ZPwKH" resolve="buzzer" />
-      </node>
-      <node concept="3uOfMU" id="1IuFFadUmfD" role="3uOfKq">
-        <ref role="3uPXf9" node="1IuFFadUmfR" resolve="lol2" />
-        <node concept="hFP$v" id="1IuFFadUmfP" role="hFPrv">
-          <property role="hOkn$" value="EQ" />
-          <property role="hFP_A" value="123" />
-          <ref role="hFP_F" node="1lBmc7ZPwJh" resolve="button" />
+      <node concept="3uOfMU" id="65HLi3nTwcf" role="3uOfKq">
+        <ref role="3uPXf9" node="65HLi3nTwce" resolve="off" />
+        <node concept="hFP$v" id="65HLi3o5fLQ" role="hFPrv">
+          <property role="hOkn$" value="NE" />
+          <property role="hFP_A" value="120" />
+          <ref role="hFP_F" node="65HLi3o5fLM" resolve="button" />
         </node>
       </node>
-    </node>
-    <node concept="3uOfik" id="1IuFFadUmfR" role="3uOfKp">
-      <property role="TrG5h" value="lol2" />
-      <node concept="3uOfMU" id="1IuFFadUmfS" role="3uOfKq">
-        <ref role="3uPXf9" node="1IuFFadUmfC" resolve="off" />
-      </node>
-    </node>
-    <node concept="3T334G" id="1lBmc7ZPwJh" role="3T3nKE">
-      <property role="TrG5h" value="button" />
-      <property role="3T3nKM" value="9" />
-    </node>
-    <node concept="3T3p6N" id="1lBmc7ZPwKH" role="3T3nKE">
-      <property role="TrG5h" value="buzzer" />
-      <property role="3T3nKM" value="11" />
-    </node>
-    <node concept="3T3p6N" id="1lBmc7ZPwJg" role="3T3nKE">
-      <property role="TrG5h" value="led" />
-      <property role="3T3nKM" value="12" />
-      <property role="3GE5qa" value="3" />
     </node>
   </node>
 </model>
