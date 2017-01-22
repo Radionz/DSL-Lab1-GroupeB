@@ -10,28 +10,28 @@
   <root nodeRef="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/6483884641801605129">
     <file name="QueriesGenerated.java">
       <node id="6483884641801830747" at="24,112,25,175" concept="1" />
+      <node id="7020484138998683942" at="27,112,28,175" concept="1" />
       <node id="6483884641801785294" at="72,120,73,193" concept="1" />
       <node id="8473239748133716425" at="75,120,76,197" concept="1" />
       <scope id="6483884641801830741" at="24,112,25,175" />
+      <scope id="7020484138998683941" at="27,112,28,175" />
       <scope id="6483884641801785288" at="72,120,73,193" />
       <scope id="8473239748133714058" at="75,120,76,197" />
     </file>
   </root>
   <root nodeRef="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/6483884641801605173">
     <file name="QueriesGenerated.java">
-      <node id="6483884641801621895" at="27,112,28,345" concept="1" />
-      <node id="6483884641801632777" at="30,112,31,217" concept="1" />
-      <scope id="6483884641801620170" at="27,112,28,345" />
-      <scope id="6483884641801630273" at="30,112,31,217" />
+      <node id="6483884641801621895" at="30,112,31,345" concept="1" />
+      <node id="6483884641801632777" at="33,112,34,217" concept="1" />
+      <scope id="6483884641801620170" at="30,112,31,345" />
+      <scope id="6483884641801630273" at="33,112,34,217" />
     </file>
   </root>
   <root nodeRef="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/6483884641801605205">
     <file name="QueriesGenerated.java">
-      <node id="6483884641801805673" at="33,112,34,187" concept="1" />
-      <node id="6483884641801882589" at="36,112,37,64" concept="1" />
+      <node id="6483884641801805673" at="36,112,37,187" concept="1" />
       <node id="8473239748134333140" at="78,120,79,196" concept="1" />
-      <scope id="6483884641801803543" at="33,112,34,187" />
-      <scope id="6483884641801880126" at="36,112,37,64" />
+      <scope id="6483884641801803543" at="36,112,37,187" />
       <scope id="8473239748134333139" at="78,120,79,196" />
     </file>
   </root>
