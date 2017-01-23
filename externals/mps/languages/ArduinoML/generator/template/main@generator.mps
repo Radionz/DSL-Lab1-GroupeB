@@ -371,7 +371,7 @@
                 </node>
                 <node concept="3cpWs3" id="5BVoFE7cbjG" role="3uHU7B">
                   <node concept="Xl_RD" id="5BVoFE7caZW" role="3uHU7B">
-                    <property role="Xl_RC" value="\nvoid loop() { state_" />
+                    <property role="Xl_RC" value="\nvoid loop() { " />
                   </node>
                   <node concept="Xl_RD" id="5BVoFE7cbmq" role="3uHU7w">
                     <property role="Xl_RC" value="init_state" />
@@ -640,26 +640,21 @@
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="3cpWs3" id="5BVoFE7dsra" role="37wK5m">
                 <node concept="Xl_RD" id="5BVoFE7dsU4" role="3uHU7w">
-                  <property role="Xl_RC" value="(); }" />
+                  <property role="Xl_RC" value="();" />
                 </node>
-                <node concept="3cpWs3" id="5BVoFE7dqsK" role="3uHU7B">
-                  <node concept="Xl_RD" id="5BVoFE7dq3h" role="3uHU7B">
-                    <property role="Xl_RC" value="  // else { state_" />
-                  </node>
-                  <node concept="Xl_RD" id="65HLi3ohX$y" role="3uHU7w">
-                    <property role="Xl_RC" value="STATE_NAME" />
-                    <node concept="17Uvod" id="65HLi3ohX$z" role="lGtFl">
-                      <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
-                      <property role="2qtEX9" value="value" />
-                      <node concept="3zFVjK" id="65HLi3ohX$$" role="3zH0cK">
-                        <node concept="3clFbS" id="65HLi3ohX$_" role="2VODD2">
-                          <node concept="3clFbF" id="65HLi3ohX$A" role="3cqZAp">
-                            <node concept="2OqwBi" id="65HLi3ohX$B" role="3clFbG">
-                              <node concept="3TrcHB" id="65HLi3ohX$C" role="2OqNvi">
-                                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                              </node>
-                              <node concept="30H73N" id="65HLi3ohX$D" role="2Oq$k0" />
+                <node concept="Xl_RD" id="65HLi3ohX$y" role="3uHU7B">
+                  <property role="Xl_RC" value="STATE_NAME" />
+                  <node concept="17Uvod" id="65HLi3ohX$z" role="lGtFl">
+                    <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
+                    <property role="2qtEX9" value="value" />
+                    <node concept="3zFVjK" id="65HLi3ohX$$" role="3zH0cK">
+                      <node concept="3clFbS" id="65HLi3ohX$_" role="2VODD2">
+                        <node concept="3clFbF" id="65HLi3ohX$A" role="3cqZAp">
+                          <node concept="2OqwBi" id="65HLi3ohX$B" role="3clFbG">
+                            <node concept="3TrcHB" id="65HLi3ohX$C" role="2OqNvi">
+                              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                             </node>
+                            <node concept="30H73N" id="65HLi3ohX$D" role="2Oq$k0" />
                           </node>
                         </node>
                       </node>
@@ -921,7 +916,7 @@
                       <node concept="3cpWs3" id="7mmZEx$faXN" role="3uHU7B">
                         <node concept="3cpWs3" id="7mmZEx$f351" role="3uHU7B">
                           <node concept="Xl_RD" id="7mmZEx$eLq8" role="3uHU7B">
-                            <property role="Xl_RC" value="digitalRead(" />
+                            <property role="Xl_RC" value="analogRead(" />
                           </node>
                           <node concept="3cmrfG" id="7mmZEx$f5qe" role="3uHU7w">
                             <property role="3cmrfH" value="0" />

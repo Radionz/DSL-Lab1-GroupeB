@@ -28,6 +28,9 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
+        <child id="1169127546356" name="extends" index="PrDN$" />
+      </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -92,9 +95,9 @@
     <node concept="1TJgyj" id="61zTmV9uC2I" role="1TKVEi">
       <property role="IQ2ns" value="6945647314324848814" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="Joystick" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="78eQDyb0IIO" resolve="Joystick" />
+      <property role="20kJfa" value="controllers" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="1j74uLtBLV6" resolve="ActionController" />
     </node>
     <node concept="1TJgyj" id="61zTmV9uCxH" role="1TKVEi">
       <property role="IQ2ns" value="6945647314324850797" />
@@ -124,6 +127,19 @@
       <property role="TrG5h" value="y" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+    <node concept="1TJgyi" id="1j74uLtAUKn" role="1TKVEl">
+      <property role="IQ2nx" value="1497185108004416535" />
+      <property role="TrG5h" value="sensivityMin" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="1j74uLtAUKr" role="1TKVEl">
+      <property role="IQ2nx" value="1497185108004416539" />
+      <property role="TrG5h" value="sensivityMax" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="PrWs8" id="1j74uLtBLWi" role="PzmwI">
+      <ref role="PrY4T" node="1j74uLtBLV6" resolve="ActionController" />
+    </node>
   </node>
   <node concept="1TIwiD" id="78eQDyb0OGG">
     <property role="TrG5h" value="Actuator" />
@@ -148,6 +164,20 @@
       <property role="IQ2nx" value="6945647314324851366" />
       <property role="TrG5h" value="direction" />
       <ref role="AX2Wp" node="5BVoFE7aTSL" resolve="DIRECTION" />
+    </node>
+    <node concept="1TJgyj" id="1j74uLtB8P1" role="1TKVEi">
+      <property role="IQ2ns" value="1497185108004474177" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="joystick" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="78eQDyb0IIO" resolve="Joystick" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1j74uLtBLV6">
+    <property role="EcuMT" value="1497185108004642502" />
+    <property role="TrG5h" value="ActionController" />
+    <node concept="PrWs8" id="1j74uLtBLVy" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>
