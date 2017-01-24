@@ -208,5 +208,15 @@
       <node concept="2iRfu4" id="7mmZEx$eqvH" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="680Q_h0RQvF">
+    <ref role="1XX52x" to="67j:680Q_h0REwQ" resolve="BrickSetup" />
+    <node concept="3EZMnI" id="680Q_h0Sba9" role="2wV5jI">
+      <node concept="2iRkQZ" id="680Q_h0Sbaa" role="2iSdaV" />
+      <node concept="3F2HdR" id="680Q_h0Sbah" role="3EZMnx">
+        <ref role="1NtTu8" to="67j:680Q_h0REwR" resolve="bricks" />
+        <node concept="2iRkQZ" id="680Q_h0Sbai" role="2czzBx" />
+      </node>
+    </node>
+  </node>
 </model>
 

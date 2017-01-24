@@ -96,6 +96,9 @@
         <property id="8473239748134550348" name="operator" index="hOkn$" />
         <reference id="8473239748133627843" name="sensor" index="hFP_F" />
       </concept>
+      <concept id="7061884271117379638" name="ArduinoML.structure.BrickSetup" flags="ng" index="yRB9y">
+        <child id="7061884271117379639" name="bricks" index="yRB9z" />
+      </concept>
       <concept id="6483884641801180718" name="ArduinoML.structure.State" flags="ng" index="3uOfik">
         <child id="6483884641801182880" name="transitions" index="3uOfKq" />
         <child id="6483884641801182858" name="actions" index="3uOfKK" />
@@ -115,8 +118,8 @@
       </concept>
       <concept id="8218746718699866925" name="ArduinoML.structure.App" flags="ng" index="3T3p6P">
         <reference id="6483884641801182886" name="init_state" index="3uOfKs" />
+        <child id="7061884271117379697" name="bricks" index="yRB8_" />
         <child id="6483884641801182883" name="states" index="3uOfKp" />
-        <child id="8218746718699890354" name="bricks" index="3T3nKE" />
       </concept>
     </language>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
@@ -306,40 +309,21 @@
     <node concept="3T3p6P" id="65HLi3nT61E" role="13RCb5">
       <property role="TrG5h" value="monApp" />
       <ref role="3uOfKs" node="65HLi3od$_J" resolve="state_error" />
-      <node concept="3T3p6N" id="65HLi3oewRd" role="3T3nKE">
-        <property role="TrG5h" value="actuator" />
-        <property role="3T3nKM" value="0" />
-        <node concept="17Uvod" id="65HLi3of2wu" role="lGtFl">
-          <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
-          <property role="2qtEX9" value="name" />
-          <node concept="3zFVjK" id="65HLi3of2wv" role="3zH0cK">
-            <node concept="3clFbS" id="65HLi3of2ww" role="2VODD2">
-              <node concept="3clFbF" id="65HLi3of2IC" role="3cqZAp">
-                <node concept="2OqwBi" id="65HLi3of2Yh" role="3clFbG">
-                  <node concept="30H73N" id="65HLi3of2IB" role="2Oq$k0" />
-                  <node concept="3TrcHB" id="65HLi3of3fT" role="2OqNvi">
-                    <ref role="3TsBF5" to="tpck:gOOYy9I" resolve="alias" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="17Uvod" id="65HLi3of5XS" role="lGtFl">
-          <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8218746718699866924/8218746718699890346" />
-          <property role="2qtEX9" value="pin" />
-          <node concept="3zFVjK" id="65HLi3of5XT" role="3zH0cK">
-            <node concept="3clFbS" id="65HLi3of5XU" role="2VODD2">
-              <node concept="3clFbF" id="65HLi3oh5rL" role="3cqZAp">
-                <node concept="2OqwBi" id="65HLi3oh6GL" role="3clFbG">
-                  <node concept="2OqwBi" id="65HLi3oh5It" role="2Oq$k0">
-                    <node concept="30H73N" id="65HLi3oh5rK" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="65HLi3oh682" role="2OqNvi">
-                      <ref role="3Tt5mk" to="u0m8:61zTmV9uCxH" resolve="OnSuccess" />
+      <node concept="yRB9y" id="680Q_h0SvNs" role="yRB8_">
+        <node concept="3T3p6N" id="680Q_h0SwiN" role="yRB9z">
+          <property role="TrG5h" value="actuator" />
+          <property role="3T3nKM" value="8" />
+          <node concept="17Uvod" id="680Q_h0SwiQ" role="lGtFl">
+            <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+            <property role="2qtEX9" value="name" />
+            <node concept="3zFVjK" id="680Q_h0SwiR" role="3zH0cK">
+              <node concept="3clFbS" id="680Q_h0SwiS" role="2VODD2">
+                <node concept="3clFbF" id="680Q_h0Swrl" role="3cqZAp">
+                  <node concept="2OqwBi" id="680Q_h0SwDI" role="3clFbG">
+                    <node concept="30H73N" id="680Q_h0Swrk" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="680Q_h0SwU_" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:gOOYy9I" resolve="alias" />
                     </node>
-                  </node>
-                  <node concept="3TrcHB" id="65HLi3oh7h3" role="2OqNvi">
-                    <ref role="3TsBF5" to="u0m8:78eQDyb0UqE" resolve="pin" />
                   </node>
                 </node>
               </node>
@@ -388,9 +372,9 @@
       </node>
       <node concept="3uOfik" id="65HLi3oe40K" role="3uOfKp">
         <property role="TrG5h" value="finalState" />
-        <node concept="3uOfyw" id="65HLi3oexBO" role="3uOfKK">
+        <node concept="3uOfyw" id="680Q_h0Sykt" role="3uOfKK">
           <property role="3uOfX0" value="true" />
-          <ref role="3uOfX6" node="65HLi3oewRd" resolve="actuator" />
+          <ref role="3uOfX6" node="680Q_h0SwiN" resolve="actuator" />
         </node>
         <node concept="3uOfMU" id="65HLi3oe40L" role="3uOfKq">
           <property role="2TgCbF" value="state_error" />
@@ -442,22 +426,38 @@
       </node>
       <node concept="3uOfik" id="65HLi3od$_J" role="3uOfKp">
         <property role="TrG5h" value="state_error" />
-        <node concept="3uOfyw" id="1j74uLtAUKk" role="3uOfKK">
+        <node concept="3uOfyw" id="680Q_h0SyFB" role="3uOfKK">
           <property role="3uOfX0" value="false" />
-          <ref role="3uOfX6" node="65HLi3oewRd" resolve="actuator" />
+          <ref role="3uOfX6" node="680Q_h0SwiN" resolve="actuator" />
         </node>
         <node concept="3uOfMU" id="65HLi3od$_K" role="3uOfKq">
           <property role="2TgCbF" value="state_0" />
         </node>
       </node>
       <node concept="raruj" id="65HLi3nT6yD" role="lGtFl" />
-      <node concept="3T334G" id="65HLi3oamrb" role="3T3nKE">
-        <property role="TrG5h" value="joystick1" />
-        <property role="3T3nKM" value="0" />
-      </node>
-      <node concept="3T334G" id="65HLi3oas5X" role="3T3nKE">
-        <property role="TrG5h" value="joystick2" />
-        <property role="3T3nKM" value="1" />
+      <node concept="yRB9y" id="680Q_h0RP3u" role="yRB8_">
+        <node concept="1WS0z7" id="680Q_h0SfNR" role="lGtFl">
+          <node concept="3JmXsc" id="680Q_h0SfNZ" role="3Jn$fo">
+            <node concept="3clFbS" id="680Q_h0SfO7" role="2VODD2">
+              <node concept="3clFbF" id="680Q_h0SfT0" role="3cqZAp">
+                <node concept="2OqwBi" id="680Q_h0Sg8c" role="3clFbG">
+                  <node concept="30H73N" id="680Q_h0SfSZ" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="680Q_h0Sglt" role="2OqNvi">
+                    <ref role="3TtcxE" to="u0m8:61zTmV9uC2I" resolve="controllers" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3T334G" id="680Q_h0SaUi" role="yRB9z">
+          <property role="TrG5h" value="joystick1" />
+          <property role="3T3nKM" value="0" />
+        </node>
+        <node concept="3T334G" id="680Q_h0SfG3" role="yRB9z">
+          <property role="TrG5h" value="joystick2" />
+          <property role="3T3nKM" value="1" />
+        </node>
       </node>
     </node>
   </node>
@@ -493,7 +493,7 @@
             <node concept="hFP$v" id="65HLi3ogK1y" role="hFPrv">
               <property role="hOkn$" value="GT" />
               <property role="hFP_A" value="0" />
-              <ref role="hFP_F" node="65HLi3oamrb" resolve="joystick1" />
+              <ref role="hFP_F" node="680Q_h0SaUi" resolve="joystick1" />
               <node concept="17Uvod" id="1j74uLtBB5t" role="lGtFl">
                 <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8473239748133627831/8473239748133627854" />
                 <property role="2qtEX9" value="value" />
@@ -558,7 +558,7 @@
             <node concept="hFP$v" id="1j74uLtCUaK" role="hFPrv">
               <property role="hOkn$" value="LT" />
               <property role="hFP_A" value="0" />
-              <ref role="hFP_F" node="65HLi3oamrb" resolve="joystick1" />
+              <ref role="hFP_F" node="680Q_h0SaUi" resolve="joystick1" />
               <node concept="17Uvod" id="1j74uLtCUaL" role="lGtFl">
                 <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8473239748133627831/8473239748133627854" />
                 <property role="2qtEX9" value="value" />
@@ -610,7 +610,7 @@
             <node concept="hFP$v" id="1j74uLtCXk2" role="hFPrv">
               <property role="hOkn$" value="GT" />
               <property role="hFP_A" value="0" />
-              <ref role="hFP_F" node="65HLi3oas5X" resolve="joystick2" />
+              <ref role="hFP_F" node="680Q_h0SfG3" resolve="joystick2" />
               <node concept="17Uvod" id="1j74uLtCXk3" role="lGtFl">
                 <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8473239748133627831/8473239748133627854" />
                 <property role="2qtEX9" value="value" />
@@ -649,7 +649,7 @@
             <node concept="hFP$v" id="1j74uLtD0R2" role="hFPrv">
               <property role="hOkn$" value="LT" />
               <property role="hFP_A" value="0" />
-              <ref role="hFP_F" node="65HLi3oas5X" resolve="joystick2" />
+              <ref role="hFP_F" node="680Q_h0SfG3" resolve="joystick2" />
               <node concept="17Uvod" id="1j74uLtD0R3" role="lGtFl">
                 <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8473239748133627831/8473239748133627854" />
                 <property role="2qtEX9" value="value" />
@@ -769,7 +769,7 @@
             <node concept="hFP$v" id="1j74uLtDFft" role="hFPrv">
               <property role="hOkn$" value="LT" />
               <property role="hFP_A" value="0" />
-              <ref role="hFP_F" node="65HLi3oamrb" resolve="joystick1" />
+              <ref role="hFP_F" node="680Q_h0SaUi" resolve="joystick1" />
               <node concept="17Uvod" id="1j74uLtDFfu" role="lGtFl">
                 <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8473239748133627831/8473239748133627854" />
                 <property role="2qtEX9" value="value" />
@@ -847,7 +847,7 @@
             <node concept="hFP$v" id="1j74uLtDFf1" role="hFPrv">
               <property role="hOkn$" value="GT" />
               <property role="hFP_A" value="0" />
-              <ref role="hFP_F" node="65HLi3oamrb" resolve="joystick1" />
+              <ref role="hFP_F" node="680Q_h0SaUi" resolve="joystick1" />
               <node concept="17Uvod" id="1j74uLtDFf2" role="lGtFl">
                 <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8473239748133627831/8473239748133627854" />
                 <property role="2qtEX9" value="value" />
@@ -886,7 +886,7 @@
             <node concept="hFP$v" id="1j74uLtDFfN" role="hFPrv">
               <property role="hOkn$" value="GT" />
               <property role="hFP_A" value="0" />
-              <ref role="hFP_F" node="65HLi3oas5X" resolve="joystick2" />
+              <ref role="hFP_F" node="680Q_h0SfG3" resolve="joystick2" />
               <node concept="17Uvod" id="1j74uLtDFfO" role="lGtFl">
                 <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8473239748133627831/8473239748133627854" />
                 <property role="2qtEX9" value="value" />
@@ -925,7 +925,7 @@
             <node concept="hFP$v" id="1j74uLtDFg3" role="hFPrv">
               <property role="hOkn$" value="LT" />
               <property role="hFP_A" value="0" />
-              <ref role="hFP_F" node="65HLi3oas5X" resolve="joystick2" />
+              <ref role="hFP_F" node="680Q_h0SfG3" resolve="joystick2" />
               <node concept="17Uvod" id="1j74uLtDFg4" role="lGtFl">
                 <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8473239748133627831/8473239748133627854" />
                 <property role="2qtEX9" value="value" />
@@ -1025,7 +1025,7 @@
             <node concept="hFP$v" id="1j74uLtE74I" role="hFPrv">
               <property role="hOkn$" value="LT" />
               <property role="hFP_A" value="0" />
-              <ref role="hFP_F" node="65HLi3oas5X" resolve="joystick2" />
+              <ref role="hFP_F" node="680Q_h0SfG3" resolve="joystick2" />
               <node concept="17Uvod" id="1j74uLtE74J" role="lGtFl">
                 <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8473239748133627831/8473239748133627854" />
                 <property role="2qtEX9" value="value" />
@@ -1103,7 +1103,7 @@
             <node concept="hFP$v" id="1j74uLtE75w" role="hFPrv">
               <property role="hOkn$" value="GT" />
               <property role="hFP_A" value="0" />
-              <ref role="hFP_F" node="65HLi3oas5X" resolve="joystick2" />
+              <ref role="hFP_F" node="680Q_h0SfG3" resolve="joystick2" />
               <node concept="17Uvod" id="1j74uLtE75x" role="lGtFl">
                 <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8473239748133627831/8473239748133627854" />
                 <property role="2qtEX9" value="value" />
@@ -1142,7 +1142,7 @@
             <node concept="hFP$v" id="1j74uLtE75g" role="hFPrv">
               <property role="hOkn$" value="GT" />
               <property role="hFP_A" value="0" />
-              <ref role="hFP_F" node="65HLi3oamrb" resolve="joystick1" />
+              <ref role="hFP_F" node="680Q_h0SaUi" resolve="joystick1" />
               <node concept="17Uvod" id="1j74uLtE75h" role="lGtFl">
                 <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8473239748133627831/8473239748133627854" />
                 <property role="2qtEX9" value="value" />
@@ -1181,7 +1181,7 @@
             <node concept="hFP$v" id="1j74uLtE75K" role="hFPrv">
               <property role="hOkn$" value="LT" />
               <property role="hFP_A" value="0" />
-              <ref role="hFP_F" node="65HLi3oamrb" resolve="joystick1" />
+              <ref role="hFP_F" node="680Q_h0SaUi" resolve="joystick1" />
               <node concept="17Uvod" id="1j74uLtE75L" role="lGtFl">
                 <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8473239748133627831/8473239748133627854" />
                 <property role="2qtEX9" value="value" />
@@ -1281,7 +1281,7 @@
             <node concept="hFP$v" id="1j74uLtEquS" role="hFPrv">
               <property role="hOkn$" value="GT" />
               <property role="hFP_A" value="0" />
-              <ref role="hFP_F" node="65HLi3oas5X" resolve="joystick2" />
+              <ref role="hFP_F" node="680Q_h0SfG3" resolve="joystick2" />
               <node concept="17Uvod" id="1j74uLtEquT" role="lGtFl">
                 <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8473239748133627831/8473239748133627854" />
                 <property role="2qtEX9" value="value" />
@@ -1346,7 +1346,7 @@
             <node concept="hFP$v" id="1j74uLtEqvq" role="hFPrv">
               <property role="hOkn$" value="LT" />
               <property role="hFP_A" value="0" />
-              <ref role="hFP_F" node="65HLi3oas5X" resolve="joystick2" />
+              <ref role="hFP_F" node="680Q_h0SfG3" resolve="joystick2" />
               <node concept="17Uvod" id="1j74uLtEqvr" role="lGtFl">
                 <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8473239748133627831/8473239748133627854" />
                 <property role="2qtEX9" value="value" />
@@ -1398,7 +1398,7 @@
             <node concept="hFP$v" id="1j74uLtEqvE" role="hFPrv">
               <property role="hOkn$" value="GT" />
               <property role="hFP_A" value="0" />
-              <ref role="hFP_F" node="65HLi3oamrb" resolve="joystick1" />
+              <ref role="hFP_F" node="680Q_h0SaUi" resolve="joystick1" />
               <node concept="17Uvod" id="1j74uLtEqvF" role="lGtFl">
                 <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8473239748133627831/8473239748133627854" />
                 <property role="2qtEX9" value="value" />
@@ -1437,7 +1437,7 @@
             <node concept="hFP$v" id="1j74uLtEqvU" role="hFPrv">
               <property role="hOkn$" value="LT" />
               <property role="hFP_A" value="0" />
-              <ref role="hFP_F" node="65HLi3oamrb" resolve="joystick1" />
+              <ref role="hFP_F" node="680Q_h0SaUi" resolve="joystick1" />
               <node concept="17Uvod" id="1j74uLtEqvV" role="lGtFl">
                 <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8473239748133627831/8473239748133627854" />
                 <property role="2qtEX9" value="value" />

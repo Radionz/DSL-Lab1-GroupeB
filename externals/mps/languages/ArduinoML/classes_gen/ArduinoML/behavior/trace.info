@@ -13,6 +13,9 @@
     <file name="BehaviorAspectDescriptor.java">
       <unit at="13,0,41,0" name="ArduinoML.behavior.BehaviorAspectDescriptor" />
     </file>
+    <file name="BrickSetup_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="ArduinoML.behavior.BrickSetup_BehaviorDescriptor" />
+    </file>
     <file name="Brick_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="ArduinoML.behavior.Brick_BehaviorDescriptor" />
     </file>
