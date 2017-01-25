@@ -9,7 +9,7 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root>
     <file name="EditorAspectDescriptorImpl.java">
-      <unit at="15,0,76,0" name="ArduinoML.editor.EditorAspectDescriptorImpl" />
+      <unit at="15,0,81,0" name="ArduinoML.editor.EditorAspectDescriptorImpl" />
     </file>
   </root>
   <root nodeRef="r:2636a672-d428-443c-91fe-602a8633f76e(ArduinoML.editor)/6483884641801283194">
@@ -577,6 +577,103 @@
       </scope>
       <unit id="786174834620785656" at="49,0,76,0" name="ArduinoML.editor.Action_Editor$_Inline_8bscln_a0a" />
       <unit id="6483884641801315066" at="17,0,98,0" name="ArduinoML.editor.Action_Editor" />
+    </file>
+  </root>
+  <root nodeRef="r:2636a672-d428-443c-91fe-602a8633f76e(ArduinoML.editor)/7061884271117428715">
+    <file name="BrickSetup_Editor.java">
+      <node id="7061884271117428715" at="23,79,24,63" concept="5" />
+      <node id="7061884271117428715" at="26,89,27,97" concept="4" />
+      <node id="7061884271117428715" at="27,97,28,48" concept="1" />
+      <node id="7061884271117428715" at="28,48,29,28" concept="1" />
+      <node id="7061884271117428715" at="29,28,30,84" concept="1" />
+      <node id="7061884271117428715" at="30,84,31,22" concept="5" />
+      <node id="7061884271117428715" at="33,91,34,119" concept="4" />
+      <node id="7061884271117428715" at="34,119,35,108" concept="4" />
+      <node id="7061884271117428715" at="35,108,36,47" concept="1" />
+      <node id="7061884271117428715" at="36,47,37,49" concept="1" />
+      <node id="7061884271117428715" at="37,49,38,22" concept="5" />
+      <node id="7061884271117428715" at="41,98,42,50" concept="6" />
+      <node id="7061884271117428715" at="44,66,45,41" concept="4" />
+      <node id="7061884271117428715" at="45,41,46,93" concept="5" />
+      <node id="7061884271117428715" at="48,86,49,80" concept="4" />
+      <node id="7061884271117428715" at="49,80,50,95" concept="1" />
+      <node id="7061884271117428715" at="50,95,51,25" concept="5" />
+      <node id="7061884271117428715" at="53,68,54,34" concept="4" />
+      <node id="7061884271117428715" at="54,34,55,55" concept="1" />
+      <node id="7061884271117428715" at="55,55,56,87" concept="1" />
+      <node id="7061884271117428715" at="56,87,57,23" concept="5" />
+      <node id="7061884271117428715" at="60,96,61,134" concept="1" />
+      <node id="7061884271117428715" at="62,34,63,142" concept="1" />
+      <node id="7061884271117428715" at="63,142,64,146" concept="1" />
+      <node id="7061884271117428715" at="66,122,67,393" concept="1" />
+      <node id="7061884271117428715" at="23,0,26,0" concept="3" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="7061884271117428715" at="41,0,44,0" concept="0" trace="bricksListHandler_dvowmg_a0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="7061884271117428715" at="65,9,68,9" concept="2" />
+      <node id="7061884271117428715" at="44,0,48,0" concept="3" trace="createNodeToInsert#(Ljetbrains/mps/openapi/editor/EditorContext;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="7061884271117428715" at="61,134,65,9" concept="2" />
+      <node id="7061884271117428715" at="48,0,53,0" concept="3" trace="createNodeCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="7061884271117428715" at="53,0,59,0" concept="3" trace="createEmptyCell#(Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="7061884271117428715" at="26,0,33,0" concept="3" trace="createCollection_dvowmg_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="7061884271117428715" at="33,0,40,0" concept="3" trace="createRefNodeList_dvowmg_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="7061884271117428715" at="59,132,69,7" concept="2" />
+      <node id="7061884271117428715" at="59,0,71,0" concept="3" trace="installElementCellActions#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <scope id="7061884271117428715" at="23,79,24,63" />
+      <scope id="7061884271117428715" at="41,98,42,50" />
+      <scope id="7061884271117428715" at="66,122,67,393" />
+      <scope id="7061884271117428715" at="44,66,46,93">
+        <var name="listOwner" id="7061884271117428715" />
+      </scope>
+      <scope id="7061884271117428715" at="62,34,64,146" />
+      <scope id="7061884271117428715" at="23,0,26,0">
+        <var name="editorContext" id="7061884271117428715" />
+        <var name="node" id="7061884271117428715" />
+      </scope>
+      <scope id="7061884271117428715" at="41,0,44,0">
+        <var name="childRole" id="7061884271117428715" />
+        <var name="context" id="7061884271117428715" />
+        <var name="ownerNode" id="7061884271117428715" />
+      </scope>
+      <scope id="7061884271117428715" at="48,86,51,25">
+        <var name="elementCell" id="7061884271117428715" />
+      </scope>
+      <scope id="7061884271117428715" at="44,0,48,0">
+        <var name="editorContext" id="7061884271117428715" />
+      </scope>
+      <scope id="7061884271117428715" at="53,68,57,23">
+        <var name="emptyCell" id="7061884271117428715" />
+      </scope>
+      <scope id="7061884271117428715" at="26,89,31,22">
+        <var name="editorCell" id="7061884271117428715" />
+      </scope>
+      <scope id="7061884271117428715" at="33,91,38,22">
+        <var name="editorCell" id="7061884271117428715" />
+        <var name="handler" id="7061884271117428715" />
+      </scope>
+      <scope id="7061884271117428715" at="48,0,53,0">
+        <var name="editorContext" id="7061884271117428715" />
+        <var name="elementNode" id="7061884271117428715" />
+      </scope>
+      <scope id="7061884271117428715" at="53,0,59,0">
+        <var name="editorContext" id="7061884271117428715" />
+      </scope>
+      <scope id="7061884271117428715" at="26,0,33,0">
+        <var name="editorContext" id="7061884271117428715" />
+        <var name="node" id="7061884271117428715" />
+      </scope>
+      <scope id="7061884271117428715" at="33,0,40,0">
+        <var name="editorContext" id="7061884271117428715" />
+        <var name="node" id="7061884271117428715" />
+      </scope>
+      <scope id="7061884271117428715" at="60,96,68,9" />
+      <scope id="7061884271117428715" at="59,132,69,7" />
+      <scope id="7061884271117428715" at="59,0,71,0">
+        <var name="editorContext" id="7061884271117428715" />
+        <var name="elementCell" id="7061884271117428715" />
+        <var name="elementNode" id="7061884271117428715" />
+        <var name="listOwner" id="7061884271117428715" />
+      </scope>
+      <unit id="7061884271117428715" at="40,0,72,0" name="ArduinoML.editor.BrickSetup_Editor$bricksListHandler_dvowmg_a0" />
+      <unit id="7061884271117428715" at="22,0,73,0" name="ArduinoML.editor.BrickSetup_Editor" />
     </file>
   </root>
   <root nodeRef="r:2636a672-d428-443c-91fe-602a8633f76e(ArduinoML.editor)/786174834620659773">

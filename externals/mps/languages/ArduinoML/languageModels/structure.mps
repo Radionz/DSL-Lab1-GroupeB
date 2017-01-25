@@ -2,8 +2,8 @@
 <model ref="r:c3495eae-2a50-4eb5-87a2-5e8ab67ad9fe(ArduinoML.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
@@ -85,12 +85,12 @@
     <property role="19KtqR" value="true" />
     <property role="EcuMT" value="8218746718699866925" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="78eQDyb0UqM" role="1TKVEi">
+    <node concept="1TJgyj" id="680Q_h0RExL" role="1TKVEi">
+      <property role="IQ2ns" value="7061884271117379697" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="bricks" />
       <property role="20lbJX" value="1..n" />
-      <property role="IQ2ns" value="8218746718699890354" />
-      <ref role="20lvS9" node="78eQDyb0OGG" resolve="Brick" />
+      <ref role="20lvS9" node="680Q_h0REwQ" resolve="BrickSetup" />
     </node>
     <node concept="1TJgyj" id="5BVoFE7aTUz" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -261,6 +261,18 @@
       <property role="IQ2nx" value="786174834620659762" />
       <property role="TrG5h" value="delay" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="680Q_h0REwQ">
+    <property role="EcuMT" value="7061884271117379638" />
+    <property role="TrG5h" value="BrickSetup" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="680Q_h0REwR" role="1TKVEi">
+      <property role="IQ2ns" value="7061884271117379639" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="bricks" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="78eQDyb0OGG" resolve="Brick" />
     </node>
   </node>
 </model>

@@ -156,6 +156,9 @@
       <concept id="1216860049635" name="jetbrains.mps.lang.generator.generationContext.structure.TemplateFunctionParameter_generationContext" flags="nn" index="1iwH7S" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="3562215692195599741" name="jetbrains.mps.lang.smodel.structure.SLinkImplicitSelect" flags="nn" index="13MTOL">
+        <reference id="3562215692195600259" name="link" index="13MTZf" />
+      </concept>
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
@@ -229,15 +232,15 @@
         <ref role="v9R2y" node="65HLi3o6aC6" resolve="GenerateAppArduino" />
       </node>
     </node>
-    <node concept="3lhOvk" id="78eQDyb1XUp" role="3lj3bC">
-      <ref role="30HIoZ" to="67j:78eQDyb0OGH" resolve="App" />
-      <ref role="3lhOvi" node="78eQDyb1XNT" resolve="map_App" />
-    </node>
     <node concept="3aamgX" id="FD3tz4VtK2" role="3acgRq">
       <ref role="30HIoZ" to="67j:FD3tz4UBwg" resolve="Loop" />
       <node concept="j$656" id="FD3tz4VtK3" role="1lVwrX">
         <ref role="v9R2y" node="FD3tz4VtK0" resolve="reduce_Loop" />
       </node>
+    </node>
+    <node concept="3lhOvk" id="78eQDyb1XUp" role="3lj3bC">
+      <ref role="30HIoZ" to="67j:78eQDyb0OGH" resolve="App" />
+      <ref role="3lhOvi" node="78eQDyb1XNT" resolve="map_App" />
     </node>
   </node>
   <node concept="312cEu" id="78eQDyb1XNT">
@@ -308,12 +311,17 @@
           <node concept="2b32R4" id="78eQDyb38dk" role="lGtFl">
             <node concept="3JmXsc" id="78eQDyb38dn" role="2P8S$">
               <node concept="3clFbS" id="78eQDyb38do" role="2VODD2">
-                <node concept="3clFbF" id="78eQDyb38du" role="3cqZAp">
-                  <node concept="2OqwBi" id="78eQDyb38dp" role="3clFbG">
-                    <node concept="3Tsc0h" id="78eQDyb38ds" role="2OqNvi">
-                      <ref role="3TtcxE" to="67j:78eQDyb0UqM" resolve="bricks" />
+                <node concept="3clFbF" id="680Q_h0RIi3" role="3cqZAp">
+                  <node concept="2OqwBi" id="680Q_h0Snhx" role="3clFbG">
+                    <node concept="2OqwBi" id="680Q_h0RIxx" role="2Oq$k0">
+                      <node concept="30H73N" id="680Q_h0RIi2" role="2Oq$k0" />
+                      <node concept="3Tsc0h" id="680Q_h0Sl3C" role="2OqNvi">
+                        <ref role="3TtcxE" to="67j:680Q_h0RExL" resolve="bricks" />
+                      </node>
                     </node>
-                    <node concept="30H73N" id="78eQDyb38dt" role="2Oq$k0" />
+                    <node concept="13MTOL" id="680Q_h0Soxq" role="2OqNvi">
+                      <ref role="13MTZf" to="67j:680Q_h0REwR" resolve="bricks" />
+                    </node>
                   </node>
                 </node>
               </node>

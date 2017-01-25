@@ -2,7 +2,7 @@
 <model ref="r:2636a672-d428-443c-91fe-602a8633f76e(ArduinoML.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="4" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="-1" />
   </languages>
   <imports>
     <import index="67j" ref="r:c3495eae-2a50-4eb5-87a2-5e8ab67ad9fe(ArduinoML.structure)" implicit="true" />
@@ -267,6 +267,16 @@
       </node>
       <node concept="3F0ifn" id="FD3tz4VfuR" role="3EZMnx">
         <property role="3F0ifm" value="}" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="680Q_h0RQvF">
+    <ref role="1XX52x" to="67j:680Q_h0REwQ" resolve="BrickSetup" />
+    <node concept="3EZMnI" id="680Q_h0Sba9" role="2wV5jI">
+      <node concept="2iRkQZ" id="680Q_h0Sbaa" role="2iSdaV" />
+      <node concept="3F2HdR" id="680Q_h0Sbah" role="3EZMnx">
+        <ref role="1NtTu8" to="67j:680Q_h0REwR" resolve="bricks" />
+        <node concept="2iRkQZ" id="680Q_h0Sbai" role="2czzBx" />
       </node>
     </node>
   </node>
