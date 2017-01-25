@@ -8,6 +8,8 @@
   <imports>
     <import index="4fqr" ref="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="67j" ref="r:c3495eae-2a50-4eb5-87a2-5e8ab67ad9fe(ArduinoML.structure)" implicit="true" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -117,16 +119,6 @@
     <property role="TrG5h" value="Joystick" />
     <property role="EcuMT" value="8218746718699842484" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="61zTmV9uC3T" role="1TKVEl">
-      <property role="IQ2nx" value="6945647314324848889" />
-      <property role="TrG5h" value="x" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-    <node concept="1TJgyi" id="61zTmV9uC3V" role="1TKVEl">
-      <property role="IQ2nx" value="6945647314324848891" />
-      <property role="TrG5h" value="y" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
     <node concept="1TJgyi" id="1j74uLtAUKn" role="1TKVEl">
       <property role="IQ2nx" value="1497185108004416535" />
       <property role="TrG5h" value="sensivityMin" />
@@ -139,6 +131,13 @@
     </node>
     <node concept="PrWs8" id="1j74uLtBLWi" role="PzmwI">
       <ref role="PrY4T" node="1j74uLtBLV6" resolve="ActionController" />
+    </node>
+    <node concept="1TJgyj" id="680Q_h0XWtM" role="1TKVEi">
+      <property role="IQ2ns" value="7061884271119026034" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="sensors" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="67j:78eQDyb0IIO" resolve="Sensor" />
     </node>
   </node>
   <node concept="1TIwiD" id="78eQDyb0OGG">
@@ -178,6 +177,13 @@
     <property role="TrG5h" value="ActionController" />
     <node concept="PrWs8" id="1j74uLtBLVy" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="680Q_h0T5zl" role="1TKVEi">
+      <property role="IQ2ns" value="7061884271117752533" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="pins" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" to="tpee:fzcmrck" resolve="IntegerConstant" />
     </node>
   </node>
 </model>
