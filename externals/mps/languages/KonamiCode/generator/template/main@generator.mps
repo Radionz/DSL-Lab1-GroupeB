@@ -453,11 +453,11 @@
       <node concept="raruj" id="65HLi3nT6yD" role="lGtFl" />
       <node concept="3T334G" id="65HLi3oamrb" role="3T3nKE">
         <property role="TrG5h" value="joystick1" />
-        <property role="3T3nKM" value="0" />
+        <property role="3T3nKM" value="1" />
       </node>
       <node concept="3T334G" id="65HLi3oas5X" role="3T3nKE">
         <property role="TrG5h" value="joystick2" />
-        <property role="3T3nKM" value="1" />
+        <property role="3T3nKM" value="2" />
       </node>
     </node>
   </node>

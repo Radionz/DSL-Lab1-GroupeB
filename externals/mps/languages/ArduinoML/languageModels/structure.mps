@@ -126,6 +126,13 @@
       <property role="IQ2ns" value="6483884641801182858" />
       <ref role="20lvS9" node="5BVoFE7aTCq" resolve="Action" />
     </node>
+    <node concept="1TJgyj" id="FD3tz4V3Yo" role="1TKVEi">
+      <property role="IQ2ns" value="786174834620776344" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="loop" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="FD3tz4UBwg" resolve="Loop" />
+    </node>
     <node concept="1TJgyj" id="5BVoFE7aTUw" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="transitions" />
@@ -232,6 +239,28 @@
     <node concept="M4N5e" id="7mmZEx$hVH5" role="M5hS2">
       <property role="1uS6qo" value="!=" />
       <property role="1uS6qv" value="NE" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="FD3tz4UBwg">
+    <property role="TrG5h" value="Loop" />
+    <property role="EcuMT" value="786174834620659728" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="FD3tz4V6eZ" role="1TKVEi">
+      <property role="IQ2ns" value="786174834620785599" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="actions" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="5BVoFE7aTCq" resolve="Action" />
+    </node>
+    <node concept="1TJgyi" id="FD3tz4UBwK" role="1TKVEl">
+      <property role="IQ2nx" value="786174834620659760" />
+      <property role="TrG5h" value="turns" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="FD3tz4UBwM" role="1TKVEl">
+      <property role="IQ2nx" value="786174834620659762" />
+      <property role="TrG5h" value="delay" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
 </model>

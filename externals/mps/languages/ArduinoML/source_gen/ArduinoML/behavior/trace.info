@@ -19,6 +19,9 @@
     <file name="Condition_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="ArduinoML.behavior.Condition_BehaviorDescriptor" />
     </file>
+    <file name="Loop_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="ArduinoML.behavior.Loop_BehaviorDescriptor" />
+    </file>
     <file name="Sensor_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="ArduinoML.behavior.Sensor_BehaviorDescriptor" />
     </file>
