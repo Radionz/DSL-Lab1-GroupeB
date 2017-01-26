@@ -97,7 +97,7 @@
       <property role="20kJfa" value="states" />
       <property role="20lbJX" value="1..n" />
       <property role="IQ2ns" value="6483884641801182883" />
-      <ref role="20lvS9" node="5BVoFE7aToI" resolve="State" />
+      <ref role="20lvS9" node="2UKI_L0Gg5k" resolve="StateSetup" />
     </node>
     <node concept="PrWs8" id="78eQDyb2T_e" role="PzmwI">
       <ref role="PrY4T" to="4fqr:431DWIovi3l" resolve="IMainClass" />
@@ -273,6 +273,18 @@
       <property role="20kJfa" value="bricks" />
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="78eQDyb0OGG" resolve="Brick" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2UKI_L0Gg5k">
+    <property role="EcuMT" value="3364393827030860116" />
+    <property role="TrG5h" value="StateSetup" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2UKI_L0Gg5K" role="1TKVEi">
+      <property role="IQ2ns" value="3364393827030860144" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="states" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="5BVoFE7aToI" resolve="State" />
     </node>
   </node>
 </model>

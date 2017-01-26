@@ -28,6 +28,9 @@
     <file name="Sensor_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="ArduinoML.behavior.Sensor_BehaviorDescriptor" />
     </file>
+    <file name="StateSetup_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="ArduinoML.behavior.StateSetup_BehaviorDescriptor" />
+    </file>
     <file name="State_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="ArduinoML.behavior.State_BehaviorDescriptor" />
     </file>
