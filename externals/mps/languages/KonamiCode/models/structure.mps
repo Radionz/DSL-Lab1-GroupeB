@@ -27,6 +27,7 @@
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
+        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -89,10 +90,10 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5BVoFE7aTUz" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="moves" />
+      <property role="20kJfa" value="actions" />
       <property role="20lbJX" value="1..n" />
       <property role="IQ2ns" value="6483884641801182883" />
-      <ref role="20lvS9" node="61zTmV9uCEy" resolve="Move" />
+      <ref role="20lvS9" node="1HSpY9rnjyo" resolve="PhysicalAction" />
     </node>
     <node concept="1TJgyj" id="61zTmV9uC2I" role="1TKVEi">
       <property role="IQ2ns" value="6945647314324848814" />
@@ -108,6 +109,13 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="78eQDyb0OGG" resolve="Actuator" />
     </node>
+    <node concept="1TJgyj" id="1HSpY9rmjdu" role="1TKVEi">
+      <property role="IQ2ns" value="1979446258122175326" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="OnError" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="78eQDyb0OGG" resolve="Actuator" />
+    </node>
     <node concept="PrWs8" id="78eQDyb2T_e" role="PzmwI">
       <ref role="PrY4T" to="4fqr:431DWIovi3l" resolve="IMainClass" />
     </node>
@@ -118,6 +126,7 @@
   <node concept="1TIwiD" id="78eQDyb0IIO">
     <property role="TrG5h" value="Joystick" />
     <property role="EcuMT" value="8218746718699842484" />
+    <property role="34LRSv" value="joystick" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="1j74uLtAUKn" role="1TKVEl">
       <property role="IQ2nx" value="1497185108004416535" />
@@ -171,6 +180,9 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="78eQDyb0IIO" resolve="Joystick" />
     </node>
+    <node concept="PrWs8" id="1HSpY9rnjzn" role="PzmwI">
+      <ref role="PrY4T" node="1HSpY9rnjyo" resolve="PhysicalAction" />
+    </node>
   </node>
   <node concept="PlHQZ" id="1j74uLtBLV6">
     <property role="EcuMT" value="1497185108004642502" />
@@ -184,6 +196,41 @@
       <property role="20kJfa" value="pins" />
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" to="tpee:fzcmrck" resolve="IntegerConstant" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1HSpY9rnjyo">
+    <property role="EcuMT" value="1979446258122438808" />
+    <property role="TrG5h" value="PhysicalAction" />
+  </node>
+  <node concept="1TIwiD" id="1HSpY9rnjzp">
+    <property role="EcuMT" value="1979446258122438873" />
+    <property role="TrG5h" value="Push" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1HSpY9rnjzP" role="1TKVEi">
+      <property role="IQ2ns" value="1979446258122438901" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="button" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="67j:78eQDyb0IIO" resolve="Sensor" />
+    </node>
+    <node concept="PrWs8" id="1HSpY9rnmUp" role="PzmwI">
+      <ref role="PrY4T" node="1HSpY9rnjyo" resolve="PhysicalAction" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1HSpY9rolJI">
+    <property role="EcuMT" value="1979446258122709998" />
+    <property role="TrG5h" value="Button" />
+    <property role="34LRSv" value="button" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1HSpY9rqAm6" role="1TKVEi">
+      <property role="IQ2ns" value="1979446258123302278" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="sensor" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="67j:78eQDyb0IIO" resolve="Sensor" />
+    </node>
+    <node concept="PrWs8" id="1HSpY9rolKa" role="PzmwI">
+      <ref role="PrY4T" node="1j74uLtBLV6" resolve="ActionController" />
     </node>
   </node>
 </model>

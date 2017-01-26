@@ -22,6 +22,9 @@
     <file name="BehaviorAspectDescriptor.java">
       <unit at="14,0,48,0" name="KonamiCode.behavior.BehaviorAspectDescriptor" />
     </file>
+    <file name="Button_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="KonamiCode.behavior.Button_BehaviorDescriptor" />
+    </file>
     <file name="Joystick_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="KonamiCode.behavior.Joystick_BehaviorDescriptor" />
     </file>
@@ -30,6 +33,12 @@
     </file>
     <file name="Move_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="KonamiCode.behavior.Move_BehaviorDescriptor" />
+    </file>
+    <file name="PhysicalAction_BehaviorDescriptor.java">
+      <unit at="11,0,14,0" name="KonamiCode.behavior.PhysicalAction_BehaviorDescriptor" />
+    </file>
+    <file name="Push_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="KonamiCode.behavior.Push_BehaviorDescriptor" />
     </file>
   </root>
   <root nodeRef="r:b4a88566-7b6a-4d0a-91b0-28329d40507a(KonamiCode.behavior)/7061884271119050118">
