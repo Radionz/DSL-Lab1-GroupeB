@@ -167,6 +167,7 @@
   <node concept="1TIwiD" id="61zTmV9uCEy">
     <property role="TrG5h" value="Move" />
     <property role="EcuMT" value="6945647314324851362" />
+    <property role="34LRSv" value="move" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="61zTmV9uCEA" role="1TKVEl">
       <property role="IQ2nx" value="6945647314324851366" />
@@ -205,13 +206,14 @@
   <node concept="1TIwiD" id="1HSpY9rnjzp">
     <property role="EcuMT" value="1979446258122438873" />
     <property role="TrG5h" value="Push" />
+    <property role="34LRSv" value="push" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1HSpY9rnjzP" role="1TKVEi">
       <property role="IQ2ns" value="1979446258122438901" />
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="button" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="67j:78eQDyb0IIO" resolve="Sensor" />
+      <ref role="20lvS9" node="1HSpY9rolJI" resolve="Button" />
     </node>
     <node concept="PrWs8" id="1HSpY9rnmUp" role="PzmwI">
       <ref role="PrY4T" node="1HSpY9rnjyo" resolve="PhysicalAction" />

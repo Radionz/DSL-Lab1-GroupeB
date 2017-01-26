@@ -28,6 +28,9 @@
       <concept id="1979446258122709998" name="KonamiCode.structure.Button" flags="ng" index="106jKc">
         <child id="1979446258123302278" name="sensor" index="104w9$" />
       </concept>
+      <concept id="1979446258122438873" name="KonamiCode.structure.Push" flags="ng" index="109lWV">
+        <reference id="1979446258122438901" name="button" index="109lWn" />
+      </concept>
       <concept id="1497185108004642502" name="KonamiCode.structure.ActionController" flags="ng" index="19m0WE">
         <child id="7061884271117752533" name="pins" index="yT8a1" />
       </concept>
@@ -75,6 +78,9 @@
     <node concept="2D6mZc" id="1HSpY9rrVkb" role="3uOfKp">
       <property role="2D6mZ8" value="DOWN" />
       <ref role="19mTMH" node="1HSpY9rrViX" resolve="joy2" />
+    </node>
+    <node concept="109lWV" id="1HSpY9r$eOU" role="3uOfKp">
+      <ref role="109lWn" node="1HSpY9rvCwi" resolve="monbouton" />
     </node>
     <node concept="3T3p6O" id="1IuFFadRRMt" role="2D6mO3">
       <property role="TrG5h" value="redGreen" />

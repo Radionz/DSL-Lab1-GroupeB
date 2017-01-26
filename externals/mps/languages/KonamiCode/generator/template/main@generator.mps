@@ -147,7 +147,6 @@
       <concept id="6483884641801180718" name="ArduinoML.structure.State" flags="ng" index="3uOfik">
         <child id="786174834620776344" name="loop" index="3e1j90" />
         <child id="6483884641801182880" name="transitions" index="3uOfKq" />
-        <child id="6483884641801182858" name="actions" index="3uOfKK" />
       </concept>
       <concept id="6483884641801181722" name="ArduinoML.structure.Action" flags="ng" index="3uOfyw">
         <property id="6483884641801182714" name="status" index="3uOfX0" />
@@ -531,7 +530,7 @@
           </node>
         </node>
         <node concept="1sPUBX" id="65HLi3ob8J0" role="lGtFl">
-          <ref role="v9R2y" node="65HLi3od3rw" resolve="TemplateSwitchDirection" />
+          <ref role="v9R2y" node="1HSpY9rnrht" resolve="PhysicalActionSwitch" />
         </node>
       </node>
       <node concept="3uOfik" id="65HLi3oe40K" role="3uOfKp">
@@ -4502,7 +4501,6 @@
   <node concept="jVnub" id="1HSpY9rnrht">
     <property role="TrG5h" value="PhysicalActionSwitch" />
     <node concept="3aamgX" id="1HSpY9rnCZ0" role="3aUrZf">
-      <property role="36QftV" value="true" />
       <ref role="30HIoZ" to="u0m8:61zTmV9uCEy" resolve="Move" />
       <node concept="gft3U" id="1HSpY9rnCZ4" role="1lVwrX">
         <node concept="3uOfik" id="1HSpY9rnCZa" role="gfFT$">
@@ -4514,7 +4512,6 @@
       </node>
     </node>
     <node concept="3aamgX" id="1HSpY9rnCZe" role="3aUrZf">
-      <property role="36QftV" value="true" />
       <ref role="30HIoZ" to="u0m8:1HSpY9rnjzp" resolve="Push" />
       <node concept="gft3U" id="1HSpY9rnCZm" role="1lVwrX">
         <node concept="3uOfik" id="1HSpY9rnD7A" role="gfFT$">
@@ -4538,9 +4535,60 @@
               </node>
             </node>
           </node>
-          <node concept="3uOfyw" id="1HSpY9rnDkU" role="3uOfKK">
-            <property role="3uOfX0" value="true" />
-            <ref role="3uOfX6" node="1HSpY9rmg1a" resolve="actuatorError" />
+          <node concept="3uOfMU" id="1HSpY9rxEEe" role="3uOfKq">
+            <property role="2TgCbF" value="next" />
+            <node concept="hFP$v" id="1HSpY9rxOam" role="hFPrv">
+              <property role="hOkn$" value="GT" />
+              <property role="hFP_A" value="1000" />
+              <ref role="hFP_F" node="1HSpY9rozCs" resolve="button" />
+              <node concept="1ZhdrF" id="1HSpY9rxO$B" role="lGtFl">
+                <property role="P3scX" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8473239748133627831/8473239748133627843" />
+                <property role="2qtEX8" value="sensor" />
+                <node concept="3$xsQk" id="1HSpY9rxO$C" role="3$ytzL">
+                  <node concept="3clFbS" id="1HSpY9rxO$D" role="2VODD2">
+                    <node concept="3clFbF" id="1HSpY9rxOCM" role="3cqZAp">
+                      <node concept="2OqwBi" id="1HSpY9rxXrK" role="3clFbG">
+                        <node concept="2OqwBi" id="1HSpY9rxOQk" role="2Oq$k0">
+                          <node concept="30H73N" id="1HSpY9rxOCL" role="2Oq$k0" />
+                          <node concept="3TrEf2" id="1HSpY9rxP1A" role="2OqNvi">
+                            <ref role="3Tt5mk" to="u0m8:1HSpY9rnjzP" resolve="button" />
+                          </node>
+                        </node>
+                        <node concept="3TrEf2" id="1HSpY9rxXFY" role="2OqNvi">
+                          <ref role="3Tt5mk" to="u0m8:1HSpY9rqAm6" resolve="sensor" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="17Uvod" id="1HSpY9rxKqo" role="lGtFl">
+              <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/6483884641801182720/7020484138997073867" />
+              <property role="2qtEX9" value="target" />
+              <node concept="3zFVjK" id="1HSpY9rxKqp" role="3zH0cK">
+                <node concept="3clFbS" id="1HSpY9rxKqq" role="2VODD2">
+                  <node concept="3clFbF" id="1HSpY9rxKyQ" role="3cqZAp">
+                    <node concept="3cpWs3" id="1HSpY9rxKyS" role="3clFbG">
+                      <node concept="1eOMI4" id="1HSpY9rxKyT" role="3uHU7w">
+                        <node concept="3cpWs3" id="1HSpY9rxKyU" role="1eOMHV">
+                          <node concept="3cmrfG" id="1HSpY9rxKyV" role="3uHU7w">
+                            <property role="3cmrfH" value="1" />
+                          </node>
+                          <node concept="2OqwBi" id="1HSpY9rxKyW" role="3uHU7B">
+                            <node concept="30H73N" id="1HSpY9rxKyX" role="2Oq$k0" />
+                            <node concept="2bSWHS" id="1HSpY9rxKyY" role="2OqNvi" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="1HSpY9rxKyZ" role="3uHU7B">
+                        <property role="Xl_RC" value="state_" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
