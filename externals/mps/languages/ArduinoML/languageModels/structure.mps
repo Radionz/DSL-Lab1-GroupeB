@@ -78,6 +78,11 @@
       <property role="IQ2nx" value="8218746718699890346" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+    <node concept="1TJgyi" id="3_Qgl$MziDE" role="1TKVEl">
+      <property role="IQ2nx" value="4140568758769756778" />
+      <property role="TrG5h" value="type" />
+      <ref role="AX2Wp" node="3_Qgl$MziE$" resolve="TYPE" />
+    </node>
   </node>
   <node concept="1TIwiD" id="78eQDyb0OGH">
     <property role="TrG5h" value="App" />
@@ -285,6 +290,18 @@
       <property role="20kJfa" value="states" />
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="5BVoFE7aToI" resolve="State" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="3_Qgl$MziE$">
+    <property role="TrG5h" value="TYPE" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="3_Qgl$MziE_" role="M5hS2">
+      <property role="1uS6qv" value="digital" />
+      <property role="1uS6qo" value="digital" />
+    </node>
+    <node concept="M4N5e" id="3_Qgl$MziF1" role="M5hS2">
+      <property role="1uS6qv" value="analog" />
+      <property role="1uS6qo" value="analog" />
     </node>
   </node>
 </model>

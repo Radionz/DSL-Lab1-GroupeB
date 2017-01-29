@@ -9,6 +9,11 @@
   </imports>
   <registry>
     <language id="5edee0cf-46e1-49f9-971e-6b9e2e5cae16" name="ArduinoML">
+      <concept id="8473239748133627831" name="ArduinoML.structure.Condition" flags="ng" index="hFP$v">
+        <property id="8473239748133627854" name="value" index="hFP_A" />
+        <property id="8473239748134550348" name="operator" index="hOkn$" />
+        <reference id="8473239748133627843" name="sensor" index="hFP_F" />
+      </concept>
       <concept id="7061884271117379638" name="ArduinoML.structure.BrickSetup" flags="ng" index="yRB9y">
         <child id="7061884271117379639" name="bricks" index="yRB9z" />
       </concept>
@@ -17,6 +22,7 @@
       </concept>
       <concept id="6483884641801182720" name="ArduinoML.structure.Transition" flags="ng" index="3uOfMU">
         <property id="7020484138997073867" name="target" index="2TgCbF" />
+        <child id="8473239748133628023" name="conditions" index="hFPrv" />
       </concept>
       <concept id="3364393827030860116" name="ArduinoML.structure.StateSetup" flags="ng" index="1I0rG8">
         <child id="3364393827030860144" name="states" index="1I0rGG" />
@@ -51,6 +57,11 @@
         <property role="TrG5h" value="to" />
         <node concept="3uOfMU" id="2UKI_L0HwmA" role="3uOfKq">
           <property role="2TgCbF" value="to" />
+          <node concept="hFP$v" id="3_Qgl$M$fKn" role="hFPrv">
+            <property role="hOkn$" value="GT" />
+            <property role="hFP_A" value="0" />
+            <ref role="hFP_F" node="2UKI_L0Hwmu" resolve="a" />
+          </node>
         </node>
       </node>
     </node>

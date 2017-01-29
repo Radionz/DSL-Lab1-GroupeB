@@ -72,7 +72,13 @@
   <node concept="24kQdi" id="78eQDyb1Weu">
     <ref role="1XX52x" to="67j:78eQDyb0IIO" resolve="Sensor" />
     <node concept="3EZMnI" id="78eQDyb1Wew" role="2wV5jI">
-      <node concept="3F0ifn" id="78eQDyb1WeB" role="3EZMnx">
+      <node concept="3F0ifn" id="3_Qgl$MziFE" role="3EZMnx">
+        <property role="3F0ifm" value="create" />
+      </node>
+      <node concept="3F0A7n" id="3_Qgl$MziFk" role="3EZMnx">
+        <ref role="1NtTu8" to="67j:3_Qgl$MziDE" resolve="type" />
+      </node>
+      <node concept="3F0ifn" id="3_Qgl$MziGw" role="3EZMnx">
         <property role="3F0ifm" value="sensor" />
       </node>
       <node concept="3F0A7n" id="78eQDyb1WeL" role="3EZMnx">

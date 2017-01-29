@@ -59,59 +59,32 @@
       <property role="2D6mZ8" value="UP" />
       <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
     </node>
-    <node concept="2D6mZc" id="2UKI_L0LzfK" role="3uOfKp">
-      <property role="2D6mZ8" value="LEFT" />
-      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
-    </node>
-    <node concept="2D6mZc" id="2UKI_L0Lzg2" role="3uOfKp">
-      <property role="2D6mZ8" value="DOWN" />
-      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
-    </node>
-    <node concept="2D6mZc" id="2UKI_L0Lzge" role="3uOfKp">
-      <property role="2D6mZ8" value="UP" />
-      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
-    </node>
-    <node concept="2D6mZc" id="2UKI_L0LzgC" role="3uOfKp">
-      <property role="2D6mZ8" value="RIGHT" />
-      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
-    </node>
     <node concept="109lWV" id="2UKI_L0LzgS" role="3uOfKp">
       <ref role="109lWn" node="1HSpY9rvCwi" resolve="monbouton" />
     </node>
     <node concept="3T3p6O" id="1IuFFadRRMt" role="2D6mO3">
       <property role="TrG5h" value="redGreen" />
-      <property role="3T3nKM" value="8" />
+      <property role="3T3nKM" value="11" />
     </node>
     <node concept="3T3p6O" id="1HSpY9rmX4E" role="108liW">
       <property role="TrG5h" value="redLed" />
-      <property role="3T3nKM" value="9" />
+      <property role="3T3nKM" value="12" />
     </node>
     <node concept="3T334H" id="1HSpY9rrVi_" role="2D6mn0">
       <property role="TrG5h" value="joy" />
       <property role="19nbRV" value="0" />
       <property role="19nbRR" value="1024" />
-      <node concept="3cmrfG" id="1HSpY9rrViA" role="yT8a1">
-        <property role="3cmrfH" value="2" />
-      </node>
       <node concept="3cmrfG" id="1HSpY9rrViJ" role="yT8a1">
-        <property role="3cmrfH" value="3" />
+        <property role="3cmrfH" value="0" />
       </node>
-    </node>
-    <node concept="3T334H" id="1HSpY9rrViX" role="2D6mn0">
-      <property role="TrG5h" value="joy2" />
-      <property role="19nbRV" value="0" />
-      <property role="19nbRR" value="1024" />
-      <node concept="3cmrfG" id="1HSpY9rrViZ" role="yT8a1">
-        <property role="3cmrfH" value="4" />
-      </node>
-      <node concept="3cmrfG" id="1HSpY9rrVjc" role="yT8a1">
-        <property role="3cmrfH" value="5" />
+      <node concept="3cmrfG" id="3_Qgl$Mvb5y" role="yT8a1">
+        <property role="3cmrfH" value="1" />
       </node>
     </node>
     <node concept="106jKc" id="1HSpY9rvCwi" role="2D6mn0">
       <property role="TrG5h" value="monbouton" />
-      <node concept="3cmrfG" id="1HSpY9rvCwB" role="yT8a1">
-        <property role="3cmrfH" value="10" />
+      <node concept="3cmrfG" id="3_Qgl$MzNBC" role="yT8a1">
+        <property role="3cmrfH" value="8" />
       </node>
       <node concept="3T334G" id="1HSpY9rvCwk" role="104w9$" />
     </node>
