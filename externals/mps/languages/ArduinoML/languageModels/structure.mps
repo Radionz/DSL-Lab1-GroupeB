@@ -215,6 +215,11 @@
       <property role="TrG5h" value="operator" />
       <ref role="AX2Wp" node="7mmZEx$hVFy" resolve="OPERATORS" />
     </node>
+    <node concept="1TJgyi" id="MnJ7G_WCf5" role="1TKVEl">
+      <property role="IQ2nx" value="907401087042094021" />
+      <property role="TrG5h" value="status" />
+      <ref role="AX2Wp" node="5BVoFE7aTSL" resolve="STATUS" />
+    </node>
   </node>
   <node concept="AxPO7" id="7mmZEx$hVFy">
     <property role="TrG5h" value="OPERATORS" />
