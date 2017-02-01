@@ -1262,30 +1262,43 @@
             <property role="2TgCbF" value="next" />
             <node concept="hFP$v" id="65HLi3ogK1y" role="hFPrv">
               <property role="hFP_A" value="0" />
-              <property role="hOkn$" value="GT" />
+              <property role="hOkn$" value="LT" />
               <ref role="hFP_F" node="680Q_h14Zek" resolve="joystick1" />
               <node concept="17Uvod" id="1j74uLtBB5t" role="lGtFl">
                 <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8473239748133627831/8473239748133627854" />
                 <property role="2qtEX9" value="value" />
                 <node concept="3zFVjK" id="1j74uLtBB5u" role="3zH0cK">
                   <node concept="3clFbS" id="1j74uLtBB5v" role="2VODD2">
-                    <node concept="3clFbF" id="1j74uLtCI05" role="3cqZAp">
-                      <node concept="10QFUN" id="1j74uLtCGui" role="3clFbG">
-                        <node concept="10Oyi0" id="1j74uLtCH5T" role="10QFUM" />
-                        <node concept="1eOMI4" id="1j74uLtCEOu" role="10QFUP">
-                          <node concept="17qRlL" id="1j74uLtCEOv" role="1eOMHV">
-                            <node concept="3b6qkQ" id="1j74uLtCEOw" role="3uHU7w">
-                              <property role="$nhwW" value="0.9" />
+                    <node concept="3clFbF" id="3_Qgl$MEq46" role="3cqZAp">
+                      <node concept="3cpWs3" id="3_Qgl$MEq48" role="3clFbG">
+                        <node concept="2OqwBi" id="3_Qgl$MEq49" role="3uHU7w">
+                          <node concept="3TrcHB" id="3_Qgl$MEq4a" role="2OqNvi">
+                            <ref role="3TsBF5" to="u0m8:1j74uLtAUKn" resolve="sensivityMin" />
+                          </node>
+                          <node concept="2OqwBi" id="3_Qgl$MEv6a" role="2Oq$k0">
+                            <node concept="30H73N" id="3_Qgl$MEuu5" role="2Oq$k0" />
+                            <node concept="3TrEf2" id="3_Qgl$MEvQW" role="2OqNvi">
+                              <ref role="3Tt5mk" to="u0m8:1j74uLtB8P1" resolve="joystick" />
                             </node>
-                            <node concept="2OqwBi" id="1j74uLtCEOx" role="3uHU7B">
-                              <node concept="2OqwBi" id="1j74uLtCEOy" role="2Oq$k0">
-                                <node concept="30H73N" id="1j74uLtCEOz" role="2Oq$k0" />
-                                <node concept="3TrEf2" id="1j74uLtCEO$" role="2OqNvi">
-                                  <ref role="3Tt5mk" to="u0m8:1j74uLtB8P1" resolve="joystick" />
-                                </node>
+                          </node>
+                        </node>
+                        <node concept="10QFUN" id="3_Qgl$MEq4c" role="3uHU7B">
+                          <node concept="10Oyi0" id="3_Qgl$MEq4d" role="10QFUM" />
+                          <node concept="1eOMI4" id="3_Qgl$MEq4e" role="10QFUP">
+                            <node concept="17qRlL" id="3_Qgl$MEq4f" role="1eOMHV">
+                              <node concept="3b6qkQ" id="3_Qgl$MEq4g" role="3uHU7w">
+                                <property role="$nhwW" value="0.1" />
                               </node>
-                              <node concept="3TrcHB" id="1j74uLtCEO_" role="2OqNvi">
-                                <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
+                              <node concept="2OqwBi" id="3_Qgl$MEq4h" role="3uHU7B">
+                                <node concept="3TrcHB" id="3_Qgl$MEzy2" role="2OqNvi">
+                                  <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
+                                </node>
+                                <node concept="2OqwBi" id="3_Qgl$MEsb8" role="2Oq$k0">
+                                  <node concept="30H73N" id="3_Qgl$MErze" role="2Oq$k0" />
+                                  <node concept="3TrEf2" id="3_Qgl$MEsZF" role="2OqNvi">
+                                    <ref role="3Tt5mk" to="u0m8:1j74uLtB8P1" resolve="joystick" />
+                                  </node>
+                                </node>
                               </node>
                             </node>
                           </node>
@@ -1363,7 +1376,7 @@
           <node concept="3uOfMU" id="2XigYh$3eK" role="3uOfKq">
             <property role="2TgCbF" value="state_error" />
             <node concept="hFP$v" id="2XigYh$Jnj" role="hFPrv">
-              <property role="hOkn$" value="LT" />
+              <property role="hOkn$" value="GT" />
               <property role="hFP_A" value="0" />
               <ref role="hFP_F" node="680Q_h14WyY" resolve="joystick2" />
               <node concept="1ZhdrF" id="2XigYh$JEP" role="lGtFl">
@@ -1424,31 +1437,20 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbH" id="2XigYh_7lJ" role="3cqZAp" />
-                    <node concept="3clFbF" id="2XigYh$NZ3" role="3cqZAp">
-                      <node concept="3cpWs3" id="2XigYh$NZ5" role="3clFbG">
-                        <node concept="2OqwBi" id="2XigYh$NZ6" role="3uHU7w">
-                          <node concept="3TrcHB" id="2XigYh$NZa" role="2OqNvi">
-                            <ref role="3TsBF5" to="u0m8:1j74uLtAUKn" resolve="sensivityMin" />
-                          </node>
-                          <node concept="37vLTw" id="2XigYh_eNZ" role="2Oq$k0">
-                            <ref role="3cqZAo" node="2XigYh_9kY" resolve="joystick" />
-                          </node>
-                        </node>
-                        <node concept="10QFUN" id="2XigYh$NZb" role="3uHU7B">
-                          <node concept="10Oyi0" id="2XigYh$NZc" role="10QFUM" />
-                          <node concept="1eOMI4" id="2XigYh$NZd" role="10QFUP">
-                            <node concept="17qRlL" id="2XigYh$NZe" role="1eOMHV">
-                              <node concept="3b6qkQ" id="2XigYh$NZf" role="3uHU7w">
-                                <property role="$nhwW" value="0.1" />
+                    <node concept="3clFbF" id="3_Qgl$MF0be" role="3cqZAp">
+                      <node concept="10QFUN" id="3_Qgl$MF0bf" role="3clFbG">
+                        <node concept="10Oyi0" id="3_Qgl$MF0bg" role="10QFUM" />
+                        <node concept="1eOMI4" id="3_Qgl$MF0bh" role="10QFUP">
+                          <node concept="17qRlL" id="3_Qgl$MF0bi" role="1eOMHV">
+                            <node concept="3b6qkQ" id="3_Qgl$MF0bj" role="3uHU7w">
+                              <property role="$nhwW" value="0.9" />
+                            </node>
+                            <node concept="2OqwBi" id="3_Qgl$MF0bk" role="3uHU7B">
+                              <node concept="3TrcHB" id="3_Qgl$MF0bl" role="2OqNvi">
+                                <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
                               </node>
-                              <node concept="2OqwBi" id="2XigYh$NZg" role="3uHU7B">
-                                <node concept="3TrcHB" id="2XigYh$NZk" role="2OqNvi">
-                                  <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
-                                </node>
-                                <node concept="37vLTw" id="2XigYh_cHC" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="2XigYh_9kY" resolve="joystick" />
-                                </node>
+                              <node concept="37vLTw" id="3_Qgl$MF0bm" role="2Oq$k0">
+                                <ref role="3cqZAo" node="2XigYh_9kY" resolve="joystick" />
                               </node>
                             </node>
                           </node>
@@ -1533,7 +1535,7 @@
           <node concept="3uOfMU" id="2XigYhBvLd" role="3uOfKq">
             <property role="2TgCbF" value="state_error" />
             <node concept="hFP$v" id="2XigYhBvLe" role="hFPrv">
-              <property role="hOkn$" value="GT" />
+              <property role="hOkn$" value="LT" />
               <property role="hFP_A" value="0" />
               <ref role="hFP_F" node="680Q_h14WyY" resolve="joystick2" />
               <node concept="1ZhdrF" id="2XigYhBvLf" role="lGtFl">
@@ -1594,21 +1596,30 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbH" id="2XigYhBvLC" role="3cqZAp" />
-                    <node concept="3clFbF" id="2XigYhBvLD" role="3cqZAp">
-                      <node concept="10QFUN" id="2XigYhBZrH" role="3clFbG">
-                        <node concept="10Oyi0" id="2XigYhBZrI" role="10QFUM" />
-                        <node concept="1eOMI4" id="2XigYhBZrJ" role="10QFUP">
-                          <node concept="17qRlL" id="2XigYhBZrK" role="1eOMHV">
-                            <node concept="3b6qkQ" id="2XigYhBZrL" role="3uHU7w">
-                              <property role="$nhwW" value="0.9" />
-                            </node>
-                            <node concept="2OqwBi" id="2XigYhBZrM" role="3uHU7B">
-                              <node concept="3TrcHB" id="2XigYhBZrQ" role="2OqNvi">
-                                <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
+                    <node concept="3clFbF" id="3_Qgl$MEPKZ" role="3cqZAp">
+                      <node concept="3cpWs3" id="3_Qgl$MEPL1" role="3clFbG">
+                        <node concept="2OqwBi" id="3_Qgl$MEPL2" role="3uHU7w">
+                          <node concept="3TrcHB" id="3_Qgl$MEPL3" role="2OqNvi">
+                            <ref role="3TsBF5" to="u0m8:1j74uLtAUKn" resolve="sensivityMin" />
+                          </node>
+                          <node concept="37vLTw" id="3_Qgl$MEPL4" role="2Oq$k0">
+                            <ref role="3cqZAo" node="2XigYhBvLz" resolve="joystick" />
+                          </node>
+                        </node>
+                        <node concept="10QFUN" id="3_Qgl$MEPL5" role="3uHU7B">
+                          <node concept="10Oyi0" id="3_Qgl$MEPL6" role="10QFUM" />
+                          <node concept="1eOMI4" id="3_Qgl$MEPL7" role="10QFUP">
+                            <node concept="17qRlL" id="3_Qgl$MEPL8" role="1eOMHV">
+                              <node concept="3b6qkQ" id="3_Qgl$MEPL9" role="3uHU7w">
+                                <property role="$nhwW" value="0.1" />
                               </node>
-                              <node concept="37vLTw" id="2XigYhC4BC" role="2Oq$k0">
-                                <ref role="3cqZAo" node="2XigYhBvLz" resolve="joystick" />
+                              <node concept="2OqwBi" id="3_Qgl$MEPLa" role="3uHU7B">
+                                <node concept="3TrcHB" id="3_Qgl$MEPLb" role="2OqNvi">
+                                  <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
+                                </node>
+                                <node concept="37vLTw" id="3_Qgl$MEPLc" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="2XigYhBvLz" resolve="joystick" />
+                                </node>
                               </node>
                             </node>
                           </node>
@@ -1755,7 +1766,7 @@
           <node concept="3uOfMU" id="2XigYhBLcy" role="3uOfKq">
             <property role="2TgCbF" value="state_error" />
             <node concept="hFP$v" id="2XigYhBLcz" role="hFPrv">
-              <property role="hOkn$" value="LT" />
+              <property role="hOkn$" value="GT" />
               <property role="hFP_A" value="0" />
               <ref role="hFP_F" node="680Q_h14WyY" resolve="joystick2" />
               <node concept="1ZhdrF" id="2XigYhBLc$" role="lGtFl">
@@ -1816,37 +1827,27 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbH" id="2XigYhBLcX" role="3cqZAp" />
-                    <node concept="3clFbF" id="2XigYhBLcY" role="3cqZAp">
-                      <node concept="3cpWs3" id="2XigYhBLcZ" role="3clFbG">
-                        <node concept="2OqwBi" id="2XigYhBLd0" role="3uHU7w">
-                          <node concept="3TrcHB" id="2XigYhBLd1" role="2OqNvi">
-                            <ref role="3TsBF5" to="u0m8:1j74uLtAUKn" resolve="sensivityMin" />
-                          </node>
-                          <node concept="37vLTw" id="2XigYhBLd2" role="2Oq$k0">
-                            <ref role="3cqZAo" node="2XigYhBLcS" resolve="joystick" />
-                          </node>
-                        </node>
-                        <node concept="10QFUN" id="2XigYhBLd3" role="3uHU7B">
-                          <node concept="10Oyi0" id="2XigYhBLd4" role="10QFUM" />
-                          <node concept="1eOMI4" id="2XigYhBLd5" role="10QFUP">
-                            <node concept="17qRlL" id="2XigYhBLd6" role="1eOMHV">
-                              <node concept="3b6qkQ" id="2XigYhBLd7" role="3uHU7w">
-                                <property role="$nhwW" value="0.1" />
+                    <node concept="3clFbF" id="2XigYhCwCl" role="3cqZAp">
+                      <node concept="10QFUN" id="2XigYhCxWB" role="3clFbG">
+                        <node concept="10Oyi0" id="2XigYhCy$0" role="10QFUM" />
+                        <node concept="1eOMI4" id="2XigYhCwCn" role="10QFUP">
+                          <node concept="17qRlL" id="2XigYhCwCo" role="1eOMHV">
+                            <node concept="3b6qkQ" id="2XigYhCwCp" role="3uHU7w">
+                              <property role="$nhwW" value="0.9" />
+                            </node>
+                            <node concept="2OqwBi" id="2XigYhCwCq" role="3uHU7B">
+                              <node concept="3TrcHB" id="2XigYhCwCr" role="2OqNvi">
+                                <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
                               </node>
-                              <node concept="2OqwBi" id="2XigYhBLd8" role="3uHU7B">
-                                <node concept="3TrcHB" id="2XigYhBLd9" role="2OqNvi">
-                                  <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
-                                </node>
-                                <node concept="37vLTw" id="2XigYhBLda" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="2XigYhBLcS" resolve="joystick" />
-                                </node>
+                              <node concept="37vLTw" id="2XigYhCwCs" role="2Oq$k0">
+                                <ref role="3cqZAo" node="2XigYhBLcS" resolve="joystick" />
                               </node>
                             </node>
                           </node>
                         </node>
                       </node>
                     </node>
+                    <node concept="3clFbH" id="2XigYhBLcX" role="3cqZAp" />
                   </node>
                 </node>
               </node>
@@ -1912,7 +1913,7 @@
           <node concept="3uOfMU" id="2XigYhCjUj" role="3uOfKq">
             <property role="2TgCbF" value="state_error" />
             <node concept="hFP$v" id="2XigYhCjUk" role="hFPrv">
-              <property role="hOkn$" value="GT" />
+              <property role="hOkn$" value="LT" />
               <property role="hFP_A" value="0" />
               <ref role="hFP_F" node="680Q_h14WyY" resolve="joystick2" />
               <node concept="1ZhdrF" id="2XigYhCjUl" role="lGtFl">
@@ -1973,21 +1974,30 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbH" id="2XigYhCz7b" role="3cqZAp" />
-                    <node concept="3clFbF" id="2XigYhCwCl" role="3cqZAp">
-                      <node concept="10QFUN" id="2XigYhCxWB" role="3clFbG">
-                        <node concept="10Oyi0" id="2XigYhCy$0" role="10QFUM" />
-                        <node concept="1eOMI4" id="2XigYhCwCn" role="10QFUP">
-                          <node concept="17qRlL" id="2XigYhCwCo" role="1eOMHV">
-                            <node concept="3b6qkQ" id="2XigYhCwCp" role="3uHU7w">
-                              <property role="$nhwW" value="0.9" />
-                            </node>
-                            <node concept="2OqwBi" id="2XigYhCwCq" role="3uHU7B">
-                              <node concept="3TrcHB" id="2XigYhCwCr" role="2OqNvi">
-                                <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
+                    <node concept="3clFbF" id="3_Qgl$MEVd6" role="3cqZAp">
+                      <node concept="3cpWs3" id="3_Qgl$MEVd8" role="3clFbG">
+                        <node concept="2OqwBi" id="3_Qgl$MEVd9" role="3uHU7w">
+                          <node concept="3TrcHB" id="3_Qgl$MEVda" role="2OqNvi">
+                            <ref role="3TsBF5" to="u0m8:1j74uLtAUKn" resolve="sensivityMin" />
+                          </node>
+                          <node concept="37vLTw" id="3_Qgl$MEVdb" role="2Oq$k0">
+                            <ref role="3cqZAo" node="2XigYhCjUD" resolve="joystick" />
+                          </node>
+                        </node>
+                        <node concept="10QFUN" id="3_Qgl$MEVdc" role="3uHU7B">
+                          <node concept="10Oyi0" id="3_Qgl$MEVdd" role="10QFUM" />
+                          <node concept="1eOMI4" id="3_Qgl$MEVde" role="10QFUP">
+                            <node concept="17qRlL" id="3_Qgl$MEVdf" role="1eOMHV">
+                              <node concept="3b6qkQ" id="3_Qgl$MEVdg" role="3uHU7w">
+                                <property role="$nhwW" value="0.1" />
                               </node>
-                              <node concept="37vLTw" id="2XigYhCwCs" role="2Oq$k0">
-                                <ref role="3cqZAo" node="2XigYhCjUD" resolve="joystick" />
+                              <node concept="2OqwBi" id="3_Qgl$MEVdh" role="3uHU7B">
+                                <node concept="3TrcHB" id="3_Qgl$MEVdi" role="2OqNvi">
+                                  <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
+                                </node>
+                                <node concept="37vLTw" id="3_Qgl$MEVdj" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="2XigYhCjUD" resolve="joystick" />
+                                </node>
                               </node>
                             </node>
                           </node>
@@ -2262,7 +2272,7 @@
           <node concept="3uOfMU" id="1j74uLtDFfs" role="3uOfKq">
             <property role="2TgCbF" value="next" />
             <node concept="hFP$v" id="1j74uLtDFft" role="hFPrv">
-              <property role="hOkn$" value="LT" />
+              <property role="hOkn$" value="GT" />
               <property role="hFP_A" value="0" />
               <ref role="hFP_F" node="680Q_h14Zek" resolve="joystick1" />
               <node concept="17Uvod" id="1j74uLtDFfu" role="lGtFl">
@@ -2271,35 +2281,22 @@
                 <node concept="3zFVjK" id="1j74uLtDFfv" role="3zH0cK">
                   <node concept="3clFbS" id="1j74uLtDFfw" role="2VODD2">
                     <node concept="3clFbF" id="1j74uLtDFfx" role="3cqZAp">
-                      <node concept="3cpWs3" id="1j74uLtDFfy" role="3clFbG">
-                        <node concept="2OqwBi" id="1j74uLtDFfz" role="3uHU7w">
-                          <node concept="2OqwBi" id="1j74uLtDFf$" role="2Oq$k0">
-                            <node concept="30H73N" id="1j74uLtDFf_" role="2Oq$k0" />
-                            <node concept="3TrEf2" id="1j74uLtDFfA" role="2OqNvi">
-                              <ref role="3Tt5mk" to="u0m8:1j74uLtB8P1" resolve="joystick" />
+                      <node concept="10QFUN" id="1j74uLtDFfC" role="3clFbG">
+                        <node concept="10Oyi0" id="1j74uLtDFfD" role="10QFUM" />
+                        <node concept="1eOMI4" id="1j74uLtDFfE" role="10QFUP">
+                          <node concept="17qRlL" id="1j74uLtDFfF" role="1eOMHV">
+                            <node concept="3b6qkQ" id="1j74uLtDFfG" role="3uHU7w">
+                              <property role="$nhwW" value="0.9" />
                             </node>
-                          </node>
-                          <node concept="3TrcHB" id="1j74uLtDFfB" role="2OqNvi">
-                            <ref role="3TsBF5" to="u0m8:1j74uLtAUKn" resolve="sensivityMin" />
-                          </node>
-                        </node>
-                        <node concept="10QFUN" id="1j74uLtDFfC" role="3uHU7B">
-                          <node concept="10Oyi0" id="1j74uLtDFfD" role="10QFUM" />
-                          <node concept="1eOMI4" id="1j74uLtDFfE" role="10QFUP">
-                            <node concept="17qRlL" id="1j74uLtDFfF" role="1eOMHV">
-                              <node concept="3b6qkQ" id="1j74uLtDFfG" role="3uHU7w">
-                                <property role="$nhwW" value="0.1" />
+                            <node concept="2OqwBi" id="1j74uLtDFfH" role="3uHU7B">
+                              <node concept="2OqwBi" id="1j74uLtDFfI" role="2Oq$k0">
+                                <node concept="30H73N" id="1j74uLtDFfJ" role="2Oq$k0" />
+                                <node concept="3TrEf2" id="1j74uLtDFfK" role="2OqNvi">
+                                  <ref role="3Tt5mk" to="u0m8:1j74uLtB8P1" resolve="joystick" />
+                                </node>
                               </node>
-                              <node concept="2OqwBi" id="1j74uLtDFfH" role="3uHU7B">
-                                <node concept="2OqwBi" id="1j74uLtDFfI" role="2Oq$k0">
-                                  <node concept="30H73N" id="1j74uLtDFfJ" role="2Oq$k0" />
-                                  <node concept="3TrEf2" id="1j74uLtDFfK" role="2OqNvi">
-                                    <ref role="3Tt5mk" to="u0m8:1j74uLtB8P1" resolve="joystick" />
-                                  </node>
-                                </node>
-                                <node concept="3TrcHB" id="1j74uLtDFfL" role="2OqNvi">
-                                  <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
-                                </node>
+                              <node concept="3TrcHB" id="1j74uLtDFfL" role="2OqNvi">
+                                <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
                               </node>
                             </node>
                           </node>
@@ -2377,7 +2374,7 @@
           <node concept="3uOfMU" id="2XigYhFG3x" role="3uOfKq">
             <property role="2TgCbF" value="state_error" />
             <node concept="hFP$v" id="2XigYhFG3y" role="hFPrv">
-              <property role="hOkn$" value="LT" />
+              <property role="hOkn$" value="GT" />
               <property role="hFP_A" value="0" />
               <ref role="hFP_F" node="680Q_h14Zek" resolve="joystick1" />
               <node concept="1ZhdrF" id="2XigYhFG3z" role="lGtFl">
@@ -2438,31 +2435,20 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbH" id="2XigYhFG3W" role="3cqZAp" />
-                    <node concept="3clFbF" id="2XigYhFG3X" role="3cqZAp">
-                      <node concept="3cpWs3" id="2XigYhFG3Y" role="3clFbG">
-                        <node concept="2OqwBi" id="2XigYhFG3Z" role="3uHU7w">
-                          <node concept="3TrcHB" id="2XigYhFG40" role="2OqNvi">
-                            <ref role="3TsBF5" to="u0m8:1j74uLtAUKn" resolve="sensivityMin" />
-                          </node>
-                          <node concept="37vLTw" id="2XigYhFG41" role="2Oq$k0">
-                            <ref role="3cqZAo" node="2XigYhFG3R" resolve="joystick" />
-                          </node>
-                        </node>
-                        <node concept="10QFUN" id="2XigYhFG42" role="3uHU7B">
-                          <node concept="10Oyi0" id="2XigYhFG43" role="10QFUM" />
-                          <node concept="1eOMI4" id="2XigYhFG44" role="10QFUP">
-                            <node concept="17qRlL" id="2XigYhFG45" role="1eOMHV">
-                              <node concept="3b6qkQ" id="2XigYhFG46" role="3uHU7w">
-                                <property role="$nhwW" value="0.1" />
+                    <node concept="3clFbF" id="3_Qgl$MF2ly" role="3cqZAp">
+                      <node concept="10QFUN" id="3_Qgl$MF2lz" role="3clFbG">
+                        <node concept="10Oyi0" id="3_Qgl$MF2l$" role="10QFUM" />
+                        <node concept="1eOMI4" id="3_Qgl$MF2l_" role="10QFUP">
+                          <node concept="17qRlL" id="3_Qgl$MF2lA" role="1eOMHV">
+                            <node concept="3b6qkQ" id="3_Qgl$MF2lB" role="3uHU7w">
+                              <property role="$nhwW" value="0.9" />
+                            </node>
+                            <node concept="2OqwBi" id="3_Qgl$MF2lC" role="3uHU7B">
+                              <node concept="3TrcHB" id="3_Qgl$MF2lD" role="2OqNvi">
+                                <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
                               </node>
-                              <node concept="2OqwBi" id="2XigYhFG47" role="3uHU7B">
-                                <node concept="3TrcHB" id="2XigYhFG48" role="2OqNvi">
-                                  <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
-                                </node>
-                                <node concept="37vLTw" id="2XigYhFG49" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="2XigYhFG3R" resolve="joystick" />
-                                </node>
+                              <node concept="37vLTw" id="3_Qgl$MF2lE" role="2Oq$k0">
+                                <ref role="3cqZAo" node="2XigYhFG3R" resolve="joystick" />
                               </node>
                             </node>
                           </node>
@@ -2625,7 +2611,7 @@
           <node concept="3uOfMU" id="1HSpY9rhqw2" role="3uOfKq">
             <property role="2TgCbF" value="state_error" />
             <node concept="hFP$v" id="1HSpY9rhqw3" role="hFPrv">
-              <property role="hOkn$" value="GT" />
+              <property role="hOkn$" value="LT" />
               <property role="hFP_A" value="0" />
               <ref role="hFP_F" node="680Q_h14Zek" resolve="joystick1" />
               <node concept="1ZhdrF" id="1HSpY9rhqw4" role="lGtFl">
@@ -2686,21 +2672,30 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbH" id="1HSpY9rhqwt" role="3cqZAp" />
-                    <node concept="3clFbF" id="1HSpY9rhqwu" role="3cqZAp">
-                      <node concept="10QFUN" id="1HSpY9rhqwv" role="3clFbG">
-                        <node concept="10Oyi0" id="1HSpY9rhqww" role="10QFUM" />
-                        <node concept="1eOMI4" id="1HSpY9rhqwx" role="10QFUP">
-                          <node concept="17qRlL" id="1HSpY9rhqwy" role="1eOMHV">
-                            <node concept="3b6qkQ" id="1HSpY9rhqwz" role="3uHU7w">
-                              <property role="$nhwW" value="0.9" />
-                            </node>
-                            <node concept="2OqwBi" id="1HSpY9rhqw$" role="3uHU7B">
-                              <node concept="3TrcHB" id="1HSpY9rhqw_" role="2OqNvi">
-                                <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
+                    <node concept="3clFbF" id="3_Qgl$MF8PX" role="3cqZAp">
+                      <node concept="3cpWs3" id="1HSpY9rhLfG" role="3clFbG">
+                        <node concept="2OqwBi" id="1HSpY9rhLfH" role="3uHU7w">
+                          <node concept="3TrcHB" id="1HSpY9rhLfI" role="2OqNvi">
+                            <ref role="3TsBF5" to="u0m8:1j74uLtAUKn" resolve="sensivityMin" />
+                          </node>
+                          <node concept="37vLTw" id="1HSpY9rhLfJ" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1HSpY9rhqwo" resolve="joystick" />
+                          </node>
+                        </node>
+                        <node concept="10QFUN" id="1HSpY9rhLfK" role="3uHU7B">
+                          <node concept="10Oyi0" id="1HSpY9rhLfL" role="10QFUM" />
+                          <node concept="1eOMI4" id="1HSpY9rhLfM" role="10QFUP">
+                            <node concept="17qRlL" id="1HSpY9rhLfN" role="1eOMHV">
+                              <node concept="3b6qkQ" id="1HSpY9rhLfO" role="3uHU7w">
+                                <property role="$nhwW" value="0.1" />
                               </node>
-                              <node concept="37vLTw" id="1HSpY9rhqwA" role="2Oq$k0">
-                                <ref role="3cqZAo" node="1HSpY9rhqwo" resolve="joystick" />
+                              <node concept="2OqwBi" id="1HSpY9rhLfP" role="3uHU7B">
+                                <node concept="3TrcHB" id="1HSpY9rhLfQ" role="2OqNvi">
+                                  <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
+                                </node>
+                                <node concept="37vLTw" id="1HSpY9rhLfR" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="1HSpY9rhqwo" resolve="joystick" />
+                                </node>
                               </node>
                             </node>
                           </node>
@@ -2771,7 +2766,7 @@
           <node concept="3uOfMU" id="1HSpY9rhLff" role="3uOfKq">
             <property role="2TgCbF" value="state_error" />
             <node concept="hFP$v" id="1HSpY9rhLfg" role="hFPrv">
-              <property role="hOkn$" value="LT" />
+              <property role="hOkn$" value="GT" />
               <property role="hFP_A" value="0" />
               <ref role="hFP_F" node="680Q_h14WyY" resolve="joystick2" />
               <node concept="1ZhdrF" id="1HSpY9rhLfh" role="lGtFl">
@@ -2832,31 +2827,20 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbH" id="1HSpY9rhLfE" role="3cqZAp" />
-                    <node concept="3clFbF" id="1HSpY9rhLfF" role="3cqZAp">
-                      <node concept="3cpWs3" id="1HSpY9rhLfG" role="3clFbG">
-                        <node concept="2OqwBi" id="1HSpY9rhLfH" role="3uHU7w">
-                          <node concept="3TrcHB" id="1HSpY9rhLfI" role="2OqNvi">
-                            <ref role="3TsBF5" to="u0m8:1j74uLtAUKn" resolve="sensivityMin" />
-                          </node>
-                          <node concept="37vLTw" id="1HSpY9rhLfJ" role="2Oq$k0">
-                            <ref role="3cqZAo" node="1HSpY9rhLf_" resolve="joystick" />
-                          </node>
-                        </node>
-                        <node concept="10QFUN" id="1HSpY9rhLfK" role="3uHU7B">
-                          <node concept="10Oyi0" id="1HSpY9rhLfL" role="10QFUM" />
-                          <node concept="1eOMI4" id="1HSpY9rhLfM" role="10QFUP">
-                            <node concept="17qRlL" id="1HSpY9rhLfN" role="1eOMHV">
-                              <node concept="3b6qkQ" id="1HSpY9rhLfO" role="3uHU7w">
-                                <property role="$nhwW" value="0.1" />
+                    <node concept="3clFbF" id="3_Qgl$MF5lx" role="3cqZAp">
+                      <node concept="10QFUN" id="3_Qgl$MF5ly" role="3clFbG">
+                        <node concept="10Oyi0" id="3_Qgl$MF5lz" role="10QFUM" />
+                        <node concept="1eOMI4" id="3_Qgl$MF5l$" role="10QFUP">
+                          <node concept="17qRlL" id="3_Qgl$MF5l_" role="1eOMHV">
+                            <node concept="3b6qkQ" id="3_Qgl$MF5lA" role="3uHU7w">
+                              <property role="$nhwW" value="0.9" />
+                            </node>
+                            <node concept="2OqwBi" id="3_Qgl$MF5lB" role="3uHU7B">
+                              <node concept="3TrcHB" id="3_Qgl$MF5lC" role="2OqNvi">
+                                <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
                               </node>
-                              <node concept="2OqwBi" id="1HSpY9rhLfP" role="3uHU7B">
-                                <node concept="3TrcHB" id="1HSpY9rhLfQ" role="2OqNvi">
-                                  <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
-                                </node>
-                                <node concept="37vLTw" id="1HSpY9rhLfR" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="1HSpY9rhLf_" resolve="joystick" />
-                                </node>
+                              <node concept="37vLTw" id="3_Qgl$MF5lD" role="2Oq$k0">
+                                <ref role="3cqZAo" node="1HSpY9rhLf_" resolve="joystick" />
                               </node>
                             </node>
                           </node>
@@ -2926,7 +2910,7 @@
           <node concept="3uOfMU" id="1HSpY9ri5JJ" role="3uOfKq">
             <property role="2TgCbF" value="state_error" />
             <node concept="hFP$v" id="1HSpY9ri5JK" role="hFPrv">
-              <property role="hOkn$" value="GT" />
+              <property role="hOkn$" value="LT" />
               <property role="hFP_A" value="0" />
               <ref role="hFP_F" node="680Q_h14WyY" resolve="joystick2" />
               <node concept="1ZhdrF" id="1HSpY9ri5JL" role="lGtFl">
@@ -2987,27 +2971,37 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbH" id="1HSpY9ri5Ka" role="3cqZAp" />
-                    <node concept="3clFbF" id="1HSpY9ri5Kb" role="3cqZAp">
-                      <node concept="10QFUN" id="1HSpY9ri5Kc" role="3clFbG">
-                        <node concept="10Oyi0" id="1HSpY9ri5Kd" role="10QFUM" />
-                        <node concept="1eOMI4" id="1HSpY9ri5Ke" role="10QFUP">
-                          <node concept="17qRlL" id="1HSpY9ri5Kf" role="1eOMHV">
-                            <node concept="3b6qkQ" id="1HSpY9ri5Kg" role="3uHU7w">
-                              <property role="$nhwW" value="0.9" />
-                            </node>
-                            <node concept="2OqwBi" id="1HSpY9ri5Kh" role="3uHU7B">
-                              <node concept="3TrcHB" id="1HSpY9ri5Ki" role="2OqNvi">
-                                <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
+                    <node concept="3clFbF" id="3_Qgl$MFcsh" role="3cqZAp">
+                      <node concept="3cpWs3" id="3_Qgl$MFcsj" role="3clFbG">
+                        <node concept="2OqwBi" id="3_Qgl$MFcsk" role="3uHU7w">
+                          <node concept="3TrcHB" id="3_Qgl$MFcsl" role="2OqNvi">
+                            <ref role="3TsBF5" to="u0m8:1j74uLtAUKn" resolve="sensivityMin" />
+                          </node>
+                          <node concept="37vLTw" id="3_Qgl$MFcsm" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1HSpY9ri5K5" resolve="joystick" />
+                          </node>
+                        </node>
+                        <node concept="10QFUN" id="3_Qgl$MFcsn" role="3uHU7B">
+                          <node concept="10Oyi0" id="3_Qgl$MFcso" role="10QFUM" />
+                          <node concept="1eOMI4" id="3_Qgl$MFcsp" role="10QFUP">
+                            <node concept="17qRlL" id="3_Qgl$MFcsq" role="1eOMHV">
+                              <node concept="3b6qkQ" id="3_Qgl$MFcsr" role="3uHU7w">
+                                <property role="$nhwW" value="0.1" />
                               </node>
-                              <node concept="37vLTw" id="1HSpY9ri5Kj" role="2Oq$k0">
-                                <ref role="3cqZAo" node="1HSpY9ri5K5" resolve="joystick" />
+                              <node concept="2OqwBi" id="3_Qgl$MFcss" role="3uHU7B">
+                                <node concept="3TrcHB" id="3_Qgl$MFcst" role="2OqNvi">
+                                  <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
+                                </node>
+                                <node concept="37vLTw" id="3_Qgl$MFcsu" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="1HSpY9ri5K5" resolve="joystick" />
+                                </node>
                               </node>
                             </node>
                           </node>
                         </node>
                       </node>
                     </node>
+                    <node concept="3clFbH" id="3_Qgl$MFcaa" role="3cqZAp" />
                   </node>
                 </node>
               </node>
@@ -3255,7 +3249,7 @@
           <node concept="3uOfMU" id="1j74uLtE74H" role="3uOfKq">
             <property role="2TgCbF" value="next" />
             <node concept="hFP$v" id="1j74uLtE74I" role="hFPrv">
-              <property role="hOkn$" value="LT" />
+              <property role="hOkn$" value="GT" />
               <property role="hFP_A" value="0" />
               <ref role="hFP_F" node="680Q_h14WyY" resolve="joystick2" />
               <node concept="17Uvod" id="1j74uLtE74J" role="lGtFl">
@@ -3264,35 +3258,22 @@
                 <node concept="3zFVjK" id="1j74uLtE74K" role="3zH0cK">
                   <node concept="3clFbS" id="1j74uLtE74L" role="2VODD2">
                     <node concept="3clFbF" id="1j74uLtE74M" role="3cqZAp">
-                      <node concept="3cpWs3" id="1j74uLtE74N" role="3clFbG">
-                        <node concept="2OqwBi" id="1j74uLtE74O" role="3uHU7w">
-                          <node concept="2OqwBi" id="1j74uLtE74P" role="2Oq$k0">
-                            <node concept="30H73N" id="1j74uLtE74Q" role="2Oq$k0" />
-                            <node concept="3TrEf2" id="1j74uLtE74R" role="2OqNvi">
-                              <ref role="3Tt5mk" to="u0m8:1j74uLtB8P1" resolve="joystick" />
+                      <node concept="10QFUN" id="1j74uLtE74T" role="3clFbG">
+                        <node concept="10Oyi0" id="1j74uLtE74U" role="10QFUM" />
+                        <node concept="1eOMI4" id="1j74uLtE74V" role="10QFUP">
+                          <node concept="17qRlL" id="1j74uLtE74W" role="1eOMHV">
+                            <node concept="3b6qkQ" id="1j74uLtE74X" role="3uHU7w">
+                              <property role="$nhwW" value="0.9" />
                             </node>
-                          </node>
-                          <node concept="3TrcHB" id="1j74uLtE74S" role="2OqNvi">
-                            <ref role="3TsBF5" to="u0m8:1j74uLtAUKn" resolve="sensivityMin" />
-                          </node>
-                        </node>
-                        <node concept="10QFUN" id="1j74uLtE74T" role="3uHU7B">
-                          <node concept="10Oyi0" id="1j74uLtE74U" role="10QFUM" />
-                          <node concept="1eOMI4" id="1j74uLtE74V" role="10QFUP">
-                            <node concept="17qRlL" id="1j74uLtE74W" role="1eOMHV">
-                              <node concept="3b6qkQ" id="1j74uLtE74X" role="3uHU7w">
-                                <property role="$nhwW" value="0.1" />
+                            <node concept="2OqwBi" id="1j74uLtE74Y" role="3uHU7B">
+                              <node concept="2OqwBi" id="1j74uLtE74Z" role="2Oq$k0">
+                                <node concept="30H73N" id="1j74uLtE750" role="2Oq$k0" />
+                                <node concept="3TrEf2" id="1j74uLtE751" role="2OqNvi">
+                                  <ref role="3Tt5mk" to="u0m8:1j74uLtB8P1" resolve="joystick" />
+                                </node>
                               </node>
-                              <node concept="2OqwBi" id="1j74uLtE74Y" role="3uHU7B">
-                                <node concept="2OqwBi" id="1j74uLtE74Z" role="2Oq$k0">
-                                  <node concept="30H73N" id="1j74uLtE750" role="2Oq$k0" />
-                                  <node concept="3TrEf2" id="1j74uLtE751" role="2OqNvi">
-                                    <ref role="3Tt5mk" to="u0m8:1j74uLtB8P1" resolve="joystick" />
-                                  </node>
-                                </node>
-                                <node concept="3TrcHB" id="1j74uLtE752" role="2OqNvi">
-                                  <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
-                                </node>
+                              <node concept="3TrcHB" id="1j74uLtE752" role="2OqNvi">
+                                <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
                               </node>
                             </node>
                           </node>
@@ -3370,7 +3351,7 @@
           <node concept="3uOfMU" id="1HSpY9rin5Z" role="3uOfKq">
             <property role="2TgCbF" value="state_error" />
             <node concept="hFP$v" id="1HSpY9rin60" role="hFPrv">
-              <property role="hOkn$" value="LT" />
+              <property role="hOkn$" value="GT" />
               <property role="hFP_A" value="0" />
               <ref role="hFP_F" node="680Q_h14WyY" resolve="joystick2" />
               <node concept="1ZhdrF" id="1HSpY9rin61" role="lGtFl">
@@ -3431,37 +3412,27 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbH" id="1HSpY9rin6q" role="3cqZAp" />
-                    <node concept="3clFbF" id="1HSpY9rin6r" role="3cqZAp">
-                      <node concept="3cpWs3" id="1HSpY9rin6s" role="3clFbG">
-                        <node concept="2OqwBi" id="1HSpY9rin6t" role="3uHU7w">
-                          <node concept="3TrcHB" id="1HSpY9rin6u" role="2OqNvi">
-                            <ref role="3TsBF5" to="u0m8:1j74uLtAUKn" resolve="sensivityMin" />
-                          </node>
-                          <node concept="37vLTw" id="1HSpY9rin6v" role="2Oq$k0">
-                            <ref role="3cqZAo" node="1HSpY9rin6l" resolve="joystick" />
-                          </node>
-                        </node>
-                        <node concept="10QFUN" id="1HSpY9rin6w" role="3uHU7B">
-                          <node concept="10Oyi0" id="1HSpY9rin6x" role="10QFUM" />
-                          <node concept="1eOMI4" id="1HSpY9rin6y" role="10QFUP">
-                            <node concept="17qRlL" id="1HSpY9rin6z" role="1eOMHV">
-                              <node concept="3b6qkQ" id="1HSpY9rin6$" role="3uHU7w">
-                                <property role="$nhwW" value="0.1" />
+                    <node concept="3clFbF" id="3_Qgl$MFj$x" role="3cqZAp">
+                      <node concept="10QFUN" id="3_Qgl$MFj$y" role="3clFbG">
+                        <node concept="10Oyi0" id="3_Qgl$MFj$z" role="10QFUM" />
+                        <node concept="1eOMI4" id="3_Qgl$MFj$$" role="10QFUP">
+                          <node concept="17qRlL" id="3_Qgl$MFj$_" role="1eOMHV">
+                            <node concept="3b6qkQ" id="3_Qgl$MFj$A" role="3uHU7w">
+                              <property role="$nhwW" value="0.9" />
+                            </node>
+                            <node concept="2OqwBi" id="3_Qgl$MFj$B" role="3uHU7B">
+                              <node concept="3TrcHB" id="3_Qgl$MFj$C" role="2OqNvi">
+                                <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
                               </node>
-                              <node concept="2OqwBi" id="1HSpY9rin6_" role="3uHU7B">
-                                <node concept="3TrcHB" id="1HSpY9rin6A" role="2OqNvi">
-                                  <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
-                                </node>
-                                <node concept="37vLTw" id="1HSpY9rin6B" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="1HSpY9rin6l" resolve="joystick" />
-                                </node>
+                              <node concept="37vLTw" id="3_Qgl$MFj$D" role="2Oq$k0">
+                                <ref role="3cqZAo" node="1HSpY9rin6l" resolve="joystick" />
                               </node>
                             </node>
                           </node>
                         </node>
                       </node>
                     </node>
+                    <node concept="3clFbH" id="1HSpY9rin6q" role="3cqZAp" />
                   </node>
                 </node>
               </node>
@@ -3524,7 +3495,7 @@
           <node concept="3uOfMU" id="1HSpY9ripTN" role="3uOfKq">
             <property role="2TgCbF" value="state_error" />
             <node concept="hFP$v" id="1HSpY9ripTO" role="hFPrv">
-              <property role="hOkn$" value="GT" />
+              <property role="hOkn$" value="LT" />
               <property role="hFP_A" value="0" />
               <ref role="hFP_F" node="680Q_h14Zek" resolve="joystick1" />
               <node concept="1ZhdrF" id="1HSpY9ripTP" role="lGtFl">
@@ -3585,21 +3556,30 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbH" id="1HSpY9ripUe" role="3cqZAp" />
-                    <node concept="3clFbF" id="1HSpY9ripUf" role="3cqZAp">
-                      <node concept="10QFUN" id="1HSpY9ripUg" role="3clFbG">
-                        <node concept="10Oyi0" id="1HSpY9ripUh" role="10QFUM" />
-                        <node concept="1eOMI4" id="1HSpY9ripUi" role="10QFUP">
-                          <node concept="17qRlL" id="1HSpY9ripUj" role="1eOMHV">
-                            <node concept="3b6qkQ" id="1HSpY9ripUk" role="3uHU7w">
-                              <property role="$nhwW" value="0.9" />
-                            </node>
-                            <node concept="2OqwBi" id="1HSpY9ripUl" role="3uHU7B">
-                              <node concept="3TrcHB" id="1HSpY9ripUm" role="2OqNvi">
-                                <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
+                    <node concept="3clFbF" id="3_Qgl$MFdLJ" role="3cqZAp">
+                      <node concept="3cpWs3" id="3_Qgl$MFdLL" role="3clFbG">
+                        <node concept="2OqwBi" id="3_Qgl$MFdLM" role="3uHU7w">
+                          <node concept="3TrcHB" id="3_Qgl$MFdLN" role="2OqNvi">
+                            <ref role="3TsBF5" to="u0m8:1j74uLtAUKn" resolve="sensivityMin" />
+                          </node>
+                          <node concept="37vLTw" id="3_Qgl$MFdLO" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1HSpY9ripU9" resolve="joystick" />
+                          </node>
+                        </node>
+                        <node concept="10QFUN" id="3_Qgl$MFdLP" role="3uHU7B">
+                          <node concept="10Oyi0" id="3_Qgl$MFdLQ" role="10QFUM" />
+                          <node concept="1eOMI4" id="3_Qgl$MFdLR" role="10QFUP">
+                            <node concept="17qRlL" id="3_Qgl$MFdLS" role="1eOMHV">
+                              <node concept="3b6qkQ" id="3_Qgl$MFdLT" role="3uHU7w">
+                                <property role="$nhwW" value="0.1" />
                               </node>
-                              <node concept="37vLTw" id="1HSpY9ripUn" role="2Oq$k0">
-                                <ref role="3cqZAo" node="1HSpY9ripU9" resolve="joystick" />
+                              <node concept="2OqwBi" id="3_Qgl$MFdLU" role="3uHU7B">
+                                <node concept="3TrcHB" id="3_Qgl$MFdLV" role="2OqNvi">
+                                  <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
+                                </node>
+                                <node concept="37vLTw" id="3_Qgl$MFdLW" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="1HSpY9ripU9" resolve="joystick" />
+                                </node>
                               </node>
                             </node>
                           </node>
@@ -3670,7 +3650,7 @@
           <node concept="3uOfMU" id="1HSpY9rirou" role="3uOfKq">
             <property role="2TgCbF" value="state_error" />
             <node concept="hFP$v" id="1HSpY9rirov" role="hFPrv">
-              <property role="hOkn$" value="LT" />
+              <property role="hOkn$" value="GT" />
               <property role="hFP_A" value="0" />
               <ref role="hFP_F" node="680Q_h14WyY" resolve="joystick2" />
               <node concept="1ZhdrF" id="1HSpY9rirow" role="lGtFl">
@@ -3732,37 +3712,27 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbH" id="1HSpY9riroT" role="3cqZAp" />
-                    <node concept="3clFbF" id="1HSpY9riroU" role="3cqZAp">
-                      <node concept="3cpWs3" id="1HSpY9riroV" role="3clFbG">
-                        <node concept="2OqwBi" id="1HSpY9riroW" role="3uHU7w">
-                          <node concept="3TrcHB" id="1HSpY9riroX" role="2OqNvi">
-                            <ref role="3TsBF5" to="u0m8:1j74uLtAUKn" resolve="sensivityMin" />
-                          </node>
-                          <node concept="37vLTw" id="1HSpY9riroY" role="2Oq$k0">
-                            <ref role="3cqZAo" node="1HSpY9riroO" resolve="joystick" />
-                          </node>
-                        </node>
-                        <node concept="10QFUN" id="1HSpY9riroZ" role="3uHU7B">
-                          <node concept="10Oyi0" id="1HSpY9rirp0" role="10QFUM" />
-                          <node concept="1eOMI4" id="1HSpY9rirp1" role="10QFUP">
-                            <node concept="17qRlL" id="1HSpY9rirp2" role="1eOMHV">
-                              <node concept="3b6qkQ" id="1HSpY9rirp3" role="3uHU7w">
-                                <property role="$nhwW" value="0.1" />
+                    <node concept="3clFbF" id="1HSpY9risVZ" role="3cqZAp">
+                      <node concept="10QFUN" id="1HSpY9risW0" role="3clFbG">
+                        <node concept="10Oyi0" id="1HSpY9risW1" role="10QFUM" />
+                        <node concept="1eOMI4" id="1HSpY9risW2" role="10QFUP">
+                          <node concept="17qRlL" id="1HSpY9risW3" role="1eOMHV">
+                            <node concept="3b6qkQ" id="1HSpY9risW4" role="3uHU7w">
+                              <property role="$nhwW" value="0.9" />
+                            </node>
+                            <node concept="2OqwBi" id="1HSpY9risW5" role="3uHU7B">
+                              <node concept="3TrcHB" id="1HSpY9risW6" role="2OqNvi">
+                                <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
                               </node>
-                              <node concept="2OqwBi" id="1HSpY9rirp4" role="3uHU7B">
-                                <node concept="3TrcHB" id="1HSpY9rirp5" role="2OqNvi">
-                                  <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
-                                </node>
-                                <node concept="37vLTw" id="1HSpY9rirp6" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="1HSpY9riroO" resolve="joystick" />
-                                </node>
+                              <node concept="37vLTw" id="1HSpY9risW7" role="2Oq$k0">
+                                <ref role="3cqZAo" node="1HSpY9riroO" resolve="joystick" />
                               </node>
                             </node>
                           </node>
                         </node>
                       </node>
                     </node>
+                    <node concept="3clFbH" id="1HSpY9riroT" role="3cqZAp" />
                   </node>
                 </node>
               </node>
@@ -3921,7 +3891,7 @@
           <node concept="3uOfMU" id="1HSpY9risVz" role="3uOfKq">
             <property role="2TgCbF" value="state_error" />
             <node concept="hFP$v" id="1HSpY9risV$" role="hFPrv">
-              <property role="hOkn$" value="GT" />
+              <property role="hOkn$" value="LT" />
               <property role="hFP_A" value="0" />
               <ref role="hFP_F" node="680Q_h14WyY" resolve="joystick2" />
               <node concept="1ZhdrF" id="1HSpY9risV_" role="lGtFl">
@@ -3982,27 +3952,37 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbH" id="1HSpY9risVY" role="3cqZAp" />
-                    <node concept="3clFbF" id="1HSpY9risVZ" role="3cqZAp">
-                      <node concept="10QFUN" id="1HSpY9risW0" role="3clFbG">
-                        <node concept="10Oyi0" id="1HSpY9risW1" role="10QFUM" />
-                        <node concept="1eOMI4" id="1HSpY9risW2" role="10QFUP">
-                          <node concept="17qRlL" id="1HSpY9risW3" role="1eOMHV">
-                            <node concept="3b6qkQ" id="1HSpY9risW4" role="3uHU7w">
-                              <property role="$nhwW" value="0.9" />
-                            </node>
-                            <node concept="2OqwBi" id="1HSpY9risW5" role="3uHU7B">
-                              <node concept="3TrcHB" id="1HSpY9risW6" role="2OqNvi">
-                                <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
+                    <node concept="3clFbF" id="3_Qgl$MFgvK" role="3cqZAp">
+                      <node concept="3cpWs3" id="3_Qgl$MFgvM" role="3clFbG">
+                        <node concept="2OqwBi" id="3_Qgl$MFgvN" role="3uHU7w">
+                          <node concept="3TrcHB" id="3_Qgl$MFgvO" role="2OqNvi">
+                            <ref role="3TsBF5" to="u0m8:1j74uLtAUKn" resolve="sensivityMin" />
+                          </node>
+                          <node concept="37vLTw" id="3_Qgl$MFgvP" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1HSpY9risVT" resolve="joystick" />
+                          </node>
+                        </node>
+                        <node concept="10QFUN" id="3_Qgl$MFgvQ" role="3uHU7B">
+                          <node concept="10Oyi0" id="3_Qgl$MFgvR" role="10QFUM" />
+                          <node concept="1eOMI4" id="3_Qgl$MFgvS" role="10QFUP">
+                            <node concept="17qRlL" id="3_Qgl$MFgvT" role="1eOMHV">
+                              <node concept="3b6qkQ" id="3_Qgl$MFgvU" role="3uHU7w">
+                                <property role="$nhwW" value="0.1" />
                               </node>
-                              <node concept="37vLTw" id="1HSpY9risW7" role="2Oq$k0">
-                                <ref role="3cqZAo" node="1HSpY9risVT" resolve="joystick" />
+                              <node concept="2OqwBi" id="3_Qgl$MFgvV" role="3uHU7B">
+                                <node concept="3TrcHB" id="3_Qgl$MFgvW" role="2OqNvi">
+                                  <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
+                                </node>
+                                <node concept="37vLTw" id="3_Qgl$MFgvX" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="1HSpY9risVT" resolve="joystick" />
+                                </node>
                               </node>
                             </node>
                           </node>
                         </node>
                       </node>
                     </node>
+                    <node concept="3clFbH" id="1HSpY9risVY" role="3cqZAp" />
                   </node>
                 </node>
               </node>
@@ -4250,7 +4230,7 @@
           <node concept="3uOfMU" id="1j74uLtEquR" role="3uOfKq">
             <property role="2TgCbF" value="next" />
             <node concept="hFP$v" id="1j74uLtEquS" role="hFPrv">
-              <property role="hOkn$" value="GT" />
+              <property role="hOkn$" value="LT" />
               <property role="hFP_A" value="0" />
               <ref role="hFP_F" node="680Q_h14WyY" resolve="joystick2" />
               <node concept="17Uvod" id="1j74uLtEquT" role="lGtFl">
@@ -4258,23 +4238,36 @@
                 <property role="2qtEX9" value="value" />
                 <node concept="3zFVjK" id="1j74uLtEquU" role="3zH0cK">
                   <node concept="3clFbS" id="1j74uLtEquV" role="2VODD2">
-                    <node concept="3clFbF" id="1j74uLtEu9B" role="3cqZAp">
-                      <node concept="10QFUN" id="1j74uLtEu9D" role="3clFbG">
-                        <node concept="10Oyi0" id="1j74uLtEu9E" role="10QFUM" />
-                        <node concept="1eOMI4" id="1j74uLtEu9F" role="10QFUP">
-                          <node concept="17qRlL" id="1j74uLtEu9G" role="1eOMHV">
-                            <node concept="3b6qkQ" id="1j74uLtEu9H" role="3uHU7w">
-                              <property role="$nhwW" value="0.9" />
+                    <node concept="3clFbF" id="3_Qgl$MEOoF" role="3cqZAp">
+                      <node concept="3cpWs3" id="3_Qgl$MEOoH" role="3clFbG">
+                        <node concept="2OqwBi" id="3_Qgl$MEOoI" role="3uHU7w">
+                          <node concept="3TrcHB" id="3_Qgl$MEOoJ" role="2OqNvi">
+                            <ref role="3TsBF5" to="u0m8:1j74uLtAUKn" resolve="sensivityMin" />
+                          </node>
+                          <node concept="2OqwBi" id="3_Qgl$MEOoK" role="2Oq$k0">
+                            <node concept="30H73N" id="3_Qgl$MEOoL" role="2Oq$k0" />
+                            <node concept="3TrEf2" id="3_Qgl$MEOoM" role="2OqNvi">
+                              <ref role="3Tt5mk" to="u0m8:1j74uLtB8P1" resolve="joystick" />
                             </node>
-                            <node concept="2OqwBi" id="1j74uLtEu9I" role="3uHU7B">
-                              <node concept="2OqwBi" id="1j74uLtEu9J" role="2Oq$k0">
-                                <node concept="30H73N" id="1j74uLtEu9K" role="2Oq$k0" />
-                                <node concept="3TrEf2" id="1j74uLtEu9L" role="2OqNvi">
-                                  <ref role="3Tt5mk" to="u0m8:1j74uLtB8P1" resolve="joystick" />
-                                </node>
+                          </node>
+                        </node>
+                        <node concept="10QFUN" id="3_Qgl$MEOoN" role="3uHU7B">
+                          <node concept="10Oyi0" id="3_Qgl$MEOoO" role="10QFUM" />
+                          <node concept="1eOMI4" id="3_Qgl$MEOoP" role="10QFUP">
+                            <node concept="17qRlL" id="3_Qgl$MEOoQ" role="1eOMHV">
+                              <node concept="3b6qkQ" id="3_Qgl$MEOoR" role="3uHU7w">
+                                <property role="$nhwW" value="0.1" />
                               </node>
-                              <node concept="3TrcHB" id="1j74uLtEu9M" role="2OqNvi">
-                                <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
+                              <node concept="2OqwBi" id="3_Qgl$MEOoS" role="3uHU7B">
+                                <node concept="3TrcHB" id="3_Qgl$MEOoT" role="2OqNvi">
+                                  <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
+                                </node>
+                                <node concept="2OqwBi" id="3_Qgl$MEOoU" role="2Oq$k0">
+                                  <node concept="30H73N" id="3_Qgl$MEOoV" role="2Oq$k0" />
+                                  <node concept="3TrEf2" id="3_Qgl$MEOoW" role="2OqNvi">
+                                    <ref role="3Tt5mk" to="u0m8:1j74uLtB8P1" resolve="joystick" />
+                                  </node>
+                                </node>
                               </node>
                             </node>
                           </node>
@@ -4352,7 +4345,7 @@
           <node concept="3uOfMU" id="1HSpY9rjwPr" role="3uOfKq">
             <property role="2TgCbF" value="state_error" />
             <node concept="hFP$v" id="1HSpY9rjwPs" role="hFPrv">
-              <property role="hOkn$" value="LT" />
+              <property role="hOkn$" value="GT" />
               <property role="hFP_A" value="0" />
               <ref role="hFP_F" node="680Q_h14Zek" resolve="joystick1" />
               <node concept="1ZhdrF" id="1HSpY9rjwPt" role="lGtFl">
@@ -4413,37 +4406,27 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbH" id="1HSpY9rjwPQ" role="3cqZAp" />
-                    <node concept="3clFbF" id="1HSpY9rjwPR" role="3cqZAp">
-                      <node concept="3cpWs3" id="1HSpY9rjwPS" role="3clFbG">
-                        <node concept="2OqwBi" id="1HSpY9rjwPT" role="3uHU7w">
-                          <node concept="3TrcHB" id="1HSpY9rjwPU" role="2OqNvi">
-                            <ref role="3TsBF5" to="u0m8:1j74uLtAUKn" resolve="sensivityMin" />
-                          </node>
-                          <node concept="37vLTw" id="1HSpY9rjwPV" role="2Oq$k0">
-                            <ref role="3cqZAo" node="1HSpY9rjwPL" resolve="joystick" />
-                          </node>
-                        </node>
-                        <node concept="10QFUN" id="1HSpY9rjwPW" role="3uHU7B">
-                          <node concept="10Oyi0" id="1HSpY9rjwPX" role="10QFUM" />
-                          <node concept="1eOMI4" id="1HSpY9rjwPY" role="10QFUP">
-                            <node concept="17qRlL" id="1HSpY9rjwPZ" role="1eOMHV">
-                              <node concept="3b6qkQ" id="1HSpY9rjwQ0" role="3uHU7w">
-                                <property role="$nhwW" value="0.1" />
+                    <node concept="3clFbF" id="3_Qgl$MFkCN" role="3cqZAp">
+                      <node concept="10QFUN" id="3_Qgl$MFkCO" role="3clFbG">
+                        <node concept="10Oyi0" id="3_Qgl$MFkCP" role="10QFUM" />
+                        <node concept="1eOMI4" id="3_Qgl$MFkCQ" role="10QFUP">
+                          <node concept="17qRlL" id="3_Qgl$MFkCR" role="1eOMHV">
+                            <node concept="3b6qkQ" id="3_Qgl$MFkCS" role="3uHU7w">
+                              <property role="$nhwW" value="0.9" />
+                            </node>
+                            <node concept="2OqwBi" id="3_Qgl$MFkCT" role="3uHU7B">
+                              <node concept="3TrcHB" id="3_Qgl$MFkCU" role="2OqNvi">
+                                <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
                               </node>
-                              <node concept="2OqwBi" id="1HSpY9rjwQ1" role="3uHU7B">
-                                <node concept="3TrcHB" id="1HSpY9rjwQ2" role="2OqNvi">
-                                  <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
-                                </node>
-                                <node concept="37vLTw" id="1HSpY9rjwQ3" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="1HSpY9rjwPL" resolve="joystick" />
-                                </node>
+                              <node concept="37vLTw" id="3_Qgl$MFkCV" role="2Oq$k0">
+                                <ref role="3cqZAo" node="1HSpY9rjwPL" resolve="joystick" />
                               </node>
                             </node>
                           </node>
                         </node>
                       </node>
                     </node>
+                    <node concept="3clFbH" id="1HSpY9rjwPQ" role="3cqZAp" />
                   </node>
                 </node>
               </node>
@@ -4508,7 +4491,7 @@
           <node concept="3uOfMU" id="1HSpY9rjFjY" role="3uOfKq">
             <property role="2TgCbF" value="state_error" />
             <node concept="hFP$v" id="1HSpY9rjFjZ" role="hFPrv">
-              <property role="hOkn$" value="GT" />
+              <property role="hOkn$" value="LT" />
               <property role="hFP_A" value="0" />
               <ref role="hFP_F" node="680Q_h14Zek" resolve="joystick1" />
               <node concept="1ZhdrF" id="1HSpY9rjFk0" role="lGtFl">
@@ -4569,27 +4552,37 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbH" id="1HSpY9rjFkp" role="3cqZAp" />
-                    <node concept="3clFbF" id="1HSpY9rjFkq" role="3cqZAp">
-                      <node concept="10QFUN" id="1HSpY9rjFkr" role="3clFbG">
-                        <node concept="10Oyi0" id="1HSpY9rjFks" role="10QFUM" />
-                        <node concept="1eOMI4" id="1HSpY9rjFkt" role="10QFUP">
-                          <node concept="17qRlL" id="1HSpY9rjFku" role="1eOMHV">
-                            <node concept="3b6qkQ" id="1HSpY9rjFkv" role="3uHU7w">
-                              <property role="$nhwW" value="0.9" />
-                            </node>
-                            <node concept="2OqwBi" id="1HSpY9rjFkw" role="3uHU7B">
-                              <node concept="3TrcHB" id="1HSpY9rjFkx" role="2OqNvi">
-                                <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
+                    <node concept="3clFbF" id="3_Qgl$MFqRd" role="3cqZAp">
+                      <node concept="3cpWs3" id="3_Qgl$MFqRe" role="3clFbG">
+                        <node concept="2OqwBi" id="3_Qgl$MFqRf" role="3uHU7w">
+                          <node concept="3TrcHB" id="3_Qgl$MFqRg" role="2OqNvi">
+                            <ref role="3TsBF5" to="u0m8:1j74uLtAUKn" resolve="sensivityMin" />
+                          </node>
+                          <node concept="37vLTw" id="3_Qgl$MFqRh" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1HSpY9rjFkk" resolve="joystick" />
+                          </node>
+                        </node>
+                        <node concept="10QFUN" id="3_Qgl$MFqRi" role="3uHU7B">
+                          <node concept="10Oyi0" id="3_Qgl$MFqRj" role="10QFUM" />
+                          <node concept="1eOMI4" id="3_Qgl$MFqRk" role="10QFUP">
+                            <node concept="17qRlL" id="3_Qgl$MFqRl" role="1eOMHV">
+                              <node concept="3b6qkQ" id="3_Qgl$MFqRm" role="3uHU7w">
+                                <property role="$nhwW" value="0.1" />
                               </node>
-                              <node concept="37vLTw" id="1HSpY9rjFky" role="2Oq$k0">
-                                <ref role="3cqZAo" node="1HSpY9rjFkk" resolve="joystick" />
+                              <node concept="2OqwBi" id="3_Qgl$MFqRn" role="3uHU7B">
+                                <node concept="3TrcHB" id="3_Qgl$MFqRo" role="2OqNvi">
+                                  <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
+                                </node>
+                                <node concept="37vLTw" id="3_Qgl$MFqRp" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="1HSpY9rjFkk" resolve="joystick" />
+                                </node>
                               </node>
                             </node>
                           </node>
                         </node>
                       </node>
                     </node>
+                    <node concept="3clFbH" id="1HSpY9rjFkp" role="3cqZAp" />
                   </node>
                 </node>
               </node>
@@ -4654,7 +4647,7 @@
           <node concept="3uOfMU" id="1HSpY9rjGMB" role="3uOfKq">
             <property role="2TgCbF" value="state_error" />
             <node concept="hFP$v" id="1HSpY9rjGMC" role="hFPrv">
-              <property role="hOkn$" value="LT" />
+              <property role="hOkn$" value="GT" />
               <property role="hFP_A" value="0" />
               <ref role="hFP_F" node="680Q_h14WyY" resolve="joystick2" />
               <node concept="1ZhdrF" id="1HSpY9rjGMD" role="lGtFl">
@@ -4716,37 +4709,27 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbH" id="1HSpY9rjGN3" role="3cqZAp" />
-                    <node concept="3clFbF" id="1HSpY9rjGN4" role="3cqZAp">
-                      <node concept="3cpWs3" id="1HSpY9rjGN5" role="3clFbG">
-                        <node concept="2OqwBi" id="1HSpY9rjGN6" role="3uHU7w">
-                          <node concept="3TrcHB" id="1HSpY9rjGN7" role="2OqNvi">
-                            <ref role="3TsBF5" to="u0m8:1j74uLtAUKn" resolve="sensivityMin" />
-                          </node>
-                          <node concept="37vLTw" id="1HSpY9rjGN8" role="2Oq$k0">
-                            <ref role="3cqZAo" node="1HSpY9rjGMY" resolve="joystick" />
-                          </node>
-                        </node>
-                        <node concept="10QFUN" id="1HSpY9rjGN9" role="3uHU7B">
-                          <node concept="10Oyi0" id="1HSpY9rjGNa" role="10QFUM" />
-                          <node concept="1eOMI4" id="1HSpY9rjGNb" role="10QFUP">
-                            <node concept="17qRlL" id="1HSpY9rjGNc" role="1eOMHV">
-                              <node concept="3b6qkQ" id="1HSpY9rjGNd" role="3uHU7w">
-                                <property role="$nhwW" value="0.1" />
+                    <node concept="3clFbF" id="3_Qgl$MFmyq" role="3cqZAp">
+                      <node concept="10QFUN" id="3_Qgl$MFmyr" role="3clFbG">
+                        <node concept="10Oyi0" id="3_Qgl$MFmys" role="10QFUM" />
+                        <node concept="1eOMI4" id="3_Qgl$MFmyt" role="10QFUP">
+                          <node concept="17qRlL" id="3_Qgl$MFmyu" role="1eOMHV">
+                            <node concept="3b6qkQ" id="3_Qgl$MFmyv" role="3uHU7w">
+                              <property role="$nhwW" value="0.9" />
+                            </node>
+                            <node concept="2OqwBi" id="3_Qgl$MFmyw" role="3uHU7B">
+                              <node concept="3TrcHB" id="3_Qgl$MFmyx" role="2OqNvi">
+                                <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
                               </node>
-                              <node concept="2OqwBi" id="1HSpY9rjGNe" role="3uHU7B">
-                                <node concept="3TrcHB" id="1HSpY9rjGNf" role="2OqNvi">
-                                  <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
-                                </node>
-                                <node concept="37vLTw" id="1HSpY9rjGNg" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="1HSpY9rjGMY" resolve="joystick" />
-                                </node>
+                              <node concept="37vLTw" id="3_Qgl$MFmyy" role="2Oq$k0">
+                                <ref role="3cqZAo" node="1HSpY9rjGMY" resolve="joystick" />
                               </node>
                             </node>
                           </node>
                         </node>
                       </node>
                     </node>
+                    <node concept="3clFbH" id="1HSpY9rjGN3" role="3cqZAp" />
                   </node>
                 </node>
               </node>
@@ -4811,7 +4794,7 @@
           <node concept="3uOfMU" id="1HSpY9rjIUT" role="3uOfKq">
             <property role="2TgCbF" value="state_error" />
             <node concept="hFP$v" id="1HSpY9rjIUU" role="hFPrv">
-              <property role="hOkn$" value="GT" />
+              <property role="hOkn$" value="LT" />
               <property role="hFP_A" value="0" />
               <ref role="hFP_F" node="680Q_h14WyY" resolve="joystick2" />
               <node concept="1ZhdrF" id="1HSpY9rjIUV" role="lGtFl">
@@ -4872,21 +4855,30 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbH" id="1HSpY9rjIVk" role="3cqZAp" />
-                    <node concept="3clFbF" id="1HSpY9rjIVl" role="3cqZAp">
-                      <node concept="10QFUN" id="1HSpY9rjIVm" role="3clFbG">
-                        <node concept="10Oyi0" id="1HSpY9rjIVn" role="10QFUM" />
-                        <node concept="1eOMI4" id="1HSpY9rjIVo" role="10QFUP">
-                          <node concept="17qRlL" id="1HSpY9rjIVp" role="1eOMHV">
-                            <node concept="3b6qkQ" id="1HSpY9rjIVq" role="3uHU7w">
-                              <property role="$nhwW" value="0.9" />
-                            </node>
-                            <node concept="2OqwBi" id="1HSpY9rjIVr" role="3uHU7B">
-                              <node concept="3TrcHB" id="1HSpY9rjIVs" role="2OqNvi">
-                                <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
+                    <node concept="3clFbF" id="1HSpY9rjGN4" role="3cqZAp">
+                      <node concept="3cpWs3" id="1HSpY9rjGN5" role="3clFbG">
+                        <node concept="2OqwBi" id="1HSpY9rjGN6" role="3uHU7w">
+                          <node concept="3TrcHB" id="1HSpY9rjGN7" role="2OqNvi">
+                            <ref role="3TsBF5" to="u0m8:1j74uLtAUKn" resolve="sensivityMin" />
+                          </node>
+                          <node concept="37vLTw" id="1HSpY9rjGN8" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1HSpY9rjIVf" resolve="joystick" />
+                          </node>
+                        </node>
+                        <node concept="10QFUN" id="1HSpY9rjGN9" role="3uHU7B">
+                          <node concept="10Oyi0" id="1HSpY9rjGNa" role="10QFUM" />
+                          <node concept="1eOMI4" id="1HSpY9rjGNb" role="10QFUP">
+                            <node concept="17qRlL" id="1HSpY9rjGNc" role="1eOMHV">
+                              <node concept="3b6qkQ" id="1HSpY9rjGNd" role="3uHU7w">
+                                <property role="$nhwW" value="0.1" />
                               </node>
-                              <node concept="37vLTw" id="1HSpY9rjIVt" role="2Oq$k0">
-                                <ref role="3cqZAo" node="1HSpY9rjIVf" resolve="joystick" />
+                              <node concept="2OqwBi" id="1HSpY9rjGNe" role="3uHU7B">
+                                <node concept="3TrcHB" id="1HSpY9rjGNf" role="2OqNvi">
+                                  <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
+                                </node>
+                                <node concept="37vLTw" id="1HSpY9rjGNg" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="1HSpY9rjIVf" resolve="joystick" />
+                                </node>
                               </node>
                             </node>
                           </node>
@@ -5290,7 +5282,7 @@
           <node concept="3uOfMU" id="3_Qgl$MAKHP" role="3uOfKq">
             <property role="2TgCbF" value="state_error" />
             <node concept="hFP$v" id="3_Qgl$MAKHQ" role="hFPrv">
-              <property role="hOkn$" value="LT" />
+              <property role="hOkn$" value="GT" />
               <property role="hFP_A" value="0" />
               <ref role="hFP_F" node="680Q_h14WyY" resolve="joystick2" />
               <node concept="1ZhdrF" id="3_Qgl$MAKHR" role="lGtFl">
@@ -5351,37 +5343,27 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbH" id="3_Qgl$MAKIg" role="3cqZAp" />
-                    <node concept="3clFbF" id="3_Qgl$MAKIh" role="3cqZAp">
-                      <node concept="3cpWs3" id="3_Qgl$MAKIi" role="3clFbG">
-                        <node concept="2OqwBi" id="3_Qgl$MAKIj" role="3uHU7w">
-                          <node concept="3TrcHB" id="3_Qgl$MAKIk" role="2OqNvi">
-                            <ref role="3TsBF5" to="u0m8:1j74uLtAUKn" resolve="sensivityMin" />
-                          </node>
-                          <node concept="37vLTw" id="3_Qgl$MAKIl" role="2Oq$k0">
-                            <ref role="3cqZAo" node="3_Qgl$MAKIb" resolve="joystick" />
-                          </node>
-                        </node>
-                        <node concept="10QFUN" id="3_Qgl$MAKIm" role="3uHU7B">
-                          <node concept="10Oyi0" id="3_Qgl$MAKIn" role="10QFUM" />
-                          <node concept="1eOMI4" id="3_Qgl$MAKIo" role="10QFUP">
-                            <node concept="17qRlL" id="3_Qgl$MAKIp" role="1eOMHV">
-                              <node concept="3b6qkQ" id="3_Qgl$MAKIq" role="3uHU7w">
-                                <property role="$nhwW" value="0.1" />
+                    <node concept="3clFbF" id="3_Qgl$MAO_b" role="3cqZAp">
+                      <node concept="10QFUN" id="3_Qgl$MAO_c" role="3clFbG">
+                        <node concept="10Oyi0" id="3_Qgl$MAO_d" role="10QFUM" />
+                        <node concept="1eOMI4" id="3_Qgl$MAO_e" role="10QFUP">
+                          <node concept="17qRlL" id="3_Qgl$MAO_f" role="1eOMHV">
+                            <node concept="3b6qkQ" id="3_Qgl$MAO_g" role="3uHU7w">
+                              <property role="$nhwW" value="0.9" />
+                            </node>
+                            <node concept="2OqwBi" id="3_Qgl$MAO_h" role="3uHU7B">
+                              <node concept="3TrcHB" id="3_Qgl$MAO_i" role="2OqNvi">
+                                <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
                               </node>
-                              <node concept="2OqwBi" id="3_Qgl$MAKIr" role="3uHU7B">
-                                <node concept="3TrcHB" id="3_Qgl$MAKIs" role="2OqNvi">
-                                  <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
-                                </node>
-                                <node concept="37vLTw" id="3_Qgl$MAKIt" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="3_Qgl$MAKIb" resolve="joystick" />
-                                </node>
+                              <node concept="37vLTw" id="3_Qgl$MAO_j" role="2Oq$k0">
+                                <ref role="3cqZAo" node="3_Qgl$MAKIb" resolve="joystick" />
                               </node>
                             </node>
                           </node>
                         </node>
                       </node>
                     </node>
+                    <node concept="3clFbH" id="3_Qgl$MAKIg" role="3cqZAp" />
                   </node>
                 </node>
               </node>
@@ -5460,7 +5442,7 @@
           <node concept="3uOfMU" id="3_Qgl$MAO$J" role="3uOfKq">
             <property role="2TgCbF" value="state_error" />
             <node concept="hFP$v" id="3_Qgl$MAO$K" role="hFPrv">
-              <property role="hOkn$" value="GT" />
+              <property role="hOkn$" value="LT" />
               <property role="hFP_A" value="0" />
               <ref role="hFP_F" node="680Q_h14WyY" resolve="joystick2" />
               <node concept="1ZhdrF" id="3_Qgl$MAO$L" role="lGtFl">
@@ -5521,27 +5503,37 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbH" id="3_Qgl$MAO_a" role="3cqZAp" />
-                    <node concept="3clFbF" id="3_Qgl$MAO_b" role="3cqZAp">
-                      <node concept="10QFUN" id="3_Qgl$MAO_c" role="3clFbG">
-                        <node concept="10Oyi0" id="3_Qgl$MAO_d" role="10QFUM" />
-                        <node concept="1eOMI4" id="3_Qgl$MAO_e" role="10QFUP">
-                          <node concept="17qRlL" id="3_Qgl$MAO_f" role="1eOMHV">
-                            <node concept="3b6qkQ" id="3_Qgl$MAO_g" role="3uHU7w">
-                              <property role="$nhwW" value="0.9" />
-                            </node>
-                            <node concept="2OqwBi" id="3_Qgl$MAO_h" role="3uHU7B">
-                              <node concept="3TrcHB" id="3_Qgl$MAO_i" role="2OqNvi">
-                                <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
+                    <node concept="3clFbF" id="3_Qgl$MFw67" role="3cqZAp">
+                      <node concept="3cpWs3" id="3_Qgl$MFw68" role="3clFbG">
+                        <node concept="2OqwBi" id="3_Qgl$MFw69" role="3uHU7w">
+                          <node concept="3TrcHB" id="3_Qgl$MFw6a" role="2OqNvi">
+                            <ref role="3TsBF5" to="u0m8:1j74uLtAUKn" resolve="sensivityMin" />
+                          </node>
+                          <node concept="37vLTw" id="3_Qgl$MFw6b" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3_Qgl$MAO_5" resolve="joystick" />
+                          </node>
+                        </node>
+                        <node concept="10QFUN" id="3_Qgl$MFw6c" role="3uHU7B">
+                          <node concept="10Oyi0" id="3_Qgl$MFw6d" role="10QFUM" />
+                          <node concept="1eOMI4" id="3_Qgl$MFw6e" role="10QFUP">
+                            <node concept="17qRlL" id="3_Qgl$MFw6f" role="1eOMHV">
+                              <node concept="3b6qkQ" id="3_Qgl$MFw6g" role="3uHU7w">
+                                <property role="$nhwW" value="0.1" />
                               </node>
-                              <node concept="37vLTw" id="3_Qgl$MAO_j" role="2Oq$k0">
-                                <ref role="3cqZAo" node="3_Qgl$MAO_5" resolve="joystick" />
+                              <node concept="2OqwBi" id="3_Qgl$MFw6h" role="3uHU7B">
+                                <node concept="3TrcHB" id="3_Qgl$MFw6i" role="2OqNvi">
+                                  <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
+                                </node>
+                                <node concept="37vLTw" id="3_Qgl$MFw6j" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="3_Qgl$MAO_5" resolve="joystick" />
+                                </node>
                               </node>
                             </node>
                           </node>
                         </node>
                       </node>
                     </node>
+                    <node concept="3clFbH" id="3_Qgl$MAO_a" role="3cqZAp" />
                   </node>
                 </node>
               </node>
@@ -5604,7 +5596,7 @@
           <node concept="3uOfMU" id="3_Qgl$MAR7P" role="3uOfKq">
             <property role="2TgCbF" value="state_error" />
             <node concept="hFP$v" id="3_Qgl$MAR7Q" role="hFPrv">
-              <property role="hOkn$" value="LT" />
+              <property role="hOkn$" value="GT" />
               <property role="hFP_A" value="0" />
               <ref role="hFP_F" node="680Q_h14WyY" resolve="joystick2" />
               <node concept="1ZhdrF" id="3_Qgl$MAR7R" role="lGtFl">
@@ -5665,37 +5657,27 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbH" id="3_Qgl$MAR8g" role="3cqZAp" />
-                    <node concept="3clFbF" id="3_Qgl$MAR8h" role="3cqZAp">
-                      <node concept="3cpWs3" id="3_Qgl$MAR8i" role="3clFbG">
-                        <node concept="2OqwBi" id="3_Qgl$MAR8j" role="3uHU7w">
-                          <node concept="3TrcHB" id="3_Qgl$MAR8k" role="2OqNvi">
-                            <ref role="3TsBF5" to="u0m8:1j74uLtAUKn" resolve="sensivityMin" />
-                          </node>
-                          <node concept="37vLTw" id="3_Qgl$MAR8l" role="2Oq$k0">
-                            <ref role="3cqZAo" node="3_Qgl$MAR8b" resolve="joystick" />
-                          </node>
-                        </node>
-                        <node concept="10QFUN" id="3_Qgl$MAR8m" role="3uHU7B">
-                          <node concept="10Oyi0" id="3_Qgl$MAR8n" role="10QFUM" />
-                          <node concept="1eOMI4" id="3_Qgl$MAR8o" role="10QFUP">
-                            <node concept="17qRlL" id="3_Qgl$MAR8p" role="1eOMHV">
-                              <node concept="3b6qkQ" id="3_Qgl$MAR8q" role="3uHU7w">
-                                <property role="$nhwW" value="0.1" />
+                    <node concept="3clFbF" id="3_Qgl$MFzq8" role="3cqZAp">
+                      <node concept="10QFUN" id="3_Qgl$MFzq9" role="3clFbG">
+                        <node concept="10Oyi0" id="3_Qgl$MFzqa" role="10QFUM" />
+                        <node concept="1eOMI4" id="3_Qgl$MFzqb" role="10QFUP">
+                          <node concept="17qRlL" id="3_Qgl$MFzqc" role="1eOMHV">
+                            <node concept="3b6qkQ" id="3_Qgl$MFzqd" role="3uHU7w">
+                              <property role="$nhwW" value="0.9" />
+                            </node>
+                            <node concept="2OqwBi" id="3_Qgl$MFzqe" role="3uHU7B">
+                              <node concept="3TrcHB" id="3_Qgl$MFzqf" role="2OqNvi">
+                                <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
                               </node>
-                              <node concept="2OqwBi" id="3_Qgl$MAR8r" role="3uHU7B">
-                                <node concept="3TrcHB" id="3_Qgl$MAR8s" role="2OqNvi">
-                                  <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
-                                </node>
-                                <node concept="37vLTw" id="3_Qgl$MAR8t" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="3_Qgl$MAR8b" resolve="joystick" />
-                                </node>
+                              <node concept="37vLTw" id="3_Qgl$MFzqg" role="2Oq$k0">
+                                <ref role="3cqZAo" node="3_Qgl$MAR8b" resolve="joystick" />
                               </node>
                             </node>
                           </node>
                         </node>
                       </node>
                     </node>
+                    <node concept="3clFbH" id="3_Qgl$MAR8g" role="3cqZAp" />
                   </node>
                 </node>
               </node>
@@ -5761,7 +5743,7 @@
           <node concept="3uOfMU" id="3_Qgl$MASTT" role="3uOfKq">
             <property role="2TgCbF" value="state_error" />
             <node concept="hFP$v" id="3_Qgl$MASTU" role="hFPrv">
-              <property role="hOkn$" value="GT" />
+              <property role="hOkn$" value="LT" />
               <property role="hFP_A" value="0" />
               <ref role="hFP_F" node="680Q_h14WyY" resolve="joystick2" />
               <node concept="1ZhdrF" id="3_Qgl$MASTV" role="lGtFl">
@@ -5822,21 +5804,30 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbH" id="3_Qgl$MASUk" role="3cqZAp" />
-                    <node concept="3clFbF" id="3_Qgl$MASUl" role="3cqZAp">
-                      <node concept="10QFUN" id="3_Qgl$MASUm" role="3clFbG">
-                        <node concept="10Oyi0" id="3_Qgl$MASUn" role="10QFUM" />
-                        <node concept="1eOMI4" id="3_Qgl$MASUo" role="10QFUP">
-                          <node concept="17qRlL" id="3_Qgl$MASUp" role="1eOMHV">
-                            <node concept="3b6qkQ" id="3_Qgl$MASUq" role="3uHU7w">
-                              <property role="$nhwW" value="0.9" />
-                            </node>
-                            <node concept="2OqwBi" id="3_Qgl$MASUr" role="3uHU7B">
-                              <node concept="3TrcHB" id="3_Qgl$MASUs" role="2OqNvi">
-                                <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
+                    <node concept="3clFbF" id="3_Qgl$MFshA" role="3cqZAp">
+                      <node concept="3cpWs3" id="3_Qgl$MFshB" role="3clFbG">
+                        <node concept="2OqwBi" id="3_Qgl$MFshC" role="3uHU7w">
+                          <node concept="3TrcHB" id="3_Qgl$MFshD" role="2OqNvi">
+                            <ref role="3TsBF5" to="u0m8:1j74uLtAUKn" resolve="sensivityMin" />
+                          </node>
+                          <node concept="37vLTw" id="3_Qgl$MFshE" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3_Qgl$MASUf" resolve="joystick" />
+                          </node>
+                        </node>
+                        <node concept="10QFUN" id="3_Qgl$MFshF" role="3uHU7B">
+                          <node concept="10Oyi0" id="3_Qgl$MFshG" role="10QFUM" />
+                          <node concept="1eOMI4" id="3_Qgl$MFshH" role="10QFUP">
+                            <node concept="17qRlL" id="3_Qgl$MFshI" role="1eOMHV">
+                              <node concept="3b6qkQ" id="3_Qgl$MFshJ" role="3uHU7w">
+                                <property role="$nhwW" value="0.1" />
                               </node>
-                              <node concept="37vLTw" id="3_Qgl$MASUt" role="2Oq$k0">
-                                <ref role="3cqZAo" node="3_Qgl$MASUf" resolve="joystick" />
+                              <node concept="2OqwBi" id="3_Qgl$MFshK" role="3uHU7B">
+                                <node concept="3TrcHB" id="3_Qgl$MFshL" role="2OqNvi">
+                                  <ref role="3TsBF5" to="u0m8:1j74uLtAUKr" resolve="sensivityMax" />
+                                </node>
+                                <node concept="37vLTw" id="3_Qgl$MFshM" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="3_Qgl$MASUf" resolve="joystick" />
+                                </node>
                               </node>
                             </node>
                           </node>

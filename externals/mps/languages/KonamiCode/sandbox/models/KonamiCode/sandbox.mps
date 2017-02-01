@@ -59,16 +59,53 @@
       <property role="2D6mZ8" value="UP" />
       <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
     </node>
-    <node concept="109lWV" id="2UKI_L0LzgS" role="3uOfKp">
-      <ref role="109lWn" node="1HSpY9rvCwi" resolve="monbouton" />
+    <node concept="2D6mZc" id="3_Qgl$MG1QT" role="3uOfKp">
+      <property role="2D6mZ8" value="DOWN" />
+      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
+    </node>
+    <node concept="2D6mZc" id="3_Qgl$MG1Rd" role="3uOfKp">
+      <property role="2D6mZ8" value="DOWN" />
+      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
+    </node>
+    <node concept="2D6mZc" id="3_Qgl$MG1Rz" role="3uOfKp">
+      <property role="2D6mZ8" value="LEFT" />
+      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
+    </node>
+    <node concept="2D6mZc" id="3_Qgl$MG1RV" role="3uOfKp">
+      <property role="2D6mZ8" value="RIGHT" />
+      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
+    </node>
+    <node concept="2D6mZc" id="3_Qgl$MG1Sl" role="3uOfKp">
+      <property role="2D6mZ8" value="LEFT" />
+      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
+    </node>
+    <node concept="2D6mZc" id="3_Qgl$MG1SL" role="3uOfKp">
+      <property role="2D6mZ8" value="RIGHT" />
+      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
+    </node>
+    <node concept="109lWV" id="3_Qgl$MCCwa" role="3uOfKp">
+      <ref role="109lWn" node="3_Qgl$MCBXd" resolve="XButton" />
+    </node>
+    <node concept="109lWV" id="3_Qgl$MCOFX" role="3uOfKp">
+      <ref role="109lWn" node="1HSpY9rvCwi" resolve="AButton" />
+    </node>
+    <node concept="109lWV" id="3_Qgl$MCOG9" role="3uOfKp">
+      <ref role="109lWn" node="3_Qgl$MCBWY" resolve="BButton" />
+    </node>
+    <node concept="109lWV" id="3_Qgl$MCOGn" role="3uOfKp">
+      <ref role="109lWn" node="3_Qgl$MCBXv" resolve="YButton" />
+    </node>
+    <node concept="2D6mZc" id="3_Qgl$MCOGB" role="3uOfKp">
+      <property role="2D6mZ8" value="DOWN" />
+      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
     </node>
     <node concept="3T3p6O" id="1IuFFadRRMt" role="2D6mO3">
       <property role="TrG5h" value="redGreen" />
-      <property role="3T3nKM" value="11" />
+      <property role="3T3nKM" value="7" />
     </node>
     <node concept="3T3p6O" id="1HSpY9rmX4E" role="108liW">
       <property role="TrG5h" value="redLed" />
-      <property role="3T3nKM" value="12" />
+      <property role="3T3nKM" value="6" />
     </node>
     <node concept="3T334H" id="1HSpY9rrVi_" role="2D6mn0">
       <property role="TrG5h" value="joy" />
@@ -82,11 +119,32 @@
       </node>
     </node>
     <node concept="106jKc" id="1HSpY9rvCwi" role="2D6mn0">
-      <property role="TrG5h" value="monbouton" />
-      <node concept="3cmrfG" id="3_Qgl$MzNBC" role="yT8a1">
-        <property role="3cmrfH" value="8" />
+      <property role="TrG5h" value="AButton" />
+      <node concept="3cmrfG" id="3_Qgl$MCBXO" role="yT8a1">
+        <property role="3cmrfH" value="9" />
       </node>
       <node concept="3T334G" id="1HSpY9rvCwk" role="104w9$" />
+    </node>
+    <node concept="106jKc" id="3_Qgl$MCBWY" role="2D6mn0">
+      <property role="TrG5h" value="BButton" />
+      <node concept="3cmrfG" id="3_Qgl$MCBXW" role="yT8a1">
+        <property role="3cmrfH" value="10" />
+      </node>
+      <node concept="3T334G" id="3_Qgl$MCBX0" role="104w9$" />
+    </node>
+    <node concept="106jKc" id="3_Qgl$MCBXd" role="2D6mn0">
+      <property role="TrG5h" value="XButton" />
+      <node concept="3cmrfG" id="3_Qgl$MCBXe" role="yT8a1">
+        <property role="3cmrfH" value="8" />
+      </node>
+      <node concept="3T334G" id="3_Qgl$MCBXf" role="104w9$" />
+    </node>
+    <node concept="106jKc" id="3_Qgl$MCBXv" role="2D6mn0">
+      <property role="TrG5h" value="YButton" />
+      <node concept="3cmrfG" id="3_Qgl$MCBY4" role="yT8a1">
+        <property role="3cmrfH" value="11" />
+      </node>
+      <node concept="3T334G" id="3_Qgl$MCBXx" role="104w9$" />
     </node>
   </node>
 </model>
