@@ -128,6 +128,7 @@
       <concept id="8473239748133627831" name="ArduinoML.structure.Condition" flags="ng" index="hFP$v">
         <property id="8473239748133627854" name="value" index="hFP_A" />
         <property id="8473239748134550348" name="operator" index="hOkn$" />
+        <property id="907401087042094021" name="status" index="DpjYY" />
         <reference id="8473239748133627843" name="sensor" index="hFP_F" />
       </concept>
       <concept id="7061884271117379638" name="ArduinoML.structure.BrickSetup" flags="ng" index="yRB9y">
@@ -170,7 +171,6 @@
         <child id="1168024447342" name="sourceNodeQuery" index="3NFExx" />
       </concept>
       <concept id="1095416546421" name="jetbrains.mps.lang.generator.structure.MappingConfiguration" flags="ig" index="bUwia">
-        <child id="1200911492601" name="mappingLabel" index="2rTMjI" />
         <child id="1167328349397" name="reductionMappingRule" index="3acgRq" />
         <child id="1167514678247" name="rootMappingRule" index="3lj3bC" />
       </concept>
@@ -185,7 +185,6 @@
         <reference id="1168619429071" name="applicableConcept" index="n9lRv" />
       </concept>
       <concept id="1095672379244" name="jetbrains.mps.lang.generator.structure.TemplateFragment" flags="ng" index="raruj" />
-      <concept id="1200911316486" name="jetbrains.mps.lang.generator.structure.MappingLabelDeclaration" flags="lg" index="2rT7sh" />
       <concept id="1722980698497626400" name="jetbrains.mps.lang.generator.structure.ITemplateCall" flags="ng" index="v9R3L">
         <reference id="1722980698497626483" name="template" index="v9R2y" />
       </concept>
@@ -207,6 +206,7 @@
         <child id="1169672767469" name="ruleConsequence" index="1lVwrX" />
       </concept>
       <concept id="1167514355419" name="jetbrains.mps.lang.generator.structure.Root_MappingRule" flags="lg" index="3lhOvk">
+        <property id="1177959072138" name="keepSourceRoot" index="13Pg2o" />
         <reference id="1167514355421" name="template" index="3lhOvi" />
       </concept>
       <concept id="982871510068000147" name="jetbrains.mps.lang.generator.structure.TemplateSwitchMacro" flags="lg" index="1sPUBX" />
@@ -319,22 +319,6 @@
     <node concept="3Tm1VV" id="78eQDyb1XNU" role="1B3o_S" />
     <node concept="n94m4" id="78eQDyb1XNV" role="lGtFl">
       <ref role="n9lRv" to="u0m8:78eQDyb0OGH" resolve="KonamiCode" />
-    </node>
-  </node>
-  <node concept="bUwia" id="78eQDyb0Aiv">
-    <property role="TrG5h" value="main" />
-    <node concept="3aamgX" id="65HLi3o3Yon" role="3acgRq">
-      <ref role="30HIoZ" to="u0m8:78eQDyb0OGH" resolve="KonamiCode" />
-      <node concept="j$656" id="65HLi3o9wbD" role="1lVwrX">
-        <ref role="v9R2y" node="65HLi3nT61d" resolve="GenerateApp" />
-      </node>
-    </node>
-    <node concept="3lhOvk" id="78eQDyb1XUp" role="3lj3bC">
-      <ref role="3lhOvi" node="78eQDyb1XNT" resolve="map_KonamiCode" />
-      <ref role="30HIoZ" to="u0m8:78eQDyb0OGH" resolve="KonamiCode" />
-    </node>
-    <node concept="2rT7sh" id="680Q_h0WEDe" role="2rTMjI">
-      <property role="TrG5h" value="tooto" />
     </node>
   </node>
   <node concept="13MO4I" id="1IuFFadTC3u">
@@ -534,6 +518,48 @@
             <property role="2qtEX9" value="name" />
             <node concept="3zFVjK" id="2UKI_L0ImEn" role="3zH0cK">
               <node concept="3clFbS" id="2UKI_L0ImEo" role="2VODD2">
+                <node concept="3cpWs8" id="1tWMCNeA9ch" role="3cqZAp">
+                  <node concept="3cpWsn" id="1tWMCNeA9ck" role="3cpWs9">
+                    <property role="TrG5h" value="state" />
+                    <node concept="3Tqbb2" id="1tWMCNeA9cf" role="1tU5fm">
+                      <ref role="ehGHo" to="67j:5BVoFE7aToI" resolve="State" />
+                    </node>
+                    <node concept="2ShNRf" id="1tWMCNeAbHs" role="33vP2m">
+                      <node concept="3zrR0B" id="1tWMCNeAbHq" role="2ShVmc">
+                        <node concept="3Tqbb2" id="1tWMCNeAbHr" role="3zrR0E">
+                          <ref role="ehGHo" to="67j:5BVoFE7aToI" resolve="State" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="1tWMCNeAdHZ" role="3cqZAp">
+                  <node concept="2OqwBi" id="1tWMCNeAekS" role="3clFbG">
+                    <node concept="37vLTw" id="1tWMCNeAdHX" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1tWMCNeA9ck" resolve="state" />
+                    </node>
+                    <node concept="3Tsc0h" id="1tWMCNeAeUN" role="2OqNvi">
+                      <ref role="3TtcxE" to="67j:5BVoFE7aTUa" resolve="actions" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="1tWMCNeAdeH" role="3cqZAp" />
+                <node concept="3clFbF" id="1tWMCNeA2TR" role="3cqZAp">
+                  <node concept="2OqwBi" id="1tWMCNeA5Bs" role="3clFbG">
+                    <node concept="2OqwBi" id="1tWMCNeA3oj" role="2Oq$k0">
+                      <node concept="30H73N" id="1tWMCNeA2TP" role="2Oq$k0" />
+                      <node concept="3Tsc0h" id="1tWMCNeA3QK" role="2OqNvi">
+                        <ref role="3TtcxE" to="u0m8:1tWMCNe_xx4" resolve="states" />
+                      </node>
+                    </node>
+                    <node concept="TSZUe" id="1tWMCNeA8bJ" role="2OqNvi">
+                      <node concept="37vLTw" id="1tWMCNeAcdC" role="25WWJ7">
+                        <ref role="3cqZAo" node="1tWMCNeA9ck" resolve="state" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="1tWMCNeAcHO" role="3cqZAp" />
                 <node concept="3clFbF" id="2UKI_L0ImMO" role="3cqZAp">
                   <node concept="3cpWs3" id="2UKI_L0ImMQ" role="3clFbG">
                     <node concept="Xl_RD" id="2UKI_L0ImMW" role="3uHU7B">
@@ -2071,6 +2097,7 @@
             <node concept="hFP$v" id="3_Qgl$MABr4" role="hFPrv">
               <property role="hOkn$" value="LE" />
               <property role="hFP_A" value="0" />
+              <property role="DpjYY" value="false" />
               <ref role="hFP_F" node="1HSpY9rozCs" resolve="button" />
               <node concept="1ZhdrF" id="3_Qgl$MABr5" role="lGtFl">
                 <property role="P3scX" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8473239748133627831/8473239748133627843" />
@@ -3068,6 +3095,7 @@
             <node concept="hFP$v" id="3_Qgl$MAgUO" role="hFPrv">
               <property role="hOkn$" value="LE" />
               <property role="hFP_A" value="0" />
+              <property role="DpjYY" value="false" />
               <ref role="hFP_F" node="1HSpY9rozCs" resolve="button" />
               <node concept="1ZhdrF" id="3_Qgl$MAgUW" role="lGtFl">
                 <property role="P3scX" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8473239748133627831/8473239748133627843" />
@@ -4049,6 +4077,7 @@
             <node concept="hFP$v" id="3_Qgl$MAGs9" role="hFPrv">
               <property role="hOkn$" value="LE" />
               <property role="hFP_A" value="0" />
+              <property role="DpjYY" value="false" />
               <ref role="hFP_F" node="1HSpY9rozCs" resolve="button" />
               <node concept="1ZhdrF" id="3_Qgl$MAGsa" role="lGtFl">
                 <property role="P3scX" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8473239748133627831/8473239748133627843" />
@@ -5043,6 +5072,7 @@
             <node concept="hFP$v" id="3_Qgl$MAIbx" role="hFPrv">
               <property role="hOkn$" value="LE" />
               <property role="hFP_A" value="0" />
+              <property role="DpjYY" value="false" />
               <ref role="hFP_F" node="1HSpY9rozCs" resolve="button" />
               <node concept="1ZhdrF" id="3_Qgl$MAIby" role="lGtFl">
                 <property role="P3scX" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8473239748133627831/8473239748133627843" />
@@ -5220,6 +5250,7 @@
             <node concept="hFP$v" id="1HSpY9rxOam" role="hFPrv">
               <property role="hOkn$" value="LE" />
               <property role="hFP_A" value="0" />
+              <property role="DpjYY" value="true" />
               <ref role="hFP_F" node="1HSpY9rozCs" resolve="button" />
               <node concept="1ZhdrF" id="1HSpY9rxO$B" role="lGtFl">
                 <property role="P3scX" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8473239748133627831/8473239748133627843" />
@@ -5901,6 +5932,7 @@
             <node concept="hFP$v" id="3_Qgl$MB11r" role="hFPrv">
               <property role="hOkn$" value="LE" />
               <property role="hFP_A" value="0" />
+              <property role="DpjYY" value="false" />
               <ref role="hFP_F" node="1HSpY9rozCs" resolve="button" />
               <node concept="1ZhdrF" id="3_Qgl$MB11s" role="lGtFl">
                 <property role="P3scX" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8473239748133627831/8473239748133627843" />
@@ -6453,6 +6485,7 @@
             <node concept="hFP$v" id="2UKI_L0U_Ue" role="hFPrv">
               <property role="hOkn$" value="GT" />
               <property role="hFP_A" value="0" />
+              <property role="DpjYY" value="true" />
               <ref role="hFP_F" node="1HSpY9rozCs" resolve="button" />
               <node concept="1ZhdrF" id="2UKI_L0U_Ug" role="lGtFl">
                 <property role="P3scX" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8473239748133627831/8473239748133627843" />
@@ -6567,6 +6600,20 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="bUwia" id="78eQDyb0Aiv">
+    <property role="TrG5h" value="main" />
+    <node concept="3aamgX" id="65HLi3o3Yon" role="3acgRq">
+      <ref role="30HIoZ" to="u0m8:78eQDyb0OGH" resolve="KonamiCode" />
+      <node concept="j$656" id="65HLi3o9wbD" role="1lVwrX">
+        <ref role="v9R2y" node="65HLi3nT61d" resolve="GenerateApp" />
+      </node>
+    </node>
+    <node concept="3lhOvk" id="78eQDyb1XUp" role="3lj3bC">
+      <property role="13Pg2o" value="true" />
+      <ref role="3lhOvi" node="78eQDyb1XNT" resolve="map_KonamiCode" />
+      <ref role="30HIoZ" to="u0m8:78eQDyb0OGH" resolve="KonamiCode" />
     </node>
   </node>
 </model>

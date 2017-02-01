@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <root>
+    <file name="TextGenAspectDescriptor.java">
+      <unit at="16,0,67,0" name="KonamiCode.textGen.TextGenAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:e03a1b12-6967-4380-b385-0d5d2173141a(KonamiCode.textGen)/1692450266092811157">
+    <file name="KonamiCode_TextGen.java">
+      <node id="1692450266092811157" at="14,54,15,55" concept="2" />
+      <node id="1692450266092811157" at="15,55,16,33" concept="0" />
+      <node id="1692450266092811157" at="16,33,17,183" concept="0" />
+      <node id="1692450266092811157" at="17,183,18,17" concept="0" />
+      <node id="1692450266092811157" at="18,17,19,23" concept="0" />
+      <node id="1692450266092811157" at="19,23,20,44" concept="0" />
+      <node id="1692450266094397815" at="20,44,21,40" concept="0" />
+      <node id="1692450266094536924" at="21,40,22,46" concept="0" />
+      <node id="1692450266094537023" at="22,46,23,75" concept="0" />
+      <node id="1692450266094537102" at="23,75,24,55" concept="0" />
+      <node id="1692450266094537187" at="24,55,25,43" concept="0" />
+      <node id="1692450266094537306" at="25,43,26,45" concept="0" />
+      <node id="1692450266094537377" at="26,45,27,0" concept="4" />
+      <node id="1692450266094537426" at="27,0,28,34" concept="0" />
+      <node id="1692450266094537079" at="28,34,29,0" concept="4" />
+      <node id="1692450266092811157" at="29,0,30,44" concept="0" />
+      <node id="1692450266094537687" at="30,44,31,20" concept="0" />
+      <node id="1692450266092814685" at="33,42,34,17" concept="3" />
+      <node id="1692450266092811868" at="36,41,37,24" concept="3" />
+      <node id="1692450266092811157" at="33,0,36,0" concept="1" trace="getExtension#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="1692450266092811157" at="36,0,39,0" concept="1" trace="getFilename#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="1692450266092811157" at="13,0,33,0" concept="1" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="1692450266092811157" at="33,42,34,17" />
+      <scope id="1692450266092811157" at="36,41,37,24" />
+      <scope id="1692450266092811157" at="33,0,36,0">
+        <var name="node" id="1692450266092811157" />
+      </scope>
+      <scope id="1692450266092811157" at="36,0,39,0">
+        <var name="node" id="1692450266092811157" />
+      </scope>
+      <scope id="1692450266092811157" at="14,54,31,20">
+        <var name="tgs" id="1692450266092811157" />
+      </scope>
+      <scope id="1692450266092811157" at="13,0,33,0">
+        <var name="ctx" id="1692450266092811157" />
+      </scope>
+      <unit id="1692450266092811157" at="12,0,40,0" name="KonamiCode.textGen.KonamiCode_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="1692450266092811868" at="51,60,52,24" concept="3" />
+      <node id="1692450266092814685" at="54,65,55,17" concept="3" />
+    </file>
+  </root>
+</debug-info>
+

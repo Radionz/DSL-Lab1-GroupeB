@@ -116,6 +116,13 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="78eQDyb0OGG" resolve="Actuator" />
     </node>
+    <node concept="1TJgyj" id="1tWMCNe_xx4" role="1TKVEi">
+      <property role="IQ2ns" value="1692450266094639172" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="states" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="67j:5BVoFE7aToI" resolve="State" />
+    </node>
     <node concept="PrWs8" id="78eQDyb2T_e" role="PzmwI">
       <ref role="PrY4T" to="4fqr:431DWIovi3l" resolve="IMainClass" />
     </node>

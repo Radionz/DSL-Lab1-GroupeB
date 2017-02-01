@@ -51,29 +51,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="3T3p6P" id="2UKI_L0Hwkj">
-    <property role="TrG5h" value="TestApp" />
-    <ref role="3uOfKs" node="2UKI_L0Hwm_" resolve="to" />
-    <node concept="yRB9y" id="2UKI_L0Hwkk" role="yRB8_">
-      <node concept="3T334G" id="2UKI_L0Hwmu" role="yRB9z">
-        <property role="TrG5h" value="a" />
-        <property role="3T3nKM" value="1" />
-      </node>
-    </node>
-    <node concept="1I0rG8" id="2UKI_L0Hwkm" role="3uOfKp">
-      <node concept="3uOfik" id="2UKI_L0Hwm_" role="1I0rGG">
-        <property role="TrG5h" value="to" />
-        <node concept="3uOfMU" id="2UKI_L0HwmA" role="3uOfKq">
-          <property role="2TgCbF" value="to" />
-          <node concept="hFP$v" id="3_Qgl$M$fKn" role="hFPrv">
-            <property role="hOkn$" value="GT" />
-            <property role="hFP_A" value="0" />
-            <ref role="hFP_F" node="2UKI_L0Hwmu" resolve="a" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="3T3p6P" id="MnJ7G_WCcL">
     <property role="TrG5h" value="HandlingAnalogicalBricks" />
     <ref role="3uOfKs" node="MnJ7G_WCcP" resolve="checkTemperature" />
