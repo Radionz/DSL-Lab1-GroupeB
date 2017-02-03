@@ -12,7 +12,6 @@
       <concept id="8473239748133627831" name="ArduinoML.structure.Condition" flags="ng" index="hFP$v">
         <property id="8473239748133627854" name="value" index="hFP_A" />
         <property id="8473239748134550348" name="operator" index="hOkn$" />
-        <property id="907401087042094021" name="status" index="DpjYY" />
         <reference id="8473239748133627843" name="sensor" index="hFP_F" />
       </concept>
       <concept id="7061884271117379638" name="ArduinoML.structure.BrickSetup" flags="ng" index="yRB9y">
@@ -78,15 +77,8 @@
           <property role="2TgCbF" value="triggerAlarm" />
           <node concept="hFP$v" id="MnJ7G_WCd9" role="hFPrv">
             <property role="hOkn$" value="GE" />
-            <property role="hFP_A" value="123" />
+            <property role="hFP_A" value="225" />
             <ref role="hFP_F" node="MnJ7G_WCcV" resolve="temperature" />
-          </node>
-        </node>
-        <node concept="3uOfMU" id="MnJ7G_WCer" role="3uOfKq">
-          <property role="2TgCbF" value="triggerAlarm" />
-          <node concept="hFP$v" id="MnJ7G_WCeC" role="hFPrv">
-            <property role="DpjYY" value="true" />
-            <ref role="hFP_F" node="MnJ7G_WCe$" resolve="button" />
           </node>
         </node>
         <node concept="3uOfyw" id="MnJ7G_WCd7" role="3uOfKK">
@@ -102,7 +94,7 @@
           <property role="2TgCbF" value="checkTemperature" />
           <node concept="hFP$v" id="MnJ7G_WCdo" role="hFPrv">
             <property role="hOkn$" value="LT" />
-            <property role="hFP_A" value="123" />
+            <property role="hFP_A" value="225" />
             <ref role="hFP_F" node="MnJ7G_WCcV" resolve="temperature" />
           </node>
         </node>
