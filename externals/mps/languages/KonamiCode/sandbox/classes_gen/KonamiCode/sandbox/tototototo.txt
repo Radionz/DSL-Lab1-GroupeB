@@ -6,5 +6,5 @@ node [style = invis]; State_start;
 node [style = normal];
 node [shape = circle];
 
-State_start -> 3
+State_start -> 1UP
 }

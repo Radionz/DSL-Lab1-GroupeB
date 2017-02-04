@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <root>
+    <file name="TextGenAspectDescriptor.java">
+      <unit at="16,0,67,0" name="ArduinoML.textGen.TextGenAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:68b9eb7a-f9fe-42dc-b63c-1fef5d8c3041(ArduinoML.textGen)/29229141034379141">
+    <file name="App_TextGen.java">
+      <node id="29229141034379141" at="12,54,13,55" concept="2" />
+      <node id="29229141034674052" at="13,55,14,41" concept="0" />
+      <node id="29229141034386338" at="16,42,17,17" concept="3" />
+      <node id="29229141034379814" at="19,41,20,24" concept="3" />
+      <node id="29229141034379141" at="16,0,19,0" concept="1" trace="getExtension#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="29229141034379141" at="19,0,22,0" concept="1" trace="getFilename#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="29229141034379141" at="11,0,16,0" concept="1" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="29229141034379141" at="16,42,17,17" />
+      <scope id="29229141034379141" at="19,41,20,24" />
+      <scope id="29229141034379141" at="12,54,14,41">
+        <var name="tgs" id="29229141034379141" />
+      </scope>
+      <scope id="29229141034379141" at="16,0,19,0">
+        <var name="node" id="29229141034379141" />
+      </scope>
+      <scope id="29229141034379141" at="19,0,22,0">
+        <var name="node" id="29229141034379141" />
+      </scope>
+      <scope id="29229141034379141" at="11,0,16,0">
+        <var name="ctx" id="29229141034379141" />
+      </scope>
+      <unit id="29229141034379141" at="10,0,23,0" name="ArduinoML.textGen.App_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="29229141034379814" at="51,53,52,24" concept="3" />
+      <node id="29229141034386338" at="54,58,55,17" concept="3" />
+    </file>
+  </root>
+</debug-info>
+
