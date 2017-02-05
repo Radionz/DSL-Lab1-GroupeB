@@ -14,8 +14,8 @@ state_0 -> state_error [ label = "* / joy : UP" ];
 state_1 -> state_1 [ label = "* / joy : MIDDLE " ];
 state_1 -> state_2 [ label = "joy : MIDDLE " ];
 
-state_2 -> state_3 [ label = "joy : DOWN" ];
-state_2 -> state_error [ label = "* / joy : DOWN" ];
+state_2 -> state_3 [ label = "joy : UP" ];
+state_2 -> state_error [ label = "* / joy : UP" ];
 
 state_3 -> state_3 [ label = "* / joy : MIDDLE " ];
 state_3 -> state_4 [ label = "joy : MIDDLE " ];
@@ -38,13 +38,7 @@ state_8 -> state_error [ label = " * / YButton : push" ];
 state_9 -> state_9 [ label = " * \ YButton : RELEASE " ];
 state_9 -> state_10 [ label = "YButton : RELEASE " ];
 
-state_10 -> state_11 [ label = "joy : DOWN" ];
-state_10 -> state_error [ label = "* / joy : DOWN" ];
-
-state_11 -> state_11 [ label = "* / joy : MIDDLE " ];
-state_11 -> state_12 [ label = "joy : MIDDLE " ];
-
-state_12 -> state_final
+state_10 -> state_final
 state_final -> state_0
 state_error -> state_0
 

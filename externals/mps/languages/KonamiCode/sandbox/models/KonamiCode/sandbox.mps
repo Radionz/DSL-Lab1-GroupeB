@@ -51,12 +51,12 @@
   </registry>
   <node concept="3T3p6P" id="1IuFFadRRMq">
     <property role="TrG5h" value="konamiCode1" />
-    <node concept="2D6mZc" id="1HSpY9rrVjl" role="3uOfKp">
+    <node concept="2D6mZc" id="40aAEevGcAH" role="3uOfKp">
       <property role="2D6mZ8" value="UP" />
       <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
     </node>
-    <node concept="2D6mZc" id="3_Qgl$MG1QT" role="3uOfKp">
-      <property role="2D6mZ8" value="DOWN" />
+    <node concept="2D6mZc" id="40aAEevGcBN" role="3uOfKp">
+      <property role="2D6mZ8" value="UP" />
       <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
     </node>
     <node concept="109lWV" id="3_Qgl$MCOFX" role="3uOfKp">
@@ -67,10 +67,6 @@
     </node>
     <node concept="109lWV" id="3_Qgl$MCOGn" role="3uOfKp">
       <ref role="109lWn" node="3_Qgl$MCBXv" resolve="YButton" />
-    </node>
-    <node concept="2D6mZc" id="3_Qgl$MCOGB" role="3uOfKp">
-      <property role="2D6mZ8" value="DOWN" />
-      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
     </node>
     <node concept="3T3p6O" id="1IuFFadRRMt" role="2D6mO3">
       <property role="TrG5h" value="redGreen" />
