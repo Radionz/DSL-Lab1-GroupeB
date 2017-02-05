@@ -59,10 +59,40 @@
       <property role="2D6mZ8" value="UP" />
       <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
     </node>
+    <node concept="2D6mZc" id="40aAEevId_G" role="3uOfKp">
+      <property role="2D6mZ8" value="DOWN" />
+      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
+    </node>
+    <node concept="2D6mZc" id="40aAEevIdAy" role="3uOfKp">
+      <property role="2D6mZ8" value="DOWN" />
+      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
+    </node>
+    <node concept="2D6mZc" id="40aAEevIdAS" role="3uOfKp">
+      <property role="2D6mZ8" value="LEFT" />
+      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
+    </node>
+    <node concept="2D6mZc" id="40aAEevIdBg" role="3uOfKp">
+      <property role="2D6mZ8" value="RIGHT" />
+      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
+    </node>
+    <node concept="2D6mZc" id="40aAEevIdBE" role="3uOfKp">
+      <property role="2D6mZ8" value="LEFT" />
+      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
+    </node>
+    <node concept="2D6mZc" id="40aAEevIdCy" role="3uOfKp">
+      <property role="2D6mZ8" value="RIGHT" />
+      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
+    </node>
     <node concept="109lWV" id="3_Qgl$MCOFX" role="3uOfKp">
       <ref role="109lWn" node="1HSpY9rvCwi" resolve="AButton" />
     </node>
     <node concept="109lWV" id="3_Qgl$MCOG9" role="3uOfKp">
+      <ref role="109lWn" node="3_Qgl$MCBWY" resolve="BButton" />
+    </node>
+    <node concept="109lWV" id="40aAEevId_W" role="3uOfKp">
+      <ref role="109lWn" node="1HSpY9rvCwi" resolve="AButton" />
+    </node>
+    <node concept="109lWV" id="40aAEevIdAe" role="3uOfKp">
       <ref role="109lWn" node="3_Qgl$MCBWY" resolve="BButton" />
     </node>
     <node concept="109lWV" id="3_Qgl$MCOGn" role="3uOfKp">

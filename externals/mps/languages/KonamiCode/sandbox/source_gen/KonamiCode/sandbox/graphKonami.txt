@@ -20,25 +20,73 @@ state_2 -> state_error [ label = "* / joy : UP" ];
 state_3 -> state_3 [ label = "* / joy : MIDDLE " ];
 state_3 -> state_4 [ label = "joy : MIDDLE " ];
 
-state_4 -> state_5 [ label = "AButton : push" ];
-state_4 -> state_error [ label = " * / AButton : push" ];
+state_4 -> state_5 [ label = "joy : DOWN" ];
+state_4 -> state_error [ label = "* / joy : DOWN" ];
 
-state_5 -> state_5 [ label = " * \ AButton : RELEASE " ];
-state_5 -> state_6 [ label = "AButton : RELEASE " ];
+state_5 -> state_5 [ label = "* / joy : MIDDLE " ];
+state_5 -> state_6 [ label = "joy : MIDDLE " ];
 
-state_6 -> state_7 [ label = "BButton : push" ];
-state_6 -> state_error [ label = " * / BButton : push" ];
+state_6 -> state_7 [ label = "joy : DOWN" ];
+state_6 -> state_error [ label = "* / joy : DOWN" ];
 
-state_7 -> state_7 [ label = " * \ BButton : RELEASE " ];
-state_7 -> state_8 [ label = "BButton : RELEASE " ];
+state_7 -> state_7 [ label = "* / joy : MIDDLE " ];
+state_7 -> state_8 [ label = "joy : MIDDLE " ];
 
-state_8 -> state_9 [ label = "YButton : push" ];
-state_8 -> state_error [ label = " * / YButton : push" ];
+state_8 -> state_9 [ label = "joy : LEFT" ];
+state_8 -> state_error [ label = "* / joy : LEFT" ];
 
-state_9 -> state_9 [ label = " * \ YButton : RELEASE " ];
-state_9 -> state_10 [ label = "YButton : RELEASE " ];
+state_9 -> state_9 [ label = "* / joy : MIDDLE " ];
+state_9 -> state_10 [ label = "joy : MIDDLE " ];
 
-state_10 -> state_final
+state_10 -> state_11 [ label = "joy : RIGHT" ];
+state_10 -> state_error [ label = "* / joy : RIGHT" ];
+
+state_11 -> state_11 [ label = "* / joy : MIDDLE " ];
+state_11 -> state_12 [ label = "joy : MIDDLE " ];
+
+state_12 -> state_13 [ label = "joy : LEFT" ];
+state_12 -> state_error [ label = "* / joy : LEFT" ];
+
+state_13 -> state_13 [ label = "* / joy : MIDDLE " ];
+state_13 -> state_14 [ label = "joy : MIDDLE " ];
+
+state_14 -> state_15 [ label = "joy : RIGHT" ];
+state_14 -> state_error [ label = "* / joy : RIGHT" ];
+
+state_15 -> state_15 [ label = "* / joy : MIDDLE " ];
+state_15 -> state_16 [ label = "joy : MIDDLE " ];
+
+state_16 -> state_17 [ label = "AButton : push" ];
+state_16 -> state_error [ label = " * / AButton : push" ];
+
+state_17 -> state_17 [ label = " * \ AButton : RELEASE " ];
+state_17 -> state_18 [ label = "AButton : RELEASE " ];
+
+state_18 -> state_19 [ label = "BButton : push" ];
+state_18 -> state_error [ label = " * / BButton : push" ];
+
+state_19 -> state_19 [ label = " * \ BButton : RELEASE " ];
+state_19 -> state_20 [ label = "BButton : RELEASE " ];
+
+state_20 -> state_21 [ label = "AButton : push" ];
+state_20 -> state_error [ label = " * / AButton : push" ];
+
+state_21 -> state_21 [ label = " * \ AButton : RELEASE " ];
+state_21 -> state_22 [ label = "AButton : RELEASE " ];
+
+state_22 -> state_23 [ label = "BButton : push" ];
+state_22 -> state_error [ label = " * / BButton : push" ];
+
+state_23 -> state_23 [ label = " * \ BButton : RELEASE " ];
+state_23 -> state_24 [ label = "BButton : RELEASE " ];
+
+state_24 -> state_25 [ label = "YButton : push" ];
+state_24 -> state_error [ label = " * / YButton : push" ];
+
+state_25 -> state_25 [ label = " * \ YButton : RELEASE " ];
+state_25 -> state_26 [ label = "YButton : RELEASE " ];
+
+state_26 -> state_final
 state_final -> state_0
 state_error -> state_0
 
