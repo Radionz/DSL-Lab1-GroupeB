@@ -7,6 +7,7 @@
       <modulePath path="$PROJECT_DIR$/languages/KonamiCode/KonamiCode.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/KonamiCode/sandbox/KonamiCode.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/SimpleKonami/SimpleKonami.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/SimpleKonami.sandbox/SimpleKonami.sandbox.msd" folder="" />
     </projectModules>
   </component>
 </project>
