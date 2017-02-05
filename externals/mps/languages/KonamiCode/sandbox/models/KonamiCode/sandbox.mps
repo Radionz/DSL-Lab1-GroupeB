@@ -55,36 +55,9 @@
       <property role="2D6mZ8" value="UP" />
       <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
     </node>
-    <node concept="2D6mZc" id="2UKI_L0Lzfy" role="3uOfKp">
-      <property role="2D6mZ8" value="UP" />
-      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
-    </node>
     <node concept="2D6mZc" id="3_Qgl$MG1QT" role="3uOfKp">
       <property role="2D6mZ8" value="DOWN" />
       <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
-    </node>
-    <node concept="2D6mZc" id="3_Qgl$MG1Rd" role="3uOfKp">
-      <property role="2D6mZ8" value="DOWN" />
-      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
-    </node>
-    <node concept="2D6mZc" id="3_Qgl$MG1Rz" role="3uOfKp">
-      <property role="2D6mZ8" value="LEFT" />
-      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
-    </node>
-    <node concept="2D6mZc" id="3_Qgl$MG1RV" role="3uOfKp">
-      <property role="2D6mZ8" value="RIGHT" />
-      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
-    </node>
-    <node concept="2D6mZc" id="3_Qgl$MG1Sl" role="3uOfKp">
-      <property role="2D6mZ8" value="LEFT" />
-      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
-    </node>
-    <node concept="2D6mZc" id="3_Qgl$MG1SL" role="3uOfKp">
-      <property role="2D6mZ8" value="RIGHT" />
-      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
-    </node>
-    <node concept="109lWV" id="3_Qgl$MCCwa" role="3uOfKp">
-      <ref role="109lWn" node="3_Qgl$MCBXd" resolve="XButton" />
     </node>
     <node concept="109lWV" id="3_Qgl$MCOFX" role="3uOfKp">
       <ref role="109lWn" node="1HSpY9rvCwi" resolve="AButton" />
@@ -131,13 +104,6 @@
         <property role="3cmrfH" value="10" />
       </node>
       <node concept="3T334G" id="3_Qgl$MCBX0" role="104w9$" />
-    </node>
-    <node concept="106jKc" id="3_Qgl$MCBXd" role="2D6mn0">
-      <property role="TrG5h" value="XButton" />
-      <node concept="3cmrfG" id="3_Qgl$MCBXe" role="yT8a1">
-        <property role="3cmrfH" value="8" />
-      </node>
-      <node concept="3T334G" id="3_Qgl$MCBXf" role="104w9$" />
     </node>
     <node concept="106jKc" id="3_Qgl$MCBXv" role="2D6mn0">
       <property role="TrG5h" value="YButton" />

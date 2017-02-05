@@ -1,0 +1,51 @@
+digraph graph_konamiCode1 {
+rankdir="100,100"
+secret_node [style=invis]
+node [shape = doublecircle]; state_final, state_error;
+node [style = invis]; State_start;
+node [style = normal];
+node [shape = circle];
+
+State_start -> state_0
+
+state_0 -> state_1 [ label = "joy : UP" ];
+state_0 -> state_error [ label = "* / joy : UP" ];
+
+state_1 -> state_1 [ label = "* / joy : MIDDLE " ];
+state_1 -> state_2 [ label = "joy : MIDDLE " ];
+
+state_2 -> state_3 [ label = "joy : DOWN" ];
+state_2 -> state_error [ label = "* / joy : DOWN" ];
+
+state_3 -> state_3 [ label = "* / joy : MIDDLE " ];
+state_3 -> state_4 [ label = "joy : MIDDLE " ];
+
+state_4 -> state_5 [ label = "AButton : push" ];
+state_4 -> state_error [ label = " * / AButton : push" ];
+
+state_5 -> state_5 [ label = " * \ AButton : RELEASE " ];
+state_5 -> state_6 [ label = "AButton : RELEASE " ];
+
+state_6 -> state_7 [ label = "BButton : push" ];
+state_6 -> state_error [ label = " * / BButton : push" ];
+
+state_7 -> state_7 [ label = " * \ BButton : RELEASE " ];
+state_7 -> state_8 [ label = "BButton : RELEASE " ];
+
+state_8 -> state_9 [ label = "YButton : push" ];
+state_8 -> state_error [ label = " * / YButton : push" ];
+
+state_9 -> state_9 [ label = " * \ YButton : RELEASE " ];
+state_9 -> state_10 [ label = "YButton : RELEASE " ];
+
+state_10 -> state_11 [ label = "joy : DOWN" ];
+state_10 -> state_error [ label = "* / joy : DOWN" ];
+
+state_11 -> state_11 [ label = "* / joy : MIDDLE " ];
+state_11 -> state_12 [ label = "joy : MIDDLE " ];
+
+state_12 -> state_final
+state_final -> state_0
+state_error -> state_0
+
+}
