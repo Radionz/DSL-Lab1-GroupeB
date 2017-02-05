@@ -6,6 +6,7 @@
       <modulePath path="$PROJECT_DIR$/languages/ArduinoML/sandbox/ArduinoML.lab1.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/KonamiCode/KonamiCode.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/KonamiCode/sandbox/KonamiCode.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/SimpleKonami/SimpleKonami.mpl" folder="" />
     </projectModules>
   </component>
 </project>
