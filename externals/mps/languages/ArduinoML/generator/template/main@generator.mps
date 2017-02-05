@@ -161,8 +161,14 @@
       <concept id="1216860049635" name="jetbrains.mps.lang.generator.generationContext.structure.TemplateFunctionParameter_generationContext" flags="nn" index="1iwH7S" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1138676077309" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="nn" index="uoxfO">
+        <reference id="1138676095763" name="enumMember" index="uo_Cq" />
+      </concept>
       <concept id="3562215692195599741" name="jetbrains.mps.lang.smodel.structure.SLinkImplicitSelect" flags="nn" index="13MTOL">
         <reference id="3562215692195600259" name="link" index="13MTZf" />
+      </concept>
+      <concept id="1146171026731" name="jetbrains.mps.lang.smodel.structure.Property_HasValue_Enum" flags="nn" index="3t7uKx">
+        <child id="1146171026732" name="value" index="3t7uKA" />
       </concept>
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
@@ -1079,10 +1085,17 @@
                                 </node>
                               </node>
                             </node>
-                            <node concept="2OqwBi" id="1tWMCNeBbED" role="3clFbw">
-                              <node concept="30H73N" id="1tWMCNeBbEE" role="2Oq$k0" />
-                              <node concept="3TrcHB" id="1tWMCNeBk9q" role="2OqNvi">
-                                <ref role="3TsBF5" to="67j:MnJ7G_WCf5" resolve="status" />
+                            <node concept="2OqwBi" id="40aAEeveLkY" role="3clFbw">
+                              <node concept="2OqwBi" id="1tWMCNeBbED" role="2Oq$k0">
+                                <node concept="30H73N" id="1tWMCNeBbEE" role="2Oq$k0" />
+                                <node concept="3TrcHB" id="1tWMCNeBk9q" role="2OqNvi">
+                                  <ref role="3TsBF5" to="67j:MnJ7G_WCf5" resolve="status" />
+                                </node>
+                              </node>
+                              <node concept="3t7uKx" id="40aAEeveLEk" role="2OqNvi">
+                                <node concept="uoxfO" id="40aAEeveLEm" role="3t7uKA">
+                                  <ref role="uo_Cq" to="67j:5BVoFE7aTSM" />
+                                </node>
                               </node>
                             </node>
                           </node>

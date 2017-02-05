@@ -509,7 +509,7 @@
           <node concept="3uOfMU" id="2UKI_L0IiUI" role="3uOfKq">
             <property role="2TgCbF" value="state_blinkGreen" />
             <node concept="hFP$v" id="7LLADyzTOSA" role="hFPrv">
-              <property role="DpjYY" value="true" />
+              <property role="DpjYY" value="false" />
               <ref role="hFP_F" node="7LLADyzRRAW" resolve="joystickButton" />
             </node>
           </node>
@@ -589,7 +589,7 @@
           <node concept="3uOfMU" id="2UKI_L0IiUO" role="3uOfKq">
             <property role="2TgCbF" value="state_blinkRed" />
             <node concept="hFP$v" id="7LLADyzTOYr" role="hFPrv">
-              <property role="DpjYY" value="true" />
+              <property role="DpjYY" value="false" />
               <ref role="hFP_F" node="7LLADyzRRAW" resolve="joystickButton" />
             </node>
           </node>
@@ -2428,6 +2428,13 @@
               </node>
             </node>
           </node>
+          <node concept="3uOfMU" id="40aAEevgJQW" role="3uOfKq">
+            <property role="2TgCbF" value="state_blinkRed" />
+            <node concept="hFP$v" id="40aAEevgJQX" role="hFPrv">
+              <property role="DpjYY" value="false" />
+              <ref role="hFP_F" node="7LLADyzRRAW" resolve="joystickButton" />
+            </node>
+          </node>
         </node>
       </node>
       <node concept="30G5F_" id="65HLi3od3se" role="30HLyM">
@@ -3426,6 +3433,13 @@
               </node>
             </node>
           </node>
+          <node concept="3uOfMU" id="40aAEevgL6p" role="3uOfKq">
+            <property role="2TgCbF" value="state_blinkRed" />
+            <node concept="hFP$v" id="40aAEevgL6q" role="hFPrv">
+              <property role="DpjYY" value="false" />
+              <ref role="hFP_F" node="7LLADyzRRAW" resolve="joystickButton" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -4406,6 +4420,13 @@
                   </node>
                 </node>
               </node>
+            </node>
+          </node>
+          <node concept="3uOfMU" id="40aAEevgMxA" role="3uOfKq">
+            <property role="2TgCbF" value="state_blinkRed" />
+            <node concept="hFP$v" id="40aAEevgMxB" role="hFPrv">
+              <property role="DpjYY" value="false" />
+              <ref role="hFP_F" node="7LLADyzRRAW" resolve="joystickButton" />
             </node>
           </node>
         </node>
@@ -5403,6 +5424,13 @@
               </node>
             </node>
           </node>
+          <node concept="3uOfMU" id="40aAEevgNWR" role="3uOfKq">
+            <property role="2TgCbF" value="state_blinkRed" />
+            <node concept="hFP$v" id="40aAEevgNWS" role="hFPrv">
+              <property role="DpjYY" value="false" />
+              <ref role="hFP_F" node="7LLADyzRRAW" resolve="joystickButton" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -5489,7 +5517,7 @@
             <node concept="hFP$v" id="1HSpY9rxOam" role="hFPrv">
               <property role="hOkn$" value="LE" />
               <property role="hFP_A" value="0" />
-              <property role="DpjYY" value="true" />
+              <property role="DpjYY" value="false" />
               <ref role="hFP_F" node="1HSpY9rozCs" resolve="button" />
               <node concept="1ZhdrF" id="1HSpY9rxO$B" role="lGtFl">
                 <property role="P3scX" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8473239748133627831/8473239748133627843" />
@@ -6321,6 +6349,13 @@
                   </node>
                 </node>
               </node>
+            </node>
+          </node>
+          <node concept="3uOfMU" id="40aAEevgDFT" role="3uOfKq">
+            <property role="2TgCbF" value="state_blinkRed" />
+            <node concept="hFP$v" id="40aAEevgFt_" role="hFPrv">
+              <property role="DpjYY" value="false" />
+              <ref role="hFP_F" node="7LLADyzRRAW" resolve="joystickButton" />
             </node>
           </node>
         </node>
