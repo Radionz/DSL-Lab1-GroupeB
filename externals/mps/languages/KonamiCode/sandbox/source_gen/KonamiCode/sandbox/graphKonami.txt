@@ -1,4 +1,4 @@
-digraph graph_konamiCode1 {
+digraph graph_konamiSmall {
 rankdir="100,100"
 secret_node [style=invis]
 node [shape = doublecircle]; state_final, state_error_3;

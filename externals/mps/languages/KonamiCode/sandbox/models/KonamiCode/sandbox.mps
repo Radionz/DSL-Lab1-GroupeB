@@ -50,9 +50,37 @@
     </language>
   </registry>
   <node concept="3T3p6P" id="1IuFFadRRMq">
-    <property role="TrG5h" value="konamiCode1" />
+    <property role="TrG5h" value="konamiCode" />
     <node concept="2D6mZc" id="40aAEevGcAH" role="3uOfKp">
       <property role="2D6mZ8" value="UP" />
+      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
+    </node>
+    <node concept="2D6mZc" id="Rt2Kg5XLej" role="3uOfKp">
+      <property role="2D6mZ8" value="UP" />
+      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
+    </node>
+    <node concept="2D6mZc" id="Rt2Kg5XLev" role="3uOfKp">
+      <property role="2D6mZ8" value="DOWN" />
+      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
+    </node>
+    <node concept="2D6mZc" id="Rt2Kg5XLeH" role="3uOfKp">
+      <property role="2D6mZ8" value="DOWN" />
+      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
+    </node>
+    <node concept="2D6mZc" id="Rt2Kg5XLeX" role="3uOfKp">
+      <property role="2D6mZ8" value="LEFT" />
+      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
+    </node>
+    <node concept="2D6mZc" id="Rt2Kg5XLff" role="3uOfKp">
+      <property role="2D6mZ8" value="RIGHT" />
+      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
+    </node>
+    <node concept="2D6mZc" id="Rt2Kg5XLfz" role="3uOfKp">
+      <property role="2D6mZ8" value="LEFT" />
+      <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
+    </node>
+    <node concept="2D6mZc" id="Rt2Kg5XLfT" role="3uOfKp">
+      <property role="2D6mZ8" value="RIGHT" />
       <ref role="19mTMH" node="1HSpY9rrVi_" resolve="joy" />
     </node>
     <node concept="109lWV" id="3_Qgl$MCOFX" role="3uOfKp">
@@ -100,6 +128,59 @@
         <property role="3cmrfH" value="11" />
       </node>
       <node concept="3T334G" id="3_Qgl$MCBXx" role="104w9$" />
+    </node>
+  </node>
+  <node concept="3T3p6P" id="Rt2Kg5YV3B">
+    <property role="TrG5h" value="konamiSmall" />
+    <node concept="2D6mZc" id="Rt2Kg5YV3C" role="3uOfKp">
+      <property role="2D6mZ8" value="UP" />
+      <ref role="19mTMH" node="Rt2Kg5YV3O" resolve="joy" />
+    </node>
+    <node concept="109lWV" id="Rt2Kg5YV3K" role="3uOfKp">
+      <ref role="109lWn" node="Rt2Kg5YV3R" resolve="AButton" />
+    </node>
+    <node concept="109lWV" id="Rt2Kg5YV3L" role="3uOfKp">
+      <ref role="109lWn" node="Rt2Kg5YV3U" resolve="BButton" />
+    </node>
+    <node concept="3T3p6O" id="Rt2Kg5YV3M" role="2D6mO3">
+      <property role="TrG5h" value="redGreen" />
+      <property role="3T3nKM" value="7" />
+    </node>
+    <node concept="3T3p6O" id="Rt2Kg5YV3N" role="108liW">
+      <property role="TrG5h" value="redLed" />
+      <property role="3T3nKM" value="6" />
+    </node>
+    <node concept="3T334H" id="Rt2Kg5YV3O" role="2D6mn0">
+      <property role="TrG5h" value="joy" />
+      <property role="19nbRV" value="0" />
+      <property role="19nbRR" value="1024" />
+      <node concept="3cmrfG" id="Rt2Kg5YV3P" role="yT8a1">
+        <property role="3cmrfH" value="0" />
+      </node>
+      <node concept="3cmrfG" id="Rt2Kg5YV3Q" role="yT8a1">
+        <property role="3cmrfH" value="1" />
+      </node>
+    </node>
+    <node concept="106jKc" id="Rt2Kg5YV3R" role="2D6mn0">
+      <property role="TrG5h" value="AButton" />
+      <node concept="3cmrfG" id="Rt2Kg5YV3S" role="yT8a1">
+        <property role="3cmrfH" value="9" />
+      </node>
+      <node concept="3T334G" id="Rt2Kg5YV3T" role="104w9$" />
+    </node>
+    <node concept="106jKc" id="Rt2Kg5YV3U" role="2D6mn0">
+      <property role="TrG5h" value="BButton" />
+      <node concept="3cmrfG" id="Rt2Kg5YV3V" role="yT8a1">
+        <property role="3cmrfH" value="10" />
+      </node>
+      <node concept="3T334G" id="Rt2Kg5YV3W" role="104w9$" />
+    </node>
+    <node concept="106jKc" id="Rt2Kg5YV3X" role="2D6mn0">
+      <property role="TrG5h" value="YButton" />
+      <node concept="3cmrfG" id="Rt2Kg5YV3Y" role="yT8a1">
+        <property role="3cmrfH" value="11" />
+      </node>
+      <node concept="3T334G" id="Rt2Kg5YV3Z" role="104w9$" />
     </node>
   </node>
 </model>
